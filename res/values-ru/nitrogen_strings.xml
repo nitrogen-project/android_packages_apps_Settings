@@ -42,4 +42,8 @@
 
     <!-- Camera sound switch -->
      <string name="camera_sounds_title">Звук затвора камеры</string>
+
+    <!-- USB debugging notification -->
+    <string name="adb_notify">Уведомление об отладке</string>
+    <string name="adb_notify_summary">Показывать уведомление о включенном режиме отладки по USB или по сети</string>
 </resources>
