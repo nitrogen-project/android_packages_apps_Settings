@@ -239,4 +239,9 @@
 
     <string name="color_tuner_title">Цвета и стиль</string>
     <string name="color_tuner_summary">Настроить цвета и стиль экрана</string>
+
+    <!-- Preference category for LAN development settings. [CHAR LIMIT=25] -->
+    <string name="debug_LAN_category">Настройки LAN</string>
+    <!-- Hostname setting -->
+    <string name="device_hostname">Имя устройства</string>
 </resources>
