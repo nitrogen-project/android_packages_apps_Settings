@@ -95,4 +95,7 @@
     <string name="menu_stats_reset">Reset stats</string>
     <!-- Reset stats confirmation dialog's message -->
     <string name="reset_stats_msg">Battery history stats are going to be reset</string>
+
+    <!-- Bluetooth settings. A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
+    <string name="bluetooth_accept_all_files">Accept all file types</string>
 </resources>
