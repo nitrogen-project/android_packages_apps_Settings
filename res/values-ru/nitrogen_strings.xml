@@ -16,4 +16,8 @@
     <string name="nitrogen_settings_dash_title">Персонализация</string>
     <string name="nitrogen_settings_summary">Дополнительные настройки</string>
 
+    <!-- Changelog -->
+    <string name="changelog_title">Список изменений</string>
+    <string name="changelog_summary">С момента последнего обновления</string>
+    <string name="changelog_error">Не удается загрузить список изменений</string>
 </resources>
