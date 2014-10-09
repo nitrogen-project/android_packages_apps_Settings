@@ -29,6 +29,13 @@
         <Preference android:key="nos_logo"
             android:layout="@layout/nitrogen_logo" />
 
+        <!-- Changelog -->
+        <Preference
+            android:key="nos_changelog"
+            android:title="@string/changelog_title"
+            android:summary="@string/changelog_summary"
+            android:fragment="com.android.settings.nitrogen.Changelog" />
+
          <!-- OTA -->
          <Preference android:key="nos_updates"
              android:title="@string/nosupdate_settings_title"
