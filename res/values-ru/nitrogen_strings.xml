@@ -159,4 +159,18 @@
     <string name="security_settings_fingerprint_sensor_location_front">передней панели</string>
     <string name="security_settings_fingerprint_sensor_location_left">левой грани</string>
     <string name="security_settings_fingerprint_sensor_location_right">правой грани</string>
+
+    <!-- Expanded desktop -->
+    <string name="expanded_desktop_pref_title">Расширенный экран</string>
+    <string name="expanded_hide_nothing">Ничего не скрывать</string>
+    <string name="expanded_hide_status">Скрыть строку состояния</string>
+    <string name="expanded_hide_navigation">Скрыть панель навигации</string>
+    <string name="expanded_hide_both">Скрыть оба</string>
+    <string name="expanded_nothing_to_show">Для настройки параметров расширенного экрана для отдельных приложений, переведите переключатель «Включено для всех» в отключенное состояние.</string>
+    <string name="expanded_enabled_for_all">Включено для всех</string>
+    <string name="expanded_desktop_style">Стиль расширенного экрана</string>
+    <string name="expanded_desktop_style_description">Выбрать режим расширенного экрана по умолчанию</string>
+    <string name="expanded_desktop_title">Настройки расширенного экрана</string>
+    <string name="expanded_user_configurable">Настраивается пользователем</string>
+    <string name="expanded_desktop_state">Расширенное состояние</string>
 </resources>
