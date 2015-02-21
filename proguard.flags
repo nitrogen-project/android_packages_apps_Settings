@@ -23,6 +23,7 @@
 -keep class com.android.settings.display.NightDisplaySettings
 -keep class com.nitrogen.settings.**
 -keep class com.android.settings.nitrogen.**
+-keep class com.android.settings.preference.*
 
 # Keep click responders
 -keepclassmembers class com.android.settings.inputmethod.UserDictionaryAddWordActivity {
