@@ -143,4 +143,15 @@
 
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Звук при снятии скриншота</string>
+
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">Уровни громкости</string>
+    <string name="volume_steps_alarm_title">Уровень громкости: Будильник</string>
+    <string name="volume_steps_dtmf_title">Уровень громкости: Набор номера</string>
+    <string name="volume_steps_music_title">Уровень громкости: Музыка</string>
+    <string name="volume_steps_notification_title">Уровень громкости: Уведомления</string>
+    <string name="volume_steps_ring_title">Уровень громкости: Звонок</string>
+    <string name="volume_steps_system_title">Уровень громкости: Система</string>
+    <string name="volume_steps_voice_call_title">Уровень громкости: Голосовой вызов</string>
+    <string name="volume_steps_reset">Сброс</string>
 </resources>
