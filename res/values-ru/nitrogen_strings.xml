@@ -155,4 +155,6 @@
     <string name="volume_steps_bluetooth_sco_title">Уровень громкости: Bluetooth звонок</string>
     <string name="volume_steps_voice_call_title">Уровень громкости: Голосовой вызов</string>
     <string name="volume_steps_reset">Сброс</string>
+
+    <string name="link_volume_option_title">Связать громкости звонка и уведомлений</string>
 </resources>
