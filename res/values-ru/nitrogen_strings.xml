@@ -247,4 +247,9 @@
 
     <!-- Navigation -->
     <string name="navigation_category">Панель навигации</string>
+
+    <!-- Linked / unlinked notification volume -->
+    <string name="link_volume_option_title">Связать громкости звонка и уведомлений</string>
+    <string name="notification_volume_option_title">Громкость уведомлений</string>
+    <string name="ring_notification_volume_option_title">Громкость звонка и уведомлений</string>
 </resources>
