@@ -52,4 +52,6 @@
     <string name="app_notifications_info_desc">Нажмите на название канала для редактирования индикации</string>
     <string name="value_equals_default">авто</string>
     <string name="show_light_on_zen_title">Включить светодиод в режиме «Не беспокоить»</string>
+
+    <string name="link_volume_option_title">Связать громкости звонка и уведомлений</string>
 </resources>
