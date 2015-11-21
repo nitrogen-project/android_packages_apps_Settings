@@ -191,4 +191,14 @@
     <string name="sub_activate_failed">Ошибка при активации.</string>
     <string name="sub_deactivate_success">Деактивация выполнена.</string>
     <string name="sub_deactivate_failed">Ошибка при деактивации.</string>
+
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Поворот экрана</string>
+    <string name="display_rotation_disabled">Выключен</string>
+    <string name="display_rotation_unit">градусов</string>
+    <string name="display_rotation_category_title">Режимы вращения</string>
+    <string name="display_rotation_0_title">0 градусов</string>
+    <string name="display_rotation_90_title">90 градусов</string>
+    <string name="display_rotation_180_title">180 градусов</string>
+    <string name="display_rotation_270_title">270 градусов</string>
 </resources>
