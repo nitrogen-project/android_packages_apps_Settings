@@ -50,4 +50,14 @@
 
     <!-- About phone screen, build date of ROM -->
     <string name="build_date">Дата сборки Nitrogen OS</string>
+
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Поворот экрана</string>
+    <string name="display_rotation_disabled">Выключен</string>
+    <string name="display_rotation_unit">градусов</string>
+    <string name="display_rotation_category_title">Режимы вращения</string>
+    <string name="display_rotation_0_title">0 градусов</string>
+    <string name="display_rotation_90_title">90 градусов</string>
+    <string name="display_rotation_180_title">180 градусов</string>
+    <string name="display_rotation_270_title">270 градусов</string>
 </resources>
