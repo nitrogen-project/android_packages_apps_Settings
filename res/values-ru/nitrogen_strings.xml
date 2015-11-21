@@ -44,4 +44,17 @@
 
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Связать громкость звонка и уведомлений</string>
+
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Параметры вращения</string>
+    <string name="display_rotation_summary">Выберите угол поворота</string>
+    <string name="display_rotation_enabled">Автоповорот включен</string>
+    <string name="display_rotation_disabled">Автоповорот выключен</string>
+    <string name="display_rotation_unit">градусов</string>
+    <string name="display_lockscreen_rotation_title">Автоповорот экрана блокировки</string>
+    <string name="display_rotation_category_title">Режимы вращения</string>
+    <string name="display_rotation_0_title">0 градусов</string>
+    <string name="display_rotation_90_title">90 градусов</string>
+    <string name="display_rotation_180_title">180 градусов</string>
+    <string name="display_rotation_270_title">270 градусов</string>
 </resources>
