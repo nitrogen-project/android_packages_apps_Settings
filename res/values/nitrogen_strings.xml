@@ -47,4 +47,9 @@
     <!-- OTA -->
     <string name="nosupdate_settings_title">Nitrogen OS updates</string>
     <string name="nosupdate_settings_summary">Find new updates</string>
+
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Reset stats</string>
+    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+
 </resources>
