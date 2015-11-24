@@ -56,4 +56,8 @@
     <!-- OTA -->
     <string name="nosupdate_settings_title">Обновления Nitrogen OS</string>
     <string name="nosupdate_settings_summary">Поиск обновлений</string>
+
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Сброс статистики</string>
+    <string name="battery_stats_message">История использования батареи будет удалена</string>
 </resources>
