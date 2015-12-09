@@ -2788,6 +2788,32 @@
             </intent-filter>
         </receiver>
 
+        <!-- Expanded desktop settings activity. -->
+        <activity android:name="Settings$ExpandedDesktopSettingsActivity"
+                android:label="@string/power_menu_expanded_desktop"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.applications.ExpandedDesktopPreferenceFragment" />
+            <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
+                android:resource="@string/power_menu_expanded_desktop" />
+        </activity>
+
+        <!-- Keep compatibility with old shortcuts. -->
+        <activity-alias android:name=".applications.ExpandedDesktopPreferenceFragment"
+                  android:label="@string/power_menu_expanded_desktop"
+                  android:clearTaskOnLaunch="true"
+                  android:exported="true"
+                  android:targetActivity="Settings$ExpandedDesktopSettingsActivity">
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.applications.ExpandedDesktopPreferenceFragment" />
+            <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
+                android:resource="@string/power_menu_expanded_desktop" />
+        </activity-alias>
+
         <!-- Watch for ContactsContract.Profile changes and update the user's photo.  -->
         <receiver android:name=".users.ProfileUpdateReceiver">
             <intent-filter>
