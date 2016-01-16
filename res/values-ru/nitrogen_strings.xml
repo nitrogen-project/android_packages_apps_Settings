@@ -33,4 +33,7 @@
     <string name="filter_substratum_apps">Темы Substratum</string>
     <string name="menu_show_substratum">Показать темы</string>
     <string name="menu_hide_substratum">Скрыть темы</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Звук при снятии скриншота</string>
 </resources>

@@ -36,4 +36,8 @@
     <string name="filter_substratum_apps">Substratum overlays</string>
     <string name="menu_show_substratum">Show overlays</string>
     <string name="menu_hide_substratum">Hide overlays</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Screenshot sound</string>
+
 </resources>
