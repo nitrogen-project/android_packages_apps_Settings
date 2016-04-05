@@ -66,4 +66,7 @@
 
     <!-- External Icon Tint -->
     <color name="external_tile_icon_tint_color">?android:attr/colorAccent</color>
+
+    <!-- Power Usage Hard colors-->
+    <color name="power_usage_ab_icon_tint">@android:color/white</color>
 </resources>
