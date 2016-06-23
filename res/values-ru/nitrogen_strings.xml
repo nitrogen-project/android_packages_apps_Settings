@@ -218,4 +218,12 @@
     <string name="force_ambient_for_media_on_forced">Принудительно включено</string>
     <string name="force_ambient_for_media_on_forced_clean">Принудительно включено в миним. виде</string>
     <string name="ambient_ticker_footer">Информация о треке отображается на экране блокировки с включенным или выключенным Автомат. включением экрана.\nВы можете выбрать нормальный или минимальный вид. Хотя эта функция использует Автом. включение экрана, она не зависит от его состояния.</string>
+
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Сканер отпечатков пальцев расположен на <xliff:g id="sensor_location">%1$s </xliff:g> вашего телефона.</string>
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">задней панели</string>
+    <string name="security_settings_fingerprint_sensor_location_front">передней панели</string>
+    <string name="security_settings_fingerprint_sensor_location_left">левой грани</string>
+    <string name="security_settings_fingerprint_sensor_location_right">правой грани</string>
 </resources>
