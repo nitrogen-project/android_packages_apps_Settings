@@ -165,4 +165,13 @@
     <string name="expanded_desktop_style">Genişletilmiş masaüstü stili</string>
     <string name="expanded_desktop_style_description">Varsayılan genişletilmiş masaüstü stili seçin</string>
     <string name="expanded_desktop_title">Genişletilmiş ekran seçenekleri</string>
+
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Telefonunuzun <xliff:g id="sensor_location">%1$s</xliff:g> tarafında ki parmak izi sensörünü bulun.</string>
+
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">arka</string>
+    <string name="security_settings_fingerprint_sensor_location_front">ön</string>
+    <string name="security_settings_fingerprint_sensor_location_left">sol</string>
+    <string name="security_settings_fingerprint_sensor_location_right">sağ</string>
 </resources>
