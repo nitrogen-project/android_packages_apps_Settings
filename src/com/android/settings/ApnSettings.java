@@ -254,6 +254,10 @@ public class ApnSettings extends RestrictedSettingsFragment implements
         StringBuilder where = new StringBuilder("numeric=\"" + mccmnc +
                 "\" AND NOT (type='ia' AND (apn=\"\" OR apn IS NULL)) AND user_visible!=0");
 
+        if(getResources().getBoolean(R.bool.config_regional_hide_ims_and_dun_apns)){
+            where.append(" AND type <>\"" + PhoneConstants.APN_TYPE_DUN + "\"");
+            where.append(" AND type <>\"" + PhoneConstants.APN_TYPE_IMS + "\"");
+        }
         if (mHideImsApn) {
             where.append(" AND NOT (type='ims')");
         }
