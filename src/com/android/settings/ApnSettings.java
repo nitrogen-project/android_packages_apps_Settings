@@ -115,6 +115,7 @@ public class ApnSettings extends RestrictedSettingsFragment implements
 
     private boolean mHideImsApn;
     private boolean mAllowAddingApns;
+    private boolean mApnSettingsHidden;
 
     public ApnSettings() {
         super(UserManager.DISALLOW_CONFIG_MOBILE_NETWORKS);
@@ -193,6 +194,12 @@ public class ApnSettings extends RestrictedSettingsFragment implements
     }
 
     @Override
+    public void onStop() {
+        super.onStop();
+        mApnSettingsHidden = true;
+    }
+
+    @Override
     public void onResume() {
         super.onResume();
 
@@ -205,6 +212,7 @@ public class ApnSettings extends RestrictedSettingsFragment implements
         if (!mRestoreDefaultApnMode) {
             fillList();
         }
+        mApnSettingsHidden = false;
     }
 
     @Override
@@ -454,7 +462,9 @@ public class ApnSettings extends RestrictedSettingsFragment implements
                     fillList();
                     getPreferenceScreen().setEnabled(true);
                     mRestoreDefaultApnMode = false;
-                    removeDialog(DIALOG_RESTORE_DEFAULTAPN);
+                    // if current fragment is not visible, in background or Homekey is pressed,
+                    // dismiss the dialog with state loss.
+                    removeDialog(DIALOG_RESTORE_DEFAULTAPN, mApnSettingsHidden);
                     Toast.makeText(
                         activity,
                         getResources().getString(
