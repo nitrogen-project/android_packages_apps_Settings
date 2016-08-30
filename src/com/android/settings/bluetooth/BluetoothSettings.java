@@ -331,6 +331,7 @@ public final class BluetoothSettings extends DeviceListPreferenceFragment implem
 
         switch (bluetoothState) {
             case BluetoothAdapter.STATE_ON:
+                preferenceScreen.removeAll();
                 mDevicePreferenceMap.clear();
 
                 if (isUiRestricted()) {
