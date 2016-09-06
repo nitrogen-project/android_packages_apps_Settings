@@ -35,4 +35,6 @@
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Screenshot sound</string>
 
+    <!-- Charging vibration -->
+    <string name="charging_vibration_title">Charging vibration</string>
 </resources>
