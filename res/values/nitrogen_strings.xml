@@ -37,4 +37,7 @@
 
     <!-- Charging vibration -->
     <string name="charging_vibration_title">Charging vibration</string>
+
+     <!-- Camera sound switch -->
+     <string name="camera_sounds_title">Camera shutter sound</string>
 </resources>
