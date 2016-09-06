@@ -40,6 +40,11 @@
             android:key="charging_sounds"
             android:title="@string/charging_sounds_title" />
 
+    <SwitchPreference
+            android:key="charging_vibration"
+            android:title="@string/charging_vibration_title"
+            android:persistent="false" />
+
     <!-- Docking sounds -->
     <SwitchPreference
             android:key="docking_sounds"
