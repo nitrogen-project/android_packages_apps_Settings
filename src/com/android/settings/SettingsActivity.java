@@ -262,7 +262,7 @@ public class SettingsActivity extends SettingsDrawerActivity
             Settings.DeviceInfoSettingsActivity.class.getName(),
             Settings.AccessibilitySettingsActivity.class.getName(),
             Settings.PrintSettingsActivity.class.getName(),
-            Settings.PaymentSettingsActivity.class.getName(),
+            Settings.PaymentSettingsActivity.class.getName()
     };
 
     private static final String[] ENTRY_FRAGMENTS = {
@@ -364,7 +364,7 @@ public class SettingsActivity extends SettingsDrawerActivity
             NavbarSettings.class.getName(),
             FlingSettings.class.getName(),
             SmartbarSettings.class.getName(),
-            PulseSettings.class.getName()
+            PulseSettings.class.getName(),
             ExpandedDesktopPreferenceFragment.class.getName()
     };
 
