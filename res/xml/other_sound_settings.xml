@@ -30,6 +30,12 @@
         android:title="@string/screenshot_sound_title"
         android:defaultValue="true" />
 
+    <!-- Camera sounds -->
+    <SwitchPreference
+            android:key="camera_sounds"
+            android:title="@string/camera_sounds_title"
+            android:defaultValue="true" />
+
     <!-- Screen locking sounds -->
     <SwitchPreference
             android:key="screen_locking_sounds"
