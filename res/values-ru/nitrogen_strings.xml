@@ -47,4 +47,7 @@
     <!-- USB debugging notification -->
     <string name="adb_notify">Уведомление об отладке</string>
     <string name="adb_notify_summary">Показывать уведомление о включенном режиме отладки по USB или по сети</string>
+
+    <!-- About phone screen, build date of ROM -->
+    <string name="build_date">Дата сборки Nitrogen OS</string>
 </resources>

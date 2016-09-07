@@ -73,6 +73,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     private static final String KEY_SAFETY_LEGAL = "safetylegal";
     private static final String KEY_NOS_CHANGELOG = "nos_changelog";
     private static final String KEY_NOS_LOGO = "nos_logo";
+    private static final String KEY_NOS_BUILD_DATE = "build_date";
 
     static final int TAPS_TO_BE_A_DEVELOPER = 7;
 
@@ -124,6 +125,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         // Nitrogen
         findPreference(KEY_NOS_CHANGELOG).setEnabled(true);
         findPreference(KEY_NOS_LOGO).setEnabled(true);
+        setValueSummary(KEY_NOS_BUILD_DATE, "ro.build.date");
 
         if (!SELinux.isSELinuxEnabled()) {
             String status = getResources().getString(R.string.selinux_status_disabled);

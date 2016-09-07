@@ -50,4 +50,8 @@
     <string name="adb_notify">ADB notification</string>
     <string name="adb_notify_summary">Display a notification when android debugging is enabled</string>
 
+    <!-- About phone screen, build date of ROM -->
+    <string name="build_date">Nitrogen OS build date</string>
+    <string name="build_date_default">2016-01-01-0000</string>
+
 </resources>
