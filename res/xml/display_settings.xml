@@ -105,6 +105,18 @@
                 android:fragment="com.android.settings.custom.DisplayRotation"
                 android:title="@string/display_rotation_title" />
 
+         <PreferenceCategory
+                android:key="dashboard_category"
+                android:title="@string/dashboard_category">
+
+        <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
+                android:key="enable_suggestions"
+                android:title="@string/dashboard_suggestions_title"
+                android:summaryOn="@string/summary_dashboard_suggestions_enabled"
+                android:summaryOff="@string/summary_dashboard_suggestions_disabled"
+                android:defaultValue="true" />
+        </PreferenceCategory>
+
         <PreferenceScreen
                 android:key="wifi_display"
                 android:title="@string/wifi_display_settings_title"

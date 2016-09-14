@@ -72,4 +72,10 @@
 
     <!-- Bluetooth settings.  A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
     <string name="bluetooth_accept_all_files">Принимать все типы файлов</string>
+
+    <!-- Dashboard suggestions -->
+    <string name="dashboard_category">Опции главного меню</string>
+    <string name="dashboard_suggestions_title">Подсказки в главном меню</string>
+    <string name="summary_dashboard_suggestions_enabled">Подсказки в главном меню включены</string>
+    <string name="summary_dashboard_suggestions_disabled">Подсказки в главном меню выключены</string>
 </resources>
