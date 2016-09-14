@@ -68,4 +68,9 @@
     <string name="show_cpu_info">Show CPU info</string>
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
     <string name="show_cpu_info_summary">Screen overlay showing current CPU info</string>
+
+    <!-- Menu label for reset the battery stats -->
+    <string name="menu_stats_reset">Reset stats</string>
+    <!-- Reset stats confirmation dialog's message -->
+    <string name="reset_stats_msg">Battery history stats are going to be reset</string>
 </resources>

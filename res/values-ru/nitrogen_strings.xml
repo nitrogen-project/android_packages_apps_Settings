@@ -65,4 +65,8 @@
     <string name="show_cpu_info">Показать информацию о процессоре</string>
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
     <string name="show_cpu_info_summary">Экранное наложение, показывающее текущую информацию ЦП</string>
+
+    <!-- Menu label for reset the battery stats -->
+    <string name="menu_stats_reset">Сброс статистики</string>
+    <string name="reset_stats_msg">История использования батареи будет удалена</string>
 </resources>
