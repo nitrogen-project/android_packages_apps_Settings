@@ -80,4 +80,8 @@
     <string name="volume_steps_ring_title">Уровень громкости: Звонок</string>
     <string name="volume_steps_system_title">Уровень громкости: Система</string>
     <string name="volume_steps_voice_call_title">Уровень громкости: Голосовой вызов</string>
+
+    <!-- Menu label for reset the battery stats -->
+    <string name="menu_stats_reset">Сброс статистики</string>
+    <string name="reset_stats_msg">История использования батареи будет удалена</string>
 </resources>
