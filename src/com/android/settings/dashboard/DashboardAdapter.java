@@ -42,6 +42,7 @@ import com.android.settings.dashboard.conditional.ConditionAdapterUtils;
 import com.android.settingslib.SuggestionParser;
 import com.android.settingslib.drawer.DashboardCategory;
 import com.android.settingslib.drawer.Tile;
+import android.provider.Settings;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -90,12 +91,23 @@ public class DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.Dash
     }
 
     public List<Tile> getSuggestions() {
-        return mSuggestions;
+        if ((Settings.System.getInt(mContext.getContentResolver(),
+                    Settings.System.ENABLE_SUGGESTIONS, 1) == 1)) {
+             return mSuggestions;
+        } else {
+             return null;
+        }
     }
 
     public void setSuggestions(List<Tile> suggestions) {
-        mSuggestions = suggestions;
-        recountItems();
+        if ((Settings.System.getInt(mContext.getContentResolver(),
+                    Settings.System.ENABLE_SUGGESTIONS, 1) == 1)) {
+             mSuggestions = suggestions;
+             recountItems();
+        } else {
+             mSuggestions = null;
+             recountItems();
+        }
     }
 
     public Tile getTile(ComponentName component) {
