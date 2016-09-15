@@ -346,7 +346,9 @@ public class DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.Dash
     private void onBindTile(DashboardItemHolder holder, Tile tile) {
         holder.icon.setImageDrawable(mCache.getIcon(tile.icon));
         holder.title.setText(tile.title);
-        if (!TextUtils.isEmpty(tile.summary)) {
+        if (!TextUtils.isEmpty(tile.summary)
+           && (Settings.System.getInt(mContext.getContentResolver(),
+                    Settings.System.SHOW_TILE_SUMMARY, 1) == 1)) {
             holder.summary.setText(tile.summary);
             holder.summary.setVisibility(View.VISIBLE);
         } else {
