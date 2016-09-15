@@ -85,5 +85,7 @@
     <string name="tile_summary_title">Tile summaries</string>
     <string name="summary_tile_enabled">Tiles summaries are enabled</string>
     <string name="summary_tile_disabled">Tiles summaries are disabled</string>
-
+    <string name="dashboard_conditions_title">Dashboard conditions</string>
+    <string name="summary_dashboard_conditions_enabled">Dashboard conditions are enabled</string>
+    <string name="summary_dashboard_conditions_disabled">Dashboard conditions are disabled</string>
 </resources>
