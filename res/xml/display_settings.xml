@@ -110,6 +110,14 @@
                 android:summaryOn="@string/summary_dashboard_suggestions_enabled"
                 android:summaryOff="@string/summary_dashboard_suggestions_disabled"
                 android:defaultValue="true" />
+
+        <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
+                android:key="show_tile_summary"
+                android:title="@string/tile_summary_title"
+                android:summaryOn="@string/summary_tile_enabled"
+                android:summaryOff="@string/summary_tile_disabled"
+                android:defaultValue="true" />
+
         </PreferenceCategory>
 
         <PreferenceScreen
