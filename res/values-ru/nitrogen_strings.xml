@@ -91,6 +91,7 @@
     <string name="app_ops_cat_messaging">SMS/MMS</string>
     <string name="app_ops_cat_media">Мультимедиа</string>
     <string name="app_ops_cat_device">Устройство</string>
+    <string name="app_ops_cat_bootup">Автозагрузка</string>
 
     <!-- App ops requests -->
     <string name="app_ops_access_camera">камера</string>
@@ -153,4 +154,5 @@
     <string name="app_ops_turn_on_screen">включить экран</string>
     <string name="app_ops_get_accounts">получить аккаунт</string>
     <string name="app_ops_run_in_background">запуск в фоновом режиме</string>
+    <string name="app_ops_boot_completed">автозагрузка</string>
 </resources>

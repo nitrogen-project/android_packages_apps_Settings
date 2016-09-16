@@ -23,6 +23,7 @@
         <item>@string/app_ops_cat_messaging</item>
         <item>@string/app_ops_cat_media</item>
         <item>@string/app_ops_cat_device</item>
+        <item>@string/app_ops_cat_bootup</item>
     </string-array>
 
     <!-- User display names for app ops codes -->
@@ -155,5 +156,7 @@
         <item>@string/app_ops_get_accounts</item>
         <!--OP_RUN_IN_BACKGROUND -->
         <item>@string/app_ops_run_in_background</item>
+        <!-- OP_BOOT_COMPLETED -->
+        <item>@string/app_ops_boot_completed</item>
     </string-array>
 </resources>
