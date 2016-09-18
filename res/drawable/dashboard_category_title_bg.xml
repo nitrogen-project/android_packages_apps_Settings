@@ -15,16 +15,7 @@
     limitations under the License.
 -->
 
-<resources>
-
-    <!-- Storage Summary Title -->
-    <color name="storage_summary_title_color">#ff607d8b</color>
-
-    <!-- Expanded desktop -->
-    <drawable name="expanded_item_bg_activated">#ffEEEEEE</drawable>
-    <drawable name="expanded_item_bg">@android:color/background_light</drawable>
-    <color name="expanded_button_color_normal">#4CAF50</color>
-    <color name="expanded_button_color_close">#F44336</color>
-    <color name="dashboard_category_title_background">@color/card_background</color>
-    <color name="selectable_card_background">@color/card_background</color>
-</resources>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+       android:shape="rectangle">
+   <solid android:color="@color/dashboard_category_title_background" />
+</shape>
