@@ -129,4 +129,8 @@
     <string name="app_ops_app_start_foreground">запуск на перед. плане</string>
     <string name="app_ops_answer_phone_calls">ответ на звонок</string>
     <string name="app_ops_boot_completed">автозагрузка</string>
+
+    <!-- Vendor version -->
+    <string name="vendor_version">Версия Vendor</string>
+    <string name="vendor_version_default">Неизвестно</string>
 </resources>
