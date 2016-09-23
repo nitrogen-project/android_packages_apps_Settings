@@ -100,6 +100,14 @@
                 android:fragment="com.android.settings.custom.DisplayRotation"
                 android:title="@string/display_rotation_title" />
 
+        <PreferenceScreen
+                android:title="@string/nightmode_tuner_title"
+                android:summary="@string/nightmode_tuner_summary" >
+            <intent android:action="android.intent.action.MAIN"
+                    android:targetPackage="com.android.systemui"
+                    android:targetClass="com.android.systemui.tuner.NightModeFragmentActivity" />
+        </PreferenceScreen>
+
          <PreferenceCategory
                 android:key="dashboard_category"
                 android:title="@string/dashboard_category">

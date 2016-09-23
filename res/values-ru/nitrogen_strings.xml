@@ -173,4 +173,7 @@
 
     <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
     <string name="supersu_title">Суперпользователь</string>
+
+    <string name="nightmode_tuner_title">Ночной режим</string>
+    <string name="nightmode_tuner_summary">Затемнение экрана в темное время суток</string>
 </resources>
