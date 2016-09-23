@@ -1009,7 +1009,7 @@ public class SettingsActivity extends SettingsDrawerActivity
             boolean addToBackStack, int titleResId, CharSequence title, boolean withTransition) {
         if (SUPERSU_FRAGMENT.equals(fragmentName)) {
             Intent superSUIntent = new Intent();
-            superSUIntent.setClassName("eu.chainfire.supersu", "eu.chainfire.supersu.MainActivity");
+            superSUIntent.setClassName("me.phh.superuser", "com.koushikdutta.superuser.MainActivity");
             startActivity(superSUIntent);
             finish();
             return null;
@@ -1102,7 +1102,7 @@ public class SettingsActivity extends SettingsDrawerActivity
         // Embedding into Settings is supported from SuperSU v1.85 and up
         boolean suSupported = false;
         try {
-            suSupported = (getPackageManager().getPackageInfo("eu.chainfire.supersu", 0).versionCode >= 185);
+            suSupported = (getPackageManager().getPackageInfo("me.phh.superuser", 0).versionCode >= 1033);
         } catch (PackageManager.NameNotFoundException e) {
         }
         setTileEnabled(new ComponentName(packageName,
