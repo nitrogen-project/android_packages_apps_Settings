@@ -155,4 +155,8 @@
     <string name="app_ops_get_accounts">получить аккаунт</string>
     <string name="app_ops_run_in_background">запуск в фоновом режиме</string>
     <string name="app_ops_boot_completed">автозагрузка</string>
+
+    <!-- Battery saver color -->
+    <string name="battery_saver_color_title">Цветовое оповещение</string>
+    <string name="battery_saver_color_summary">Окрасить строку состояния и панель навигации, когда активирован режим энергосбережения</string>
 </resources>
