@@ -188,4 +188,8 @@
 
     <string name="nightmode_tuner_title">Night mode</string>
     <string name="nightmode_tuner_summary">Change the screen tint for night time</string>
+
+    <!-- Battery saver color -->
+    <string name="battery_saver_color_title">Warning color</string>
+    <string name="battery_saver_color_summary">Enable orange status - navigation bars when battery saver is activated</string>
 </resources>
