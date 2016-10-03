@@ -19,6 +19,9 @@ package com.android.settings;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
+import android.content.pm.PackageManager;
+import android.content.pm.PackageManager.NameNotFoundException;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.SELinux;
@@ -68,6 +71,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     private static final String KEY_NOS_CHANGELOG = "nos_changelog";
     private static final String KEY_NOS_LOGO = "nos_logo";
     private static final String KEY_NOS_BUILD_DATE = "build_date";
+    private static final String KEY_NOS_UPDATES = "nos_updates";
 
     static final int TAPS_TO_BE_A_DEVELOPER = 7;
 
@@ -120,6 +124,17 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         findPreference(KEY_NOS_CHANGELOG).setEnabled(true);
         findPreference(KEY_NOS_LOGO).setEnabled(true);
         setValueSummary(KEY_NOS_BUILD_DATE, "ro.build.date");
+
+        boolean supported = false;    
+        try {
+            supported = (getPackageManager().getPackageInfo("com.nitrogen.ota", 0).versionCode >= 0);
+        } catch (NameNotFoundException e) {
+ 
+        } if (!supported) {
+            findPreference(KEY_NOS_UPDATES).setEnabled(false);    
+        } else {
+            findPreference(KEY_NOS_UPDATES).setEnabled(true);
+        }
 
         if (!SELinux.isSELinuxEnabled()) {
             String status = getResources().getString(R.string.selinux_status_disabled);
