@@ -14,6 +14,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- OTA -->
+    <string name="nosupdate_settings_title">Nitrogen OS updates</string>
 
     <!-- Changelog -->
     <string name="changelog_title">Changelog</string>
