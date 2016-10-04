@@ -232,4 +232,8 @@
     <string name="expanded_desktop_title">Настройки расширенного экрана</string>
     <string name="expanded_user_configurable">Настраивается пользователем</string>
     <string name="expanded_desktop_state">Расширенное состояние</string>
+
+    <!-- Scramble PIN Layout on Lockscreen -->
+    <string name="unlock_scramble_pin_layout_title">Перемешивать кнопки</string>
+    <string name="unlock_scramble_pin_layout_summary">Переставлять кнопки ввода PIN-кода в случайном порядке</string>
 </resources>
