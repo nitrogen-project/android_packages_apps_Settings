@@ -236,4 +236,7 @@
     <!-- Scramble PIN Layout on Lockscreen -->
     <string name="unlock_scramble_pin_layout_title">Перемешивать кнопки</string>
     <string name="unlock_scramble_pin_layout_summary">Переставлять кнопки ввода PIN-кода в случайном порядке</string>
+
+    <string name="color_tuner_title">Цвета и стиль</string>
+    <string name="color_tuner_summary">Настроить цвета и стиль экрана</string>
 </resources>

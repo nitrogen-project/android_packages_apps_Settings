@@ -113,6 +113,14 @@
                     android:targetClass="com.android.systemui.tuner.NightModeFragmentActivity" />
         </PreferenceScreen>
 
+        <PreferenceScreen
+                android:title="@string/color_tuner_title"
+                android:summary="@string/color_tuner_summary" >
+            <intent android:action="android.intent.action.MAIN"
+                    android:targetPackage="com.android.systemui"
+                    android:targetClass="com.android.systemui.tuner.ColorActivity" />
+        </PreferenceScreen>
+
          <PreferenceCategory
                 android:key="dashboard_category"
                 android:title="@string/dashboard_category">
