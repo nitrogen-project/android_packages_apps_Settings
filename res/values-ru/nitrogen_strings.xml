@@ -37,4 +37,8 @@
     <!-- Scramble pin -->
     <string name="unlock_scramble_pin_layout_title">Перемешивание PIN</string>
     <string name="unlock_scramble_pin_layout_summary">Перемешивание цифр пин-кода при вводе пароля</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
+    <string name="unlock_quick_unlock_control_summary">Автоматическая разблокировка устройства при вводе корректного ПИНа/пароля</string>
 </resources>
