@@ -28,4 +28,8 @@
 
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Звук при снятии скриншота</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
+    <string name="unlock_quick_unlock_control_summary">Разблокировать устройство без нажатия OK</string>
 </resources>
