@@ -47,7 +47,6 @@ import static com.android.settingslib.RestrictedLockUtils.EnforcedAdmin;
 public class ConfigureNotificationSettings extends SettingsPreferenceFragment {
     private static final String TAG = "ConfigNotiSettings";
 
-    private static final String KEY_NOTIFICATION_PULSE = "notification_pulse";
     private static final String KEY_LOCK_SCREEN_NOTIFICATIONS = "lock_screen_notifications";
     private static final String KEY_LOCK_SCREEN_PROFILE_NOTIFICATIONS =
             "lock_screen_notifications_profile";
@@ -56,7 +55,6 @@ public class ConfigureNotificationSettings extends SettingsPreferenceFragment {
 
     private Context mContext;
 
-    private TwoStatePreference mNotificationPulse;
     private RestrictedDropDownPreference mLockscreen;
     private RestrictedDropDownPreference mLockscreenProfile;
     private boolean mSecure;
@@ -87,7 +85,6 @@ public class ConfigureNotificationSettings extends SettingsPreferenceFragment {
 
         addPreferencesFromResource(R.xml.configure_notification_settings);
 
-        initPulse();
         initLockscreenNotifications();
 
         if (mProfileChallengeUserId != UserHandle.USER_NULL) {
@@ -107,44 +104,6 @@ public class ConfigureNotificationSettings extends SettingsPreferenceFragment {
     public void onPause() {
         super.onPause();
         mSettingsObserver.register(false);
-    }
-
-    // === Pulse notification light ===
-
-    private void initPulse() {
-        mNotificationPulse =
-                (TwoStatePreference) getPreferenceScreen().findPreference(KEY_NOTIFICATION_PULSE);
-        if (mNotificationPulse == null) {
-            Log.i(TAG, "Preference not found: " + KEY_NOTIFICATION_PULSE);
-            return;
-        }
-        if (!getResources()
-                .getBoolean(com.android.internal.R.bool.config_intrusiveNotificationLed)) {
-            getPreferenceScreen().removePreference(mNotificationPulse);
-        } else {
-            updatePulse();
-            mNotificationPulse.setOnPreferenceChangeListener(new OnPreferenceChangeListener() {
-                @Override
-                public boolean onPreferenceChange(Preference preference, Object newValue) {
-                    final boolean val = (Boolean)newValue;
-                    return Settings.System.putInt(getContentResolver(),
-                            Settings.System.NOTIFICATION_LIGHT_PULSE,
-                            val ? 1 : 0);
-                }
-            });
-        }
-    }
-
-    private void updatePulse() {
-        if (mNotificationPulse == null) {
-            return;
-        }
-        try {
-            mNotificationPulse.setChecked(Settings.System.getInt(getContentResolver(),
-                    Settings.System.NOTIFICATION_LIGHT_PULSE) == 1);
-        } catch (Settings.SettingNotFoundException snfe) {
-            Log.e(TAG, Settings.System.NOTIFICATION_LIGHT_PULSE + " not found");
-        }
     }
 
     private void initLockscreenNotifications() {
@@ -341,8 +300,6 @@ public class ConfigureNotificationSettings extends SettingsPreferenceFragment {
     // === Callbacks ===
 
     private final class SettingsObserver extends ContentObserver {
-        private final Uri NOTIFICATION_LIGHT_PULSE_URI =
-                Settings.System.getUriFor(Settings.System.NOTIFICATION_LIGHT_PULSE);
         private final Uri LOCK_SCREEN_PRIVATE_URI =
                 Settings.Secure.getUriFor(Settings.Secure.LOCK_SCREEN_ALLOW_PRIVATE_NOTIFICATIONS);
         private final Uri LOCK_SCREEN_SHOW_URI =
@@ -355,7 +312,6 @@ public class ConfigureNotificationSettings extends SettingsPreferenceFragment {
         public void register(boolean register) {
             final ContentResolver cr = getContentResolver();
             if (register) {
-                cr.registerContentObserver(NOTIFICATION_LIGHT_PULSE_URI, false, this);
                 cr.registerContentObserver(LOCK_SCREEN_PRIVATE_URI, false, this);
                 cr.registerContentObserver(LOCK_SCREEN_SHOW_URI, false, this);
             } else {
@@ -366,9 +322,6 @@ public class ConfigureNotificationSettings extends SettingsPreferenceFragment {
         @Override
         public void onChange(boolean selfChange, Uri uri) {
             super.onChange(selfChange, uri);
-            if (NOTIFICATION_LIGHT_PULSE_URI.equals(uri)) {
-                updatePulse();
-            }
             if (LOCK_SCREEN_PRIVATE_URI.equals(uri) || LOCK_SCREEN_SHOW_URI.equals(uri)) {
                 updateLockscreenNotifications();
                 if (mProfileChallengeUserId != UserHandle.USER_NULL) {
