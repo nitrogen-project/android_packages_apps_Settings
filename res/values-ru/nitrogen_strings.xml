@@ -161,4 +161,7 @@
     <!-- Battery saver color -->
     <string name="battery_saver_color_title">Цветовое оповещение</string>
     <string name="battery_saver_color_summary">Окрасить строку состояния и панель навигации, когда активирован режим энергосбережения</string>
+
+    <!-- Navigation -->
+    <string name="navigation_category">Панель навигации</string>
 </resources>
