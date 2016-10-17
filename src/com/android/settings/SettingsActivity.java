@@ -130,6 +130,11 @@ import com.android.settingslib.drawer.SettingsDrawerActivity;
 import com.android.settingslib.drawer.Tile;
 import com.nitrogen.settings.NitrogenSettings;
 
+import com.nitrogen.settings.fragments.FlingSettings;
+import com.nitrogen.settings.fragments.NavbarSettings;
+import com.nitrogen.settings.fragments.SmartbarSettings;
+import com.nitrogen.settings.fragments.PulseSettings;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
@@ -350,7 +355,11 @@ public class SettingsActivity extends SettingsDrawerActivity
             TestingSettings.class.getName(),
             WifiAPITest.class.getName(),
             WifiInfo.class.getName(),
-            ExpandedDesktopPreferenceFragment.class.getName()
+            ExpandedDesktopPreferenceFragment.class.getName(),
+            NavbarSettings.class.getName(),
+            FlingSettings.class.getName(),
+            SmartbarSettings.class.getName(),
+            PulseSettings.class.getName()
     };
 
 

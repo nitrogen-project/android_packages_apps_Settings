@@ -256,4 +256,7 @@
     <string name="debug_LAN_category">LAN Settings</string>
     <!-- Hostname setting -->
     <string name="device_hostname">Device hostname</string>
+
+    <!-- Navigation -->
+    <string name="navigation_category">Navigation</string>
 </resources>

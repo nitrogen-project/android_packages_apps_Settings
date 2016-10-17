@@ -244,4 +244,7 @@
     <string name="debug_LAN_category">Настройки LAN</string>
     <!-- Hostname setting -->
     <string name="device_hostname">Имя устройства</string>
+
+    <!-- Navigation -->
+    <string name="navigation_category">Панель навигации</string>
 </resources>
