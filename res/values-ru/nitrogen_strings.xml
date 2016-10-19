@@ -44,4 +44,15 @@
 
     <string name="berry_black_theme_title">Черный цвет</string>
     <string name="berry_black_theme_summary">Черный фон для темной темы</string>
+
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Частота звуковых уведомлений</string>
+    <string name="app_notification_sound_timeout_summary_template">Звуки и вибрация не чаще, чем раз в <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Без ограничений</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 секунд</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 секунд</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 минуту</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 минут</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 минут</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 минут</string>
 </resources>
