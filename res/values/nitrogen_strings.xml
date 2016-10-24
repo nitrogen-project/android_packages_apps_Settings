@@ -188,4 +188,6 @@
     <string name="debug_LAN_category">LAN Settings</string>
     <!-- Hostname setting -->
     <string name="device_hostname">Device hostname</string>
+
+    <string name="superuser_title">Superuser</string>
 </resources>

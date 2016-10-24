@@ -183,4 +183,6 @@
     <string name="debug_LAN_category">Настройки LAN</string>
     <!-- Hostname setting -->
     <string name="device_hostname">Имя устройства</string>
+
+    <string name="superuser_title">Суперпользователь</string>
 </resources>
