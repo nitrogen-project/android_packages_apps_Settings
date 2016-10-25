@@ -38,7 +38,7 @@
     <bool name="config_allow_edit_carrier_enabled" translatable="false">false</bool>
 
     <!-- When true enable color temperature setting. -->
-    <bool name="config_enableColorTemperature">false</bool>
+    <bool name="config_enableColorTemperature">true</bool>
 
     <!-- Fully-qualified class name for the implementation of the FeatureFactory to be instantiated. -->
     <string name="config_featureFactory" translatable="false">com.android.settings.overlay.FeatureFactoryImpl</string>

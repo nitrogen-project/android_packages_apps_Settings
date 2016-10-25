@@ -3134,7 +3134,7 @@
         <activity android:name="Settings$GestureSettingsActivity"
                   android:label="@string/gesture_preference_title"
                   android:icon="@drawable/ic_settings_gestures"
-                  android:enabled="@bool/config_gesture_settings_enabled">
+                  android:taskAffinity="">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="com.android.settings.SHORTCUT" />
@@ -3143,7 +3143,7 @@
                 <action android:name="com.android.settings.action.SETTINGS" />
             </intent-filter>
             <meta-data android:name="com.android.settings.category"
-                       android:value="com.android.settings.category.device" />
+                       android:value="com.android.settings.category.DEFAULT" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                        android:value="com.android.settings.gestures.GestureSettings" />
             <meta-data android:name="com.android.settings.summary"
