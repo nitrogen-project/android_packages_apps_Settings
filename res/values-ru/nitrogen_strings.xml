@@ -195,4 +195,8 @@
     <string name="volume_steps_ring_title">Уровень громкости: Звонок</string>
     <string name="volume_steps_system_title">Уровень громкости: Система</string>
     <string name="volume_steps_voice_call_title">Уровень громкости: Голосовой вызов</string>
+
+    <!-- Scramble PIN Layout on Lockscreen -->
+    <string name="unlock_scramble_pin_layout_title">Перемешивать кнопки</string>
+    <string name="unlock_scramble_pin_layout_summary">Переставлять кнопки ввода PIN-кода в случайном порядке</string>
 </resources>
