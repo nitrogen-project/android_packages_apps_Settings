@@ -243,9 +243,6 @@
     <string name="four_second">4 с</string>
     <string name="fourhalf_second">4.5 с</string>
     <string name="five_second">5 с</string>
-    <string name="doze_notification_color_invert_title">Инверсия цвета</string>
-    <string name="doze_notification_color_invert_summary_off">Уведомления не будут инвертированы. Используйте для темных тем.</string>
-    <string name="doze_notification_color_invert_summary_on">Уведомления будут инвертированы. Используйте для светлых/стоковых тем.</string>
 
     <!-- Keyboard and Input ASS methods  -->
     <string name="attention">Внимание</string>

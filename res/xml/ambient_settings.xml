@@ -27,14 +27,6 @@
         android:summary="@string/doze_summary"
         android:persistent="false" />
 
-    <com.nitrogen.settings.preferences.SecureSettingSwitchPreference
-        android:key="doze_notification_invert_enabled"
-        android:title="@string/doze_notification_color_invert_title"
-        android:summaryOn="@string/doze_notification_color_invert_summary_on"
-        android:summaryOff="@string/doze_notification_color_invert_summary_off"
-        android:defaultValue="true"
-        android:dependency="doze" />
-
     <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
         android:key="doze_overwrite_value"
         android:title="@string/doze_overwrite_value_title"
