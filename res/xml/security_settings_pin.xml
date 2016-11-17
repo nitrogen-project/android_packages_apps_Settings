@@ -33,6 +33,12 @@
             android:title="@string/unlock_scramble_pin_layout_title"
             android:summary="@string/unlock_scramble_pin_layout_summary" />
 
+        <SwitchPreference
+            android:key="quick_unlock_control"
+            android:title="@string/unlock_quick_unlock_control_title"
+            android:summary="@string/unlock_quick_unlock_control_summary"
+            android:persistent="false"/>
+
     </PreferenceCategory>
 
 </PreferenceScreen>

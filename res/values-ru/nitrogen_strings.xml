@@ -266,4 +266,8 @@
     <string name="filter_substratum_apps">Темы Substratum</string>
     <string name="menu_show_substratum">Показать темы</string>
     <string name="menu_hide_substratum">Скрыть темы</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
+    <string name="unlock_quick_unlock_control_summary">Разблокировать устройство без нажатия OK)\nПрим.: только для 4-значного PIN !</string>
 </resources>
