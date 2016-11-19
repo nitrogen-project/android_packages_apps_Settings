@@ -133,6 +133,8 @@
             </intent-filter>
         </activity>
 
+        <activity android:name="com.nitrogen.settings.fragments.HAFRAppListActivity" />
+
         <activity android:name=".Settings$NitrogenSettings"
             android:label="@string/header_category_nitrogen">
             <intent-filter android:priority="4">
