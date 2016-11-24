@@ -25,6 +25,9 @@
     <!-- Nitrogen Settings -->
     <string name="nitrogen_settings_title">Персонализация</string>
     <string name="header_category_nitrogen">Опции Nitrogen OS</string>
+    <string name="nitrogen_settings_summary">Дополнительные настройки</string>
+    <string name="superuser_settings_summary">Root доступ</string>
+    <string name="appops_settings_summary">Разрешения для приложений</string>
 
     <!-- Development Settings -->
     <!-- Dev Options Enabled by Default -->
