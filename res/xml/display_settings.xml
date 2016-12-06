@@ -39,11 +39,6 @@
                 android:widgetLayout="@null"
                 settings:keywords="@string/keywords_display_night_display" />
 
-        <PreferenceScreen
-                android:key="doze_fragment"
-                android:title="@string/doze_title"
-                android:fragment="com.android.settings.nitrogen.ambientdisplay.AmbientSettings" />
-
         <!-- Hide night mode for now
         <ListPreference
             android:key="night_mode"
@@ -88,6 +83,11 @@
         <SwitchPreference
                 android:key="lift_to_wake"
                 android:title="@string/lift_to_wake_title" />
+
+        <SwitchPreference
+                android:key="doze"
+                android:title="@string/doze_title"
+                android:summary="@string/doze_summary" />
 
         <SwitchPreference
                 android:key="tap_to_wake"

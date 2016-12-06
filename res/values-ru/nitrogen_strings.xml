@@ -214,39 +214,6 @@
     <string name="app_notification_sound_timeout_value_15_minutes">10 минут</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 минут</string>
 
-    <!-- Doze pulse options -->
-    <string name="summary_doze_enabled">Включено</string>
-    <string name="summary_doze_disabled">Выключено</string>
-    <string name="doze_overwrite_value_title">Перезаписать значения</string>
-    <string name="doze_overwrite_value_summary">Разрешить перезаписывать стандартные значения пользовательскими</string>
-    <string name="doze_pulse_title">Настройки пульсации</string>
-    <string name="doze_pulse_duration_in_title">Появление</string>
-    <string name="doze_pulse_duration_in_summary"></string>
-    <string name="doze_pulse_duration_visible_title">Время отображения</string>
-    <string name="doze_pulse_duration_visible_summary"></string>
-    <string name="doze_pulse_duration_out_title">Затухание</string>
-    <string name="doze_pulse_duration_out_summary"></string>
-    <string name="doze_trigger_pickup_title">Взятие в руку</string>
-    <string name="doze_trigger_pickup_summary_on">Пульсировать при взятии телефона в руку</string>
-    <string name="doze_trigger_pickup_summary_off">Не пульсировать при взятии телефона в руку</string>
-    <string name="doze_trigger_notification_title">Получение уведомления</string>
-    <string name="doze_trigger_notification_summary_on">Пульсировать при получении уведомления</string>
-    <string name="doze_trigger_notification_summary_off">Не пульсировать при получении уведомления</string>
-    <string name="doze_brightness_level_title">Уровень яркости</string>
-    <string name="onehundred_ms">100 мс</string>
-    <string name="twofifty_ms">250 мс</string>
-    <string name="fivehundred_ms_default">500 мс (по умолчанию)</string>
-    <string name="sevenfifty_ms">750 мс</string>
-    <string name="one_second">1 с</string>
-    <string name="onehalf_second">1.5 с</string>
-    <string name="two_second">2 с</string>
-    <string name="twohalf_second">2.5 с</string>
-    <string name="three_second_default">3 с (по умолчанию)</string>
-    <string name="threehalf_second">3.5 с</string>
-    <string name="four_second">4 с</string>
-    <string name="fourhalf_second">4.5 с</string>
-    <string name="five_second">5 с</string>
-
     <!-- Keyboard and Input ASS methods  -->
     <string name="attention">Внимание</string>
     <string name="title_keyboard_input">Расширенные настройки</string>
