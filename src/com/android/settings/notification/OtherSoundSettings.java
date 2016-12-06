@@ -231,9 +231,12 @@ public class OtherSoundSettings extends SettingsPreferenceFragment implements In
             pref.init(this);
         }
 
+        if (mContext.getResources().getBoolean(R.bool.has_boot_sounds)) {
         mBootSounds = (SwitchPreference) findPreference(KEY_BOOT_SOUNDS);
         mBootSounds.setChecked(SystemProperties.getBoolean(PROPERTY_BOOT_SOUNDS, true));
-
+        } else {
+            removePreference(KEY_BOOT_SOUNDS);
+        }
         mCameraSounds = (SwitchPreference) findPreference(KEY_CAMERA_SOUNDS);
         mCameraSounds.setChecked(SystemProperties.getBoolean(PROP_CAMERA_SOUND, true));
         mCameraSounds.setOnPreferenceChangeListener(this);
@@ -253,7 +256,7 @@ public class OtherSoundSettings extends SettingsPreferenceFragment implements In
 
     @Override
     public boolean onPreferenceTreeClick(Preference preference) {
-        if (preference == mBootSounds) {
+        if (mBootSounds != null && preference == mBootSounds) {
             SystemProperties.set(PROPERTY_BOOT_SOUNDS, mBootSounds.isChecked() ? "1" : "0");
             return false;
         } else {
