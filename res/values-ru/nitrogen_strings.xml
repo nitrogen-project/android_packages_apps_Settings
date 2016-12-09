@@ -244,4 +244,8 @@
     <!-- Vendor version -->
     <string name="vendor_version">Версия Vendor</string>
     <string name="vendor_version_default">Неизвестно</string>
+
+    <!-- Gesture Settings -->
+    <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
+    <string name="double_twist_for_camera_mode_summary_n">Для смены режима селфи и обратно в Google Camera, дважды вращайте телефон, находясь в приложении</string>
 </resources>
