@@ -2329,12 +2329,12 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
 
     /** Returns {@code true} if the device is SIM-locked. Otherwise, returns {@code false}. */
     private boolean isSimLockedDevice() {
-        int phoneCount = mTelephonyManager.getPhoneCount();
+/*        int phoneCount = mTelephonyManager.getPhoneCount();
         for (int i = 0; i < phoneCount; i++) {
             if (mTelephonyManager.getAllowedCarriers(i).size() > 0) {
                 return true;
             }
-        }
+        }*/
         return false;
     }
 
