@@ -248,4 +248,13 @@
     <!-- Gesture Settings -->
     <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
     <string name="double_twist_for_camera_mode_summary_n">Для смены режима селфи и обратно в Google Camera, дважды вращайте телефон, находясь в приложении</string>
+
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_category">Яркость</string>
+    <string name="night_brightness_value_title">Яркость в ночном режиме</string>
+    <string name="night_brightness_text">При включении ночного режима изменяется яркость экрана. По умолчанию яркость - низкая</string>
+    <string name="night_bright_disabled">Выключено</string>
+    <string name="night_bright_min">Минимальная</string>
+    <string name="night_bright_low">Низкая</string>
+    <string name="night_bright_medium">Средняя</string>
 </resources>
