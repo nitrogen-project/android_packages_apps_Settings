@@ -52,6 +52,10 @@
     <!-- USB debugging notification -->
     <string name="adb_notify">Уведомление об отладке</string>
     <string name="adb_notify_summary">Показывать уведомление о включенном режиме отладки по USB или по сети</string>
+    <!-- Android debugging over network -->
+    <string name="adb_over_network">Отладка по сети</string>
+    <string name="adb_over_network_summary">Включить режим отладки через сетевые интерфейсы (Wi-Fi и USB-сети). Отладка отключается при перезагрузке устройства.</string>
+    <string name="adb_over_network_warning">ВНИМАНИЕ: когда включена отладка по сети, устройство открыто для неконтролируемого доступа из всех подключенных сетей!\n\nИспользуйте эту функцию только при подключении к доверенным сетям.\n\nДействительно включить эту функцию?</string>
 
     <!-- About phone screen, build date of ROM -->
     <string name="build_date">Дата сборки Nitrogen OS</string>
