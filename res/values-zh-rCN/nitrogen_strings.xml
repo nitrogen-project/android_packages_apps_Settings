@@ -83,19 +83,19 @@
     <string name="reset_stats_msg">即将重置电池使用数据</string>
 
     <!-- Bluetooth settings. A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
-    <string name="bluetooth_accept_all_files">接受所有文件类型</string>
+    <string name="bluetooth_accept_all_files">接收所有文件类型</string>
 
     <!-- Dashboard suggestions -->
-    <string name="dashboard_category">信息中心选项</string>
+    <string name="dashboard_category">面板设置</string>
     <string name="dashboard_suggestions_title">建议</string>
-    <string name="summary_dashboard_suggestions_enabled">启用信息中心建议</string>
-    <string name="summary_dashboard_suggestions_disabled">已停用信息中心建议</string>
+    <string name="summary_dashboard_suggestions_enabled">面板建议已启用</string>
+    <string name="summary_dashboard_suggestions_disabled">面板建议已禁用</string>
     <string name="tile_summary_title">摘要</string>
-    <string name="summary_tile_enabled">启用信息中心摘要</string>
-    <string name="summary_tile_disabled">禁用信息中心摘要</string>
-    <string name="dashboard_conditions_title">条件</string>
-    <string name="summary_dashboard_conditions_enabled">启用信息中心条件</string>
-    <string name="summary_dashboard_conditions_disabled">禁用信息中心条件</string>
+    <string name="summary_tile_enabled">面板摘要已启用</string>
+    <string name="summary_tile_disabled">面板摘要已禁用</string>
+    <string name="dashboard_conditions_title">状态</string>
+    <string name="summary_dashboard_conditions_enabled">仪表板条件被启用</string>
+    <string name="summary_dashboard_conditions_disabled">仪表板条件被禁用</string>
 
     <!-- App Ops Settings -->
     <!-- App Ops Categories -->
@@ -248,7 +248,7 @@
 
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">快速解锁</string>
-    <string name="unlock_quick_unlock_control_summary">当输入正确的 PIN 码或密码后自动解锁\n注意:只适用于4位数的PIN！</string>
+    <string name="unlock_quick_unlock_control_summary">当输入正确的 PIN 码或密码后自动解锁\n请注意:只适用于4位数的 PIN 码！</string>
 
     <!-- Vendor version -->
     <string name="vendor_version">供应商版本</string>
