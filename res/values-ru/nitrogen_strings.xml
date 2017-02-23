@@ -288,4 +288,7 @@
     <string name="four_second">4 с</string>
     <string name="fourhalf_second">4.5 с</string>
     <string name="five_second">5 с</string>
+    <string name="doze_wakeup_doubletap_title">Пробуждение постукиванием</string>
+    <string name="doze_wakeup_doubletap_summary_on">Будить устройство двойным постукиванием по экрану в режиме doze</string>
+    <string name="doze_wakeup_doubletap_summary_off">Будить устройство одиночным постукиванием по экрану в режиме doze (по умолчанию)</string>
 </resources>
