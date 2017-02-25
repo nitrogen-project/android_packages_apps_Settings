@@ -208,4 +208,13 @@
     <string name="night_auto_value_min">Минимальная</string>
     <string name="night_bright_low">Низкая</string>
     <string name="night_bright_midlow">Средняя</string>
+
+    <!-- Force authorize substratum packages -->
+    <string name="force_authorize_substratum_packages_title">Разрешить установку тем из неизвестных источников</string>
+    <string name="force_authorize_substratum_packages_summary">Принудительно запрашивать разрешения для каждой темы</string>
+
+    <!-- Manage applications: show substratum overlays -->
+    <string name="filter_substratum_apps">Слои Substratum</string>
+    <string name="menu_show_substratum">Показать слои</string>
+    <string name="menu_hide_substratum">Скрыть слои</string>
 </resources>
