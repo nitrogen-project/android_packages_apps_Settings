@@ -293,4 +293,9 @@
     <string name="four_second">4秒</string>
     <string name="fourhalf_second">4.5秒</string>
     <string name="five_second">5秒</string>
+
+    <!-- DoubleTap2Wake Doze -->
+    <string name="doze_wakeup_doubletap_title">休眠时双击唤醒</string>
+    <string name="doze_wakeup_doubletap_summary_on">需要双击来唤醒处于doze模式的手机</string>
+    <string name="doze_wakeup_doubletap_summary_off">需要单击来唤醒处于doze模式的手机(默认)</string>
 </resources>
