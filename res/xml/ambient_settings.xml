@@ -28,6 +28,12 @@
         android:persistent="false" />
 
     <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
+        android:key="doze_wakeup_doubletap"
+        android:title="@string/doze_wakeup_doubletap_title"
+        android:summaryOn="@string/doze_wakeup_doubletap_summary_on"
+        android:summaryOff="@string/doze_wakeup_doubletap_summary_off" />
+
+    <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
         android:key="doze_overwrite_value"
         android:title="@string/doze_overwrite_value_title"
         android:summary="@string/doze_overwrite_value_summary"

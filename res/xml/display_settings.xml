@@ -97,13 +97,6 @@
                 android:key="tap_to_wake"
                 android:title="@string/tap_to_wake"
                 android:summary="@string/tap_to_wake_summary" />
-		
-	<SwitchPreference
-                android:key="doze_wakeup_doubletap"
-                android:title="@string/doze_wakeup_doubletap_title"
-                android:summaryOn="@string/doze_wakeup_doubletap_summary_on"
-                android:summaryOff="@string/doze_wakeup_doubletap_summary_off"
-                android:persistent="false" />
 
         <PreferenceScreen
                 android:key="font_size"
