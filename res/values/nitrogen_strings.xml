@@ -309,4 +309,7 @@
     <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
     <string name="increasing_ring_min_volume_title">Start volume</string>
     <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
+
+    <string name="sim_mobile_network_settings_category_title">Mobile network settings</string>
+    <string name="sim_mobile_network_settings_title">SIM %d settings</string>
 </resources>
