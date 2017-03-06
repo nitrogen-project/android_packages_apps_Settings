@@ -298,4 +298,12 @@
     <string name="doze_wakeup_doubletap_title">休眠时双击唤醒</string>
     <string name="doze_wakeup_doubletap_summary_on">需要双击来唤醒处于doze模式的手机</string>
     <string name="doze_wakeup_doubletap_summary_off">需要单击来唤醒处于doze模式的手机(默认)</string>
+
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">渐强铃声音量</string>
+    <string name="increasing_ring_min_volume_title">起始音量</string>
+    <string name="increasing_ring_ramp_up_time_title">渐强时长</string>
+
+    <string name="sim_mobile_network_settings_category_title">移动网络设置</string>
+    <string name="sim_mobile_network_settings_title">SIM 卡 %d 设置</string>
 </resources>
