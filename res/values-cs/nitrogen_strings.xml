@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Pure Nexus Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- OTA -->
+    <string name="nosupdate_settings_title">Aktualizace Nitrogen OS</string>
+
+    <!-- Changelog -->
+    <string name="changelog_title">Seznam změn</string>
+    <string name="changelog_summary">Od poslední aktualizace</string>
+    <string name="changelog_error">Není možné stáhnout seznam změn</string>
+
+    <!-- Nitrogen Settings -->
+    <string name="nitrogen_settings_title">Personalizace</string>
+    <string name="header_category_nitrogen">Možnosti Nitrogen OS</string>
+    <string name="nitrogen_settings_summary">Dodatečné nastavení</string>
+    <string name="superuser_settings_summary">Root přístup</string>
+    <string name="appops_settings_summary">Oprávnění aplikací</string>
+
+    <!-- Development Settings -->
+    <!-- Dev Options Enabled by Default -->
+    <string name="show_dev_already_enabled">Nastavení pro vývojáře jsou v předvoleném nastavení povolené.</string>
+
+    <!-- Phone info shortcut -->
+    <string name="device_info_title">Informace o telefonu</string>
+
+    <!-- App Ops -->
+    <string name="app_ops_settings">Nainstalované aplikace</string>
+    <string name="app_ops_settings_summary">Prohlížet a upravovat práva aplikací</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Zvuk při snímku obrazovky</string>
+
+    <!-- Charging vibration -->
+    <string name="charging_vibration_title">Zavibrovat při připojení nabíječky</string>
+
+    <!-- Camera sound switch -->
+     <string name="camera_sounds_title">Zvuk uzávěrky fotoaparátu</string>
+
+    <!-- USB debugging notification -->
+    <string name="adb_notify">Oznámení o ladění</string>
+    <string name="adb_notify_summary">Zobrazit upozornění když je povolený režim ladění přes USB nebo po síti</string>
+    <!-- Android debugging over network -->
+    <string name="adb_over_network">Ladění po síti</string>
+    <string name="adb_over_network_summary">Povolení režimu ladění pomocí síťových rozhraní (Wi-Fi a USB připojení k síti). Ladění bude po restartu přístroje zakázáno.</string>
+    <string name="adb_over_network_warning">Upozornění: Pokud je povoleno v ladění po síti, přístroj je otevřený pro nekontrolovaný přístup všech síťových připojení!\n\nPoužijte tuto volbu pouze při připojení k ddůvěryhodným sítím.\n\nOpravdu chcete povolit tuto funkci?</string>
+
+    <!-- About phone screen, build date of ROM -->
+    <string name="build_date">Datum sestavení Nitrogen OS</string>
+
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Otáčení obrazovky</string>
+    <string name="display_rotation_disabled">Vypnuté</string>
+    <string name="display_rotation_unit">stupňů</string>
+    <string name="display_rotation_category_title">Režim otáčení</string>
+    <string name="display_rotation_0_title">0 stupňů</string>
+    <string name="display_rotation_90_title">90 stupňů</string>
+    <string name="display_rotation_180_title">180 stupňů</string>
+    <string name="display_rotation_270_title">270 stupňů</string>
+
+    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">Zobrazit informace o procesoru</string>
+    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">Překrytí na obrazovce zobrazuje aktuální informace o CPU</string>
+
+    <!-- Menu label for reset the battery stats -->
+    <string name="menu_stats_reset">Resetovat statistiky</string>
+    <string name="reset_stats_msg">Historie používání baterie bude odstraněná</string>
+
+    <!-- Bluetooth settings.  A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
+    <string name="bluetooth_accept_all_files">Přijímat všechny typy souborů</string>
+
+    <!-- Dashboard suggestions -->
+    <string name="dashboard_category">Volby hlavního menu</string>
+    <string name="dashboard_suggestions_title">Návrhy z hlavního menu</string>
+    <string name="summary_dashboard_suggestions_enabled">Návrhy jsou zahrnuté v hlavním menu</string>
+    <string name="summary_dashboard_suggestions_disabled">Návrhy nejsou zahrnuté v hlavním menu</string>
+    <string name="tile_summary_title">Informace pod položkou menu</string>
+    <string name="summary_tile_enabled">Zobrazovat informace pod hlavním menu</string>
+    <string name="summary_tile_disabled">Nezobrazovat informace pod hlavním menu</string>
+    <string name="dashboard_conditions_title">Oznámení v hlavním menu</string>
+    <string name="summary_dashboard_conditions_enabled">Oznámení v hlavním menu jsou povolené</string>
+    <string name="summary_dashboard_conditions_disabled">Oznámení v hlavním menu jsou zakázané</string>
+
+    <!-- App Ops Categories -->
+    <string name="app_ops_cat_location">Poloha</string>
+    <string name="app_ops_cat_personal">Osobní údaje</string>
+    <string name="app_ops_cat_messaging">SMS/MMS</string>
+    <string name="app_ops_cat_media">Multimédia</string>
+    <string name="app_ops_cat_device">Zařízení</string>
+    <string name="app_ops_cat_bootup">Spuštění</string>
+
+    <!-- App ops requests -->
+    <string name="app_ops_access_camera">fotoapaparát</string>
+    <string name="app_ops_access_location">poloha</string>
+    <string name="app_ops_access_notifications">upozornění</string>
+    <string name="app_ops_activate_vpn">VPN</string>
+    <string name="app_ops_auto_start">autostart</string>
+    <string name="app_ops_delete_call_log">vymazat seznam hovorů</string>
+    <string name="app_ops_delete_contacts">vymazat kontakty</string>
+    <string name="app_ops_delete_mms">vymazat MMS</string>
+    <string name="app_ops_delete_sms">vymazat SMS</string>
+    <string name="app_ops_draw_on_top">zobrazit nahoře</string>
+    <string name="app_ops_get_usage_stats">statistiky využití</string>
+    <string name="app_ops_keep_device_awake">neuspávat</string>
+    <string name="app_ops_make_phone_call">provést hovor</string>
+    <string name="app_ops_modify_calendar">změnit kalendář</string>
+    <string name="app_ops_modify_call_log">změnit seznam hovorů</string>
+    <string name="app_ops_modify_clipboard">změnit schránku</string>
+    <string name="app_ops_modify_contacts">změnit kontakty</string>
+    <string name="app_ops_modify_settings">změnit nastavení</string>
+    <string name="app_ops_mute_unmute_microphone">zap./vyp. mikrofon</string>
+    <string name="app_ops_play_audio">přehrát zvuk</string>
+    <string name="app_ops_post_notification">zobrazit oznámení</string>
+    <string name="app_ops_project_media">zobrazit média</string>
+    <string name="app_ops_read_calendar">číst kalendář</string>
+    <string name="app_ops_read_call_log">číst seznam hovorů	</string>
+    <string name="app_ops_read_clipboard">číst schránku</string>
+    <string name="app_ops_read_contacts">číst kontakty</string>
+    <string name="app_ops_read_mms">číst MMS</string>
+    <string name="app_ops_read_sms">číst SMS</string>
+    <string name="app_ops_receive_sms">přijmout SMS</string>
+    <string name="app_ops_record_audio">nahrát zvuk</string>
+    <string name="app_ops_send_mms">poslat MMS</string>
+    <string name="app_ops_send_sms">poslat SMS</string>
+    <string name="app_ops_toast_window">vyskakující oznámení</string>
+    <string name="app_ops_use_alarm_volume">změnit hlasitost budíku</string>
+    <string name="app_ops_use_audio_focus">změnit audiofokus</string>
+    <string name="app_ops_use_bluetooth_volume">změnit hlasitost Bluetooth zařízení</string>
+    <string name="app_ops_use_master_volume">změnit hlavní hlasitost</string>
+    <string name="app_ops_use_media_buttons">používat multimed. tlačítka</string>
+    <string name="app_ops_use_media_volume">změnit hlasitost mutlimédií</string>
+    <string name="app_ops_use_notification_volume">změnit hlasitost oznámení</string>
+    <string name="app_ops_use_ring_volume">změnit hlasitost zvonění</string>
+    <string name="app_ops_use_vibrate">vibrovat</string>
+    <string name="app_ops_use_voice_volume">změnit hlasitost hovoru</string>
+    <string name="app_ops_write_mms">vytvořit MMS</string>
+    <string name="app_ops_write_sms">vytvořit SMS</string>
+    <string name="app_ops_use_fingerprint">použít otisky prstů</string>
+    <string name="app_ops_add_voicemail">hlasová schránka</string>
+    <string name="app_ops_read_phone_state">číst stav telefonu</string>
+    <string name="app_ops_scan_wifi">skenovat WiFi sítě</string>
+    <string name="app_ops_change_wallpaper">změnit tapetu</string>
+    <string name="app_ops_assist_structure">pomocný snímek obrazovky</string>
+    <string name="app_ops_assist_screenshot">sejmout snímek obrazovky</string>
+    <string name="app_ops_use_body_sensors">tělesné senzory</string>
+    <string name="app_ops_read_cell_broadcasts">výstražné oznámení</string>
+    <string name="app_ops_mock_location">falšovat polohu</string>
+    <string name="app_ops_read_external_storage">číst ext. úložiště</string>
+    <string name="app_ops_write_external_storage">zapisovat na ext. úložiště</string>
+    <string name="app_ops_turn_on_screen">vypnout obrazovku</string>
+    <string name="app_ops_get_accounts">přístup k účtům</string>
+    <string name="app_ops_run_in_background">běžet na pozadí</string>
+    <string name="app_ops_boot_completed">autostart</string>
+
+    <!-- Battery saver color -->
+    <string name="battery_saver_color_title">Barevné upozornění</string>
+    <string name="battery_saver_color_summary">Vybarvit stavový řádek a navigační lištu, pokud je aktivovaný režim úspory energie</string>
+
+    <!-- Navigation -->
+    <string name="navigation_category">Panel Navigace</string>
+
+    <!-- Expanded desktop -->
+    <string name="power_menu_expanded_desktop">Rozšířená obrazovka</string>
+    <string name="expanded_hide_nothing">Nic neskrývat</string>
+    <string name="expanded_hide_status">Skrýt stavový řádek</string>
+    <string name="expanded_hide_navigation">Skrýt panel navigace</string>
+    <string name="expanded_hide_both">Skrýt oba</string>
+    <string name="expanded_nothing_to_show">Pokud chcete nastavit rozšířené nastavení zobrazení jen pro vybrané aplikace, přesuňte přepínač «Zapnuté pro všechny» do polohy vypnuté.</string>
+    <string name="expanded_enabled_for_all">Zapnuté pro všechny</string>
+    <string name="expanded_desktop_style">Styl rozšířené obrazovky</string>
+    <string name="expanded_desktop_style_description">Zvolit rozšířený režim obrazovky jako předvolený</string>
+    <string name="expanded_desktop_title">Nastavení rozšířené obrazovky</string>
+    <string name="expanded_user_configurable">Uživatelsky konfigurovatelné</string>
+    <string name="expanded_desktop_state">Rozšířený stav</string>
+
+    <!-- Preference category for LAN development settings. [CHAR LIMIT=25] -->
+    <string name="debug_LAN_category">Nastavení LAN</string>
+    <!-- Hostname setting -->
+    <string name="device_hostname">Název zařízení</string>
+
+    <string name="superuser_title">SuperUser</string>
+
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">Úrovně hlasitosti</string>
+    <string name="volume_steps_alarm_title">Úroveň hlasitosti: Budík</string>
+    <string name="volume_steps_dtmf_title">Úroveň hlasitosti: Vytáčení</string>
+    <string name="volume_steps_music_title">Úroveň hlasitosti: Hudba</string>
+    <string name="volume_steps_notification_title">Úroveň hlasitosti: Oznámení</string>
+    <string name="volume_steps_ring_title">Úroveň hlasitosti: Zvonění</string>
+    <string name="volume_steps_system_title">Úroveň hlasitosti: Systém</string>
+    <string name="volume_steps_voice_call_title">Úroveň hlasitosti: Hlasový hovor</string>
+
+    <!-- Scramble PIN Layout on Lockscreen -->
+    <string name="unlock_scramble_pin_layout_title">Zamíchat tlačítka</string>
+    <string name="unlock_scramble_pin_layout_summary">Náhodně přeskupit tlačítka pro vstupní PIN kód</string>
+
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Minimální interval mezi oznámeními</string>
+    <string name="app_notification_sound_timeout_summary_template">Použít zvuk nebo vibrace jednou za <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">bez omezení</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 sekund</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 sekund</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 minuta</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minut</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 minut</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minut</string>
+
+    <!-- Keyboard and Input ASS methods  -->
+    <string name="attention">Pozor</string>
+    <string name="title_keyboard_input">Rozšířené nastavení</string>
+    <string name="disable_fullscreen_keyboard_title">Zakázat klávesnici přes celou obrazovku</string>
+    <string name="disable_fullscreen_keyboard_summary">Klávesnice na šířku nezabere celou obrazovku</string>
+    <string name="keyboard_rotation_toggle_title">Automatické otočení klávesnice</string>
+    <string name="keyboard_rotation_toggle_summary">Vynutit automatické otáčení když je klávesnice zobrazená</string>
+    <string name="keyboard_rotation_timeout_title">Časový interval otočení</string>
+    <string name="keyboard_rotation_timeout_summary">Vypnout senzor otáčení po <xliff:g id="rotate_timeout">%1$s</xliff:g> sekundách, když je klávesnice skrytá</string>
+    <string name="keyboard_rotation_dialog">Tato funkce dočasně vynutí automatické otáčení během zobrazení klávesnice na obrazovce. Nemá žádný vliv, pokud je auto-rotace už zapnuta.</string>
+    <string name="show_enter_key_title">Ukázat klávesu Enter</string>
+    <string name="show_enter_key_summary">Vynutit zaobrazení klávesy Enter míesto tlačítka emotikon</string>
+
+    <!-- Linked / unlinked notification volume -->
+    <string name="link_volume_option_title">Spojit hlasitost vyzváňení a upozornění</string>
+    <string name="notification_volume_option_title">Hlasitost upozornění</string>
+    <string name="ring_notification_volume_option_title">Hlasitost vyzváňění a upozornění</string>
+
+    <!-- Manage applications: show substratum overlays -->
+    <string name="filter_substratum_apps">Тémata Substratum</string>
+    <string name="menu_show_substratum">Zobrazit témata</string>
+    <string name="menu_hide_substratum">Skrýt témata</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Rychlé odemknutí</string>
+    <string name="unlock_quick_unlock_control_summary">Odemknutí zařízení bez stisku OK\nPozn.: Jen pro 4-místný PIN kód!</string>
+
+    <!-- Vendor version -->
+    <string name="vendor_version">Vendor verze</string>
+    <string name="vendor_version_default">Neznámá</string>
+
+    <!-- Gesture Settings -->
+    <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
+    <string name="double_twist_for_camera_mode_summary_n">Pro změnu režimu Selfie v Google fotoaparátu dvakrát otočte telefon když jste v aplikaci</string>
+
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_category">Jas</string>
+    <string name="night_brightness_value_title">Jas v nočním režimu</string>
+    <string name="night_brightness_text">Pokud zapnete noční režim, změní se jas obrazovky. Předvolený stav je nízký jas.</string>
+    <string name="night_bright_disabled">Vypnuté</string>
+    <string name="night_bright_min">Minimální</string>
+    <string name="night_bright_low">Nízký</string>
+    <string name="night_bright_medium">Střední</string>
+
+    <!-- Doze pulse options -->
+    <string name="summary_doze_enabled">Zapnuté</string>
+    <string name="summary_doze_disabled">Vypnuté</string>
+    <string name="doze_overwrite_value_title">Přepsat hodnoty</string>
+    <string name="doze_overwrite_value_summary">Povolit uživateli přepsat předvolené hodnoty</string>
+    <string name="doze_pulse_title">Nastavení pulsování</string>
+    <string name="doze_pulse_duration_in_title">Zesílení</string>
+    <string name="doze_pulse_duration_in_summary"></string>
+    <string name="doze_pulse_duration_visible_title">Doba zobrazení</string>
+    <string name="doze_pulse_duration_visible_summary"></string>
+    <string name="doze_pulse_duration_out_title">Ztlumení</string>
+    <string name="doze_pulse_duration_out_summary"></string>
+    <string name="doze_brightness_level_title">Úroveň jasu</string>
+    <string name="onehundred_ms">100 ms</string>
+    <string name="twofifty_ms">250 ms</string>
+    <string name="fivehundred_ms_default">500 ms (předvolené)</string>
+    <string name="sevenfifty_ms">750 ms</string>
+    <string name="one_second">1 s</string>
+    <string name="onehalf_second">1.5 s</string>
+    <string name="two_second">2 s</string>
+    <string name="twohalf_second">2.5 s</string>
+    <string name="three_second_default">3 s (předvolené)</string>
+    <string name="threehalf_second">3.5 s</string>
+    <string name="four_second">4 s</string>
+    <string name="fourhalf_second">4.5 s</string>
+    <string name="five_second">5 s</string>
+    <string name="doze_wakeup_doubletap_title">Probuzení dvojklikem</string>
+    <string name="doze_wakeup_doubletap_summary_on">Probudit zařízení dvojklikem na obrazovku v režimu spánku</string>
+    <string name="doze_wakeup_doubletap_summary_off">Probudit zařízení jedním kliknutím na obrazovku v režimu spánku (předvolené)</string>
+
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Zvýšení hlasitosti vyzvánění</string>
+    <string name="increasing_ring_min_volume_title">Počáteční hlasitost</string>
+    <string name="increasing_ring_ramp_up_time_title">doba zvyšování</string>
+
+    <string name="sim_mobile_network_settings_category_title">Nastavení mobilní sítě</string>
+    <string name="sim_mobile_network_settings_title">Nastavení SIM %d</string>
+
+    <!-- Force authorize substratum packages -->
+    <string name="force_authorize_substratum_packages_title">Vynucené schvalování témat</string>
+    <string name="force_authorize_substratum_packages_summary">Povolit schválení z neznámých zdrojů</string>
+</resources>
