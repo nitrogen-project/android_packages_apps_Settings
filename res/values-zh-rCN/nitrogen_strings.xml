@@ -306,4 +306,7 @@
 
     <string name="sim_mobile_network_settings_category_title">移动网络设置</string>
     <string name="sim_mobile_network_settings_title">SIM 卡 %d 设置</string>
+    <!-- Force authorize substratum packages -->
+    <string name="force_authorize_substratum_packages_title">强制认证substratum主题包</string>
+    <string name="force_authorize_substratum_packages_summary">允许安装使用未知来源的substratum主题包</string>
 </resources>
