@@ -25,7 +25,7 @@
     <!-- Nitrogen Settings -->
     <string name="nitrogen_settings_title">Personalizace</string>
     <string name="header_category_nitrogen">Možnosti Nitrogen OS</string>
-    <string name="nitrogen_settings_summary">Dodatečné nastavení</string>
+    <string name="nitrogen_settings_summary">Rozšířené nastavení</string>
     <string name="superuser_settings_summary">Root přístup</string>
     <string name="appops_settings_summary">Oprávnění aplikací</string>
 
@@ -55,7 +55,7 @@
     <!-- Android debugging over network -->
     <string name="adb_over_network">Ladění po síti</string>
     <string name="adb_over_network_summary">Povolení režimu ladění pomocí síťových rozhraní (Wi-Fi a USB připojení k síti). Ladění bude po restartu přístroje zakázáno.</string>
-    <string name="adb_over_network_warning">Upozornění: Pokud je povoleno v ladění po síti, přístroj je otevřený pro nekontrolovaný přístup všech síťových připojení!\n\nPoužijte tuto volbu pouze při připojení k ddůvěryhodným sítím.\n\nOpravdu chcete povolit tuto funkci?</string>
+    <string name="adb_over_network_warning">Upozornění: Pokud je povoleno v ladění po síti, přístroj je otevřený pro nekontrolovaný přístup všech síťových připojení!\n\nPoužijte tuto volbu pouze při připojení k důvěryhodným sítím.\n\nOpravdu chcete povolit tuto funkci?</string>
 
     <!-- About phone screen, build date of ROM -->
     <string name="build_date">Datum sestavení Nitrogen OS</string>
@@ -137,7 +137,7 @@
     <string name="app_ops_send_sms">poslat SMS</string>
     <string name="app_ops_toast_window">vyskakující oznámení</string>
     <string name="app_ops_use_alarm_volume">změnit hlasitost budíku</string>
-    <string name="app_ops_use_audio_focus">změnit audiofokus</string>
+    <string name="app_ops_use_audio_focus">změnit audio fokus</string>
     <string name="app_ops_use_bluetooth_volume">změnit hlasitost Bluetooth zařízení</string>
     <string name="app_ops_use_master_volume">změnit hlavní hlasitost</string>
     <string name="app_ops_use_media_buttons">používat multimed. tlačítka</string>
@@ -213,7 +213,7 @@
     <string name="app_notification_sound_timeout_value_none">bez omezení</string>
     <string name="app_notification_sound_timeout_value_10_seconds">10 sekund</string>
     <string name="app_notification_sound_timeout_value_30_seconds">30 sekund</string>
-    <string name="app_notification_sound_timeout_value_1_minute">1 minuta</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 minutu</string>
     <string name="app_notification_sound_timeout_value_5_minutes">5 minut</string>
     <string name="app_notification_sound_timeout_value_15_minutes">10 minut</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 minut</string>
@@ -229,12 +229,12 @@
     <string name="keyboard_rotation_timeout_summary">Vypnout senzor otáčení po <xliff:g id="rotate_timeout">%1$s</xliff:g> sekundách, když je klávesnice skrytá</string>
     <string name="keyboard_rotation_dialog">Tato funkce dočasně vynutí automatické otáčení během zobrazení klávesnice na obrazovce. Nemá žádný vliv, pokud je auto-rotace už zapnuta.</string>
     <string name="show_enter_key_title">Ukázat klávesu Enter</string>
-    <string name="show_enter_key_summary">Vynutit zaobrazení klávesy Enter míesto tlačítka emotikon</string>
+    <string name="show_enter_key_summary">Vynutit zobrazení klávesy Enter místo tlačítka emotikon</string>
 
     <!-- Linked / unlinked notification volume -->
     <string name="link_volume_option_title">Spojit hlasitost vyzváňení a upozornění</string>
     <string name="notification_volume_option_title">Hlasitost upozornění</string>
-    <string name="ring_notification_volume_option_title">Hlasitost vyzváňění a upozornění</string>
+    <string name="ring_notification_volume_option_title">Hlasitost vyzvánění a upozornění</string>
 
     <!-- Manage applications: show substratum overlays -->
     <string name="filter_substratum_apps">Тémata Substratum</string>
@@ -295,7 +295,7 @@
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Zvýšení hlasitosti vyzvánění</string>
     <string name="increasing_ring_min_volume_title">Počáteční hlasitost</string>
-    <string name="increasing_ring_ramp_up_time_title">doba zvyšování</string>
+    <string name="increasing_ring_ramp_up_time_title">Doba zesilování</string>
 
     <string name="sim_mobile_network_settings_category_title">Nastavení mobilní sítě</string>
     <string name="sim_mobile_network_settings_title">Nastavení SIM %d</string>
