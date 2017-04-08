@@ -152,7 +152,8 @@ public class PowerUsageSummary extends PowerUsageBase {
 
         PowerUsageFeatureProvider powerUsageFeatureProvider =
                 FeatureFactory.getFactory(getContext()).getPowerUsageFeatureProvider(getContext());
-        if (powerUsageFeatureProvider != null) {
+        if (powerUsageFeatureProvider != null &&
+                powerUsageFeatureProvider.isAdditionalBatteryInfoEnabled()) {
             menu.add(Menu.NONE, MENU_ADDITIONAL_BATTERY_INFO,
                     Menu.NONE, R.string.additional_battery_info);
         }
