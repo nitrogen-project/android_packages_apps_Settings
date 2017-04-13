@@ -233,12 +233,16 @@ public class SettingsActivity extends SettingsDrawerActivity
 
     private static final int REQUEST_SUGGESTION = 42;
 
-    private static final String SUPERUSER_FRAGMENT = "com.android.settings.SuperUser";
+    private static final String ROOTMANAGEMENT_FRAGMENT = "com.android.settings.RootManagement";
 
     private String mFragmentClass;
 
     private CharSequence mInitialTitle;
     private int mInitialTitleResId;
+
+    private boolean rootSupported;
+    private String rootPackageName;
+    private String rootClassName;
 
     // Show only these settings for restricted users
     private String[] SETTINGS_FOR_RESTRICTED = {
@@ -1028,10 +1032,11 @@ public class SettingsActivity extends SettingsDrawerActivity
      */
     private Fragment switchToFragment(String fragmentName, Bundle args, boolean validate,
             boolean addToBackStack, int titleResId, CharSequence title, boolean withTransition) {
-        if (SUPERUSER_FRAGMENT.equals(fragmentName)) {
-            Intent superuserIntent = new Intent();
-            superuserIntent.setClassName("me.phh.superuser", "com.koushikdutta.superuser.MainActivity");
-            startActivity(superuserIntent);
+        if (ROOTMANAGEMENT_FRAGMENT.equals(fragmentName)) {
+            Intent rootManagementIntent = new Intent();
+            setupRootManagement();
+            rootManagementIntent.setClassName(rootPackageName, rootClassName);
+            startActivity(rootManagementIntent);
             finish();
             return null;
         }
@@ -1126,15 +1131,11 @@ public class SettingsActivity extends SettingsDrawerActivity
                         Settings.DevelopmentSettingsActivity.class.getName()),
                 showDev, isAdmin, pm);
 
-        // SuperUser
-        boolean phhSupported = false;
-        try {
-            phhSupported = (getPackageManager().getPackageInfo("me.phh.superuser", 0).versionCode > 0);
-        } catch (PackageManager.NameNotFoundException e) {
-        }
+        // Root management
+        setupRootManagement();
         setTileEnabled(new ComponentName(packageName,
-                        Settings.SuperUserActivity.class.getName()),
-                phhSupported, isAdmin, pm);
+                        Settings.RootManagementActivity.class.getName()),
+                rootSupported, isAdmin, pm);
 
         // Reveal development-only quick settings tiles
         DevelopmentTiles.setTilesEnabled(this, showDev);
@@ -1171,6 +1172,34 @@ public class SettingsActivity extends SettingsDrawerActivity
                 isAdmin || Utils.isCarrierDemoUser(this), pm);
 
     }
+
+     private void setupRootManagement() {
+         rootSupported = false;
+         rootPackageName = "";
+         rootClassName = "";
+         try {
+             rootSupported = (getPackageManager().getPackageInfo("eu.chainfire.supersu", 0).versionCode >= 185);
+             rootPackageName = "eu.chainfire.supersu";
+             rootClassName = "eu.chainfire.supersu.MainActivity";
+         } catch (PackageManager.NameNotFoundException e) {
+         }
+         if (!rootSupported) {
+             try {
+                 rootSupported = (getPackageManager().getPackageInfo("me.phh.superuser", 0).versionCode > 0);
+                 rootPackageName = "me.phh.superuser";
+                  rootClassName = "com.koushikdutta.superuser.MainActivity";
+              } catch (PackageManager.NameNotFoundException e) {
+              }
+              if (!rootSupported) {
+                try {
+                    rootSupported = (getPackageManager().getPackageInfo("com.topjohnwu.magisk", 0).versionCode > 0);
+                    rootPackageName = "com.topjohnwu.magisk";
+                    rootClassName = "com.topjohnwu.magisk.SplashActivity";
+                } catch (PackageManager.NameNotFoundException e) {
+                }
+            }
+          }
+      }
 
     private void setTileEnabled(ComponentName component, boolean enabled, boolean isAdmin,
                                 PackageManager pm) {

@@ -26,7 +26,8 @@
     <string name="nitrogen_settings_title">Персонализация</string>
     <string name="header_category_nitrogen">Опции Nitrogen OS</string>
     <string name="nitrogen_settings_summary">Дополнительные настройки</string>
-    <string name="superuser_settings_summary">Root доступ</string>
+    <string name="rootmanagement_title">Суперпользователь</string>
+    <string name="rootmanagement_dashboard_summary">Настройки root доступа</string>
     <string name="appops_settings_summary">Разрешения для приложений</string>
 
     <!-- Development Settings -->
@@ -190,8 +191,6 @@
     <string name="debug_LAN_category">Настройки LAN</string>
     <!-- Hostname setting -->
     <string name="device_hostname">Имя устройства</string>
-
-    <string name="superuser_title">Суперпользователь</string>
 
     <!-- Volume Steps -->
     <string name="volume_steps_title">Уровни громкости</string>
