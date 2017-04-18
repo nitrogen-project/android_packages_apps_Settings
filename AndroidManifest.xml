@@ -3016,6 +3016,18 @@
                 android:value="com.nitrogen.settings.fragments.PulseSettings" />
         </activity>
 
+        <!-- Pulse settings activity. -->
+        <activity android:name="Settings$ButtonSettingsActivity"
+                android:label="@string/button_title"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.nitrogen.settings.fragments.ButtonSettings" />
+        </activity>
+
        <!-- System action picker -->
         <activity android:name="com.nitrogen.settings.ActionPickerDialogActivity"
                 android:theme="@*android:style/Theme.Material.Light.Dialog.Alert"

@@ -141,6 +141,7 @@ import com.nitrogen.settings.fragments.FlingSettings;
 import com.nitrogen.settings.fragments.NavbarSettings;
 import com.nitrogen.settings.fragments.SmartbarSettings;
 import com.nitrogen.settings.fragments.PulseSettings;
+import com.nitrogen.settings.fragments.ButtonSettings;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -376,7 +377,8 @@ public class SettingsActivity extends SettingsDrawerActivity
             PulseSettings.class.getName(),
             ExpandedDesktopPreferenceFragment.class.getName(),
             ManageDomainUrls.class.getName(),
-            AutomaticStorageManagerSettings.class.getName()
+            AutomaticStorageManagerSettings.class.getName(),
+            ButtonSettings.class.getName()
     };
 
 

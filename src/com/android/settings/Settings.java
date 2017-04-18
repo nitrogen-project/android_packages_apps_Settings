@@ -166,4 +166,5 @@ public class Settings extends SettingsActivity {
     public static class PulseSettingsActivity extends SettingsActivity { /* empty */ }
     public static class ExpandedDesktopSettingsActivity extends SettingsActivity { /* empty */ }
     public static class RootManagementActivity extends SettingsActivity { /* empty */ }
+    public static class ButtonSettingsActivity extends SettingsActivity { /* empty */ }
 }
