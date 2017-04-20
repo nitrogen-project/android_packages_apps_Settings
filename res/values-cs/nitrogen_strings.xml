@@ -26,6 +26,8 @@
     <string name="nitrogen_settings_title">Personalizace</string>
     <string name="header_category_nitrogen">Možnosti Nitrogen OS</string>
     <string name="nitrogen_settings_summary">Rozšířené nastavení</string>
+    <string name="rootmanagement_title">Superuživatel/string>
+<string name="rootmanagement_dashboard_summary">Nastavení root přístupu</string>     
     <string name="appops_settings_summary">Oprávnění aplikací</string>
 
     <!-- Development Settings -->
