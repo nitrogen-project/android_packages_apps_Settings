@@ -25,7 +25,9 @@
     <!-- Nitrogen Settings -->
     <string name="nitrogen_settings_title">Personalizácia</string>
     <string name="header_category_nitrogen">Možnosti Nitrogen OS</string>
-    <string name="nitrogen_settings_summary">Dodadočné nastavenia</string>
+    <string name="nitrogen_settings_summary">Rozšírené nastavenia</string>
+    <string name="rootmanagement_title">Superužívateľ</string>
+    <string name="rootmanagement_dashboard_summary">Nastavenia root prístupu</string>
     <string name="appops_settings_summary">Oprávnenia aplikácií</string>
 
     <!-- Development Settings -->
@@ -286,8 +288,8 @@
     <string name="fourhalf_second">4.5 s</string>
     <string name="five_second">5 с</string>
     <string name="doze_wakeup_doubletap_title">Prebudenie dvojklikom</string>
-    <string name="doze_wakeup_doubletap_summary_on">Prebudiť zariadenie dvojklikom na obrazovku v režime spánku</string>
-    <string name="doze_wakeup_doubletap_summary_off">Prebudiť zariadenie jedným kliknutím na obrazovky v režime spánku (predvolené)</string>
+    <string name="doze_wakeup_doubletap_summary_on">V režime spánku prebudiť zariadenie dvojklikom na obrazovku</string>
+    <string name="doze_wakeup_doubletap_summary_off">V režime spánku prebudiť zariadenie jedným kliknutím na obrazovku (predvolené)</string>
 
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Zvýšenie hlasitosti vyzváňania</string>
