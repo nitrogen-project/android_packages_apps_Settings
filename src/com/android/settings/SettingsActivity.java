@@ -138,6 +138,7 @@ import com.nitrogen.settings.NitrogenSettings;
 
 import java.net.URISyntaxException;
 import com.nitrogen.settings.fragments.FlingSettings;
+import com.nitrogen.settings.fragments.HeadsUpSettings;
 import com.nitrogen.settings.fragments.NavbarSettings;
 import com.nitrogen.settings.fragments.SmartbarSettings;
 import com.nitrogen.settings.fragments.PulseSettings;
@@ -378,7 +379,8 @@ public class SettingsActivity extends SettingsDrawerActivity
             ExpandedDesktopPreferenceFragment.class.getName(),
             ManageDomainUrls.class.getName(),
             AutomaticStorageManagerSettings.class.getName(),
-            ButtonSettings.class.getName()
+            ButtonSettings.class.getName(),
+            HeadsUpSettings.class.getName(),
     };
 
 
