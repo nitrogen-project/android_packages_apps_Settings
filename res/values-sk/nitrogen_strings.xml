@@ -85,12 +85,12 @@
 
     <!-- Dashboard suggestions -->
     <string name="dashboard_category">Voľby hlavného menu</string>
-    <string name="dashboard_suggestions_title">Návrhy z hlavného menu</string>
+    <string name="dashboard_suggestions_title">Návrhy v hlavnom menu</string>
     <string name="summary_dashboard_suggestions_enabled">Návrhy sú zahrnuté v hlavnom menu</string>
     <string name="summary_dashboard_suggestions_disabled">Návrhy nie sú zahrnuté v hlavnom menu</string>
-    <string name="tile_summary_title">Informácie pod položkou menu</string>
-    <string name="summary_tile_enabled">Zobrazovať informácie pod hlavným menu</string>
-    <string name="summary_tile_disabled">Nezobrazovať informácie pod hlavným menu</string>
+    <string name="tile_summary_title">Aktuálny výber pod položkou v menu</string>
+    <string name="summary_tile_enabled">Zobrazovať aktuálny výber pod položkou v hlavnom menu</string>
+    <string name="summary_tile_disabled">Nezobrazovať aktuálny výber pod položkou v hlavnom menu</string>
     <string name="dashboard_conditions_title">Oznámenia v hlavnom menu</string>
     <string name="summary_dashboard_conditions_enabled">Oznámenia v hlavnom menu sú povolené</string>
     <string name="summary_dashboard_conditions_disabled">Oznámenia v hlavnom menu sú zakázané</string>
