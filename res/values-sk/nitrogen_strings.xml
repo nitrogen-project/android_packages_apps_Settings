@@ -292,9 +292,9 @@
     <string name="doze_wakeup_doubletap_summary_off">V režime spánku prebudiť zariadenie jedným kliknutím na obrazovku (predvolené)</string>
 
     <!-- Increasing ring tone volume -->
-    <string name="increasing_ring_volume_option_title">Zvýšenie hlasitosti vyzváňania</string>
+    <string name="increasing_ring_volume_option_title">Zvyšovanie hlasitosti vyzváňania</string>
     <string name="increasing_ring_min_volume_title">Počiatočná hlasitosť</string>
-    <string name="increasing_ring_ramp_up_time_title">trvanie zvyšovania</string>
+    <string name="increasing_ring_ramp_up_time_title">Trvanie zvyšovania hlasitosti</string>
 
     <string name="sim_mobile_network_settings_category_title">Nastavenia mobilnej siete</string>
     <string name="sim_mobile_network_settings_title">Nastavenia SIM %d</string>
