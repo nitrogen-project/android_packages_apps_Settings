@@ -3101,7 +3101,7 @@
     <string name="storage_summary" msgid="1110250618334248745">"Využité miesto: <xliff:g id="SIZE1">%1$s</xliff:g> z <xliff:g id="SIZE2">%2$s</xliff:g>"</string>
     <string name="display_summary_on" msgid="5628868543070268634">"Prispôsobivý jas je ZAPNUTÝ"</string>
     <string name="display_summary_off" msgid="6399558022426312990">"Prispôsobivý jas je VYPNUTÝ"</string>
-    <string name="memory_summary" msgid="8080825904671961872">"Využíva sa v priemere <xliff:g id="USED_MEMORY">%1$s</xliff:g> z celkovej pamäte <xliff:g id="TOTAL_MEMORY">%2$s</xliff:g>"</string>
+    <string name="memory_summary" msgid="8080825904671961872">"Približné využitie pamäte: <xliff:g id="USED_MEMORY">%1$s</xliff:g> z <xliff:g id="TOTAL_MEMORY">%2$s</xliff:g>"</string>
     <string name="user_summary" msgid="1617826998097722499">"Prihlásený/-á ako <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
     <string name="payment_summary" msgid="3472482669588561110">"<xliff:g id="APP_NAME">%1$s</xliff:g> je predvolená aplikácia"</string>
     <string name="location_on_summary" msgid="5127631544018313587">"ZAP. / <xliff:g id="LOCATION_MODE">%1$s</xliff:g>"</string>
