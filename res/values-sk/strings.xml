@@ -3104,8 +3104,8 @@
     <string name="memory_summary" msgid="8080825904671961872">"Približné využitie pamäte: <xliff:g id="USED_MEMORY">%1$s</xliff:g> z <xliff:g id="TOTAL_MEMORY">%2$s</xliff:g>"</string>
     <string name="user_summary" msgid="1617826998097722499">"Prihlásený/-á ako <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
     <string name="payment_summary" msgid="3472482669588561110">"<xliff:g id="APP_NAME">%1$s</xliff:g> je predvolená aplikácia"</string>
-    <string name="location_on_summary" msgid="5127631544018313587">"ZAP. / <xliff:g id="LOCATION_MODE">%1$s</xliff:g>"</string>
-    <string name="location_off_summary" msgid="6474350053215707957">"VYP."</string>
+    <string name="location_on_summary" msgid="5127631544018313587">"ZAPNUTÁ / <xliff:g id="LOCATION_MODE">%1$s</xliff:g>"</string>
+    <string name="location_off_summary" msgid="6474350053215707957">"VYPNUTÁ"</string>
     <string name="backup_disabled" msgid="485189128759595412">"Zálohovanie je zakázané"</string>
     <string name="about_summary" msgid="8460677224778433924">"Android <xliff:g id="VERSION">%1$s</xliff:g>"</string>
     <string name="disabled_by_policy_title" msgid="627023216027648534">"Akcia nie je povolená"</string>
