@@ -16,4 +16,6 @@
     <!-- Dev Options Enabled by Default -->
     <string name="show_dev_already_enabled">Настройки для разработчика активированы по умолчанию.</string>
 
+    <!-- Phone info shortcut -->
+    <string name="device_info_title">Информация о телефоне</string>
 </resources>
