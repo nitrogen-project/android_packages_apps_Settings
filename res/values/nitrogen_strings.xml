@@ -12,6 +12,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- Nitrogen Settings -->
+    <string name="nitrogen_settings_title">Personalization</string>
+    <string name="nitrogen_settings_summary">Additional settings</string>
+
     <!-- Development Settings -->
     <!-- Dev Options Enabled by Default -->
     <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>
