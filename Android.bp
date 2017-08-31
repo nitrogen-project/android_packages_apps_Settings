@@ -53,7 +53,15 @@ android_library {
         "SettingsLib-search-defaults",
     ],
 
-    srcs: ["src/**/*.java", "src/**/*.kt"],
+    srcs: ["src/**/*.java", "src/**/*.kt",
+           "NitrogenSettings/src/**/*.java",
+    ],
+
+    aaptflags: ["--extra-packages com.nitrogen.settings"],
+
+    resource_dirs: ["res",
+                    "NitrogenSettings/res"
+    ],
 
     static_libs: [
         "androidx-constraintlayout_constraintlayout",
@@ -95,6 +103,10 @@ android_library {
         "telephony-common",
         "ims-common",
     ],
+
+    optimize: {
+        proguard_flags_files: ["proguard.flags"],
+    },
 }
 
 platform_compat_config {
