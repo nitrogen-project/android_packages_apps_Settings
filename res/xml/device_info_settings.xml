@@ -25,6 +25,19 @@
                     android:targetClass="@string/additional_system_update_menu" />
         </Preference>
 
+        <!-- Nitrogen Logo Header -->
+        <Preference android:key="nos_logo"
+            android:layout="@layout/nitrogen_logo" />
+
+         <!-- OTA -->
+         <Preference android:key="nos_updates"
+             android:title="@string/nosupdate_settings_title"
+             android:summary="@string/nosupdate_settings_summary">
+             <intent android:action="android.intent.action.MAIN"
+                 android:targetPackage="com.nitrogen.ota"
+                 android:targetClass="com.nitrogen.ota.activities.MainActivity" />
+         </Preference>
+
         <!-- Device status - launches activity -->
         <Preference android:key="status_info"
                 android:title="@string/device_status"
@@ -37,12 +50,6 @@
                 android:title="@string/manual">
             <intent android:action="android.settings.SHOW_MANUAL" />
         </Preference>
-
-        <!-- Legal Information -->
-        <Preference
-                android:key="legal_container"
-                android:title="@string/legal_information"
-                android:fragment="com.android.settings.LegalSettings" />
 
         <Preference
                 android:key="regulatory_info"

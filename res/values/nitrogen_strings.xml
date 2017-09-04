@@ -22,4 +22,8 @@
 
     <!-- Phone info shortcut -->
     <string name="device_info_title">Phone info</string>
+
+    <!-- OTA -->
+    <string name="nosupdate_settings_title">Nitrogen OS updates</string>
+    <string name="nosupdate_settings_summary">Find new updates</string>
 </resources>
