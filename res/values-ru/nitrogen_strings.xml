@@ -16,4 +16,11 @@
     <string name="nitrogen_settings_title">Персонализация</string>
     <string name="nitrogen_settings_summary">Дополнительные настройки</string>
 
+    <string name="dashboard_conditions_title">Уведомления в главном меню</string>
+    <string name="summary_dashboard_conditions_enabled">Уведомления в главном меню включены</string>
+    <string name="summary_dashboard_conditions_disabled">Уведомления в главном меню выключены</string>
+    <string name="dashboard_suggestions_title">Подсказки в главном меню</string>
+    <string name="summary_dashboard_suggestions_enabled">Подсказки в главном меню включены</string>
+    <string name="summary_dashboard_suggestions_disabled">Подсказки в главном меню выключены</string>
+
 </resources>
