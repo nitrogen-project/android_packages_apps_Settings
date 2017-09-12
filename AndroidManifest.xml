@@ -3292,6 +3292,8 @@
             </intent-filter>
         </activity>
 
+        <activity android:name="com.nitrogen.settings.fragments.HAFRAppListActivity" />
+
         <!-- This is the longest AndroidManifest.xml ever. -->
         <activity android:name=".Settings$NitrogenSettingsActivity"
                   android:label="@string/nitrogen_settings_title"
