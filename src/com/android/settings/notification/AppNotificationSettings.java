@@ -38,7 +38,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Switch;
 
-import com.abc.settings.preferences.CustomSeekBarPreference;
+import com.nitrogen.settings.preferences.CustomSeekBarPreference;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.AppHeader;
 import com.android.settings.R;
