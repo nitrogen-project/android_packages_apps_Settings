@@ -43,4 +43,11 @@
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Quick unlock</string>
     <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+
+    <!-- Custom light color -->
+    <string name="light_customization">Led light notification</string>
+    <string name="custom_light_title">Light color</string>
+    <string name="reset_light_color_suggestion">"Set to #00ffffff for default app/system value"</string>
+    <string name="custom_light_on_time_title">"Light ON time during led pulse (ms)"</string>
+    <string name="custom_light_off_time_title">"Light OFF time during led pulse (ms)"</string>
 </resources>
