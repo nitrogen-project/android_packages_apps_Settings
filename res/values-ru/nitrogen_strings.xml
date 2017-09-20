@@ -51,4 +51,5 @@
     <string name="custom_light_off_time_title">Длительность затухания светодиода (мс)</string>
     <string name="app_notifications_info_desc">Нажмите на название канала для редактирования индикации</string>
     <string name="value_equals_default">авто</string>
+    <string name="show_light_on_zen_title">Включить светодиод в режиме «Не беспокоить»</string>
 </resources>
