@@ -59,6 +59,7 @@
     <string name="app_ops_cat_messaging">SMS/MMS</string>
     <string name="app_ops_cat_media">Мультимедиа</string>
     <string name="app_ops_cat_device">Устройство</string>
+    <string name="app_ops_cat_bootup">Автозагрузка</string>
 
     <!-- App ops requests -->
     <string name="app_ops_access_camera">камера</string>
@@ -127,4 +128,5 @@
     <string name="app_ops_picture_in_picture">карт. в карт.</string>
     <string name="app_ops_app_start_foreground">запуск на перед. плане</string>
     <string name="app_ops_answer_phone_calls">ответ на звонок</string>
+    <string name="app_ops_boot_completed">автозагрузка</string>
 </resources>
