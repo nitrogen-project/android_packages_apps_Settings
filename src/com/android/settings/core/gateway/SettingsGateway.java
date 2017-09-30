@@ -127,6 +127,7 @@ import com.android.settings.wifi.WifiInfo;
 import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
+import com.nitrogen.settings.fragments.HeadsUpSettings;
 import com.nitrogen.settings.NitrogenSettings;
 
 public class SettingsGateway {
@@ -247,6 +248,7 @@ public class SettingsGateway {
             WebViewAppPicker.class.getName(),
             LockscreenDashboardFragment.class.getName(),
             NitrogenSettings.class.getName(),
+            HeadsUpSettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
