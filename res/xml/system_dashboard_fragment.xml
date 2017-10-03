@@ -18,6 +18,15 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/header_category_system">
 
+    <!-- Gestures -->
+    <Preference
+        android:key="gestures_dashboard"
+        android:title="@string/gesture_preference_title"
+        android:summary="@string/gesture_preference_summary"
+        android:icon="@drawable/ic_settings_gestures"
+        android:order="-90"
+        android:fragment="com.android.settings.system.GesturesFragment" />
+
     <!-- Backup -->
     <Preference
         android:key="backup_settings"
