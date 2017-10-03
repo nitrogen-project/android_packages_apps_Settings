@@ -176,4 +176,7 @@
     <!-- Menu label for reset the battery stats -->
     <string name="menu_stats_reset">Сброс статистики</string>
     <string name="reset_stats_msg">История использования батареи будет удалена</string>
+
+    <string name="battery_image">Иконка батареи</string>
+    <string name="battery_image_description">Показывать иконку батареи в строке состояния</string>
 </resources>
