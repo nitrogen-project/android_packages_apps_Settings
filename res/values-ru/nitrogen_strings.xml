@@ -30,4 +30,7 @@
     <!-- Charging vibration -->
     <string name="charging_sounds_nos_title">Звук при подкл. зарядки</string>
     <string name="charging_vibro_title">Вибрация при подкл. зарядки</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Звук при снятии скриншота</string>
 </resources>
