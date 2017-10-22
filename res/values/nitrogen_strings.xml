@@ -138,4 +138,7 @@
     <!-- Vendor version -->
     <string name="vendor_version">Vendor version</string>
     <string name="vendor_version_default">Unknown</string>
+
+    <!-- Charging vibration -->
+    <string name="charging_vibro_title">Charging vibration</string>
 </resources>

@@ -137,4 +137,7 @@
     <!-- Vendor version -->
     <string name="vendor_version">Версия Vendor</string>
     <string name="vendor_version_default">Неизвестно</string>
+
+    <!-- Charging vibration -->
+    <string name="charging_vibro_title">Вибрация при подкл. зарядки</string>
 </resources>
