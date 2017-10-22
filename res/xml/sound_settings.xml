@@ -217,6 +217,11 @@
         android:title="@string/boot_sounds_title"
         android:order="-15"/>
 
+    <!-- Screenshot sounds -->
+    <SwitchPreference
+        android:key="screenshot_sounds"
+        android:title="@string/screenshot_sound_title" />
+
     <!-- Emergency tone -->
     <DropDownPreference
         android:key="emergency_tone"
