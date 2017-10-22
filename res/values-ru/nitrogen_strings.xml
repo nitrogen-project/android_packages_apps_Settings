@@ -26,4 +26,8 @@
     <string name="custom_light_on_time_title">Длительность свечения светодиода (мс)</string>
     <string name="custom_light_off_time_title">Длительность затухания светодиода (мс)</string>
     <string name="value_equals_default">умолч.</string>
+
+    <!-- Charging vibration -->
+    <string name="charging_sounds_nos_title">Звук при подкл. зарядки</string>
+    <string name="charging_vibro_title">Вибрация при подкл. зарядки</string>
 </resources>
