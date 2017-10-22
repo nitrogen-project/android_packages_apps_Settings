@@ -30,4 +30,7 @@
     <string name="custom_light_off_time_title">Длительность затухания светодиода (мс)</string>
     <string name="value_equals_default">умолч.</string>
     <string name="show_light_on_zen_title">Включить светодиод в режиме «Не беспокоить»</string>
+
+    <!-- Charging vibration -->
+    <string name="charging_vibro_title">Вибрация при подкл. зарядки</string>
 </resources>
