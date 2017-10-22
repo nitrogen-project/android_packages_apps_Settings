@@ -23,4 +23,6 @@
     <string name="summary_dashboard_suggestions_enabled">Dashboard suggestions are enabled</string>
     <string name="summary_dashboard_suggestions_disabled">Dashboard suggestions are disabled</string>
 
+    <!-- Charging vibration -->
+    <string name="charging_vibro_title">Charging vibration</string>
 </resources>

@@ -23,4 +23,6 @@
     <string name="summary_dashboard_suggestions_enabled">Подсказки в главном меню включены</string>
     <string name="summary_dashboard_suggestions_disabled">Подсказки в главном меню выключены</string>
 
+    <!-- Charging vibration -->
+    <string name="charging_vibro_title">Вибрация при подкл. зарядки</string>
 </resources>
