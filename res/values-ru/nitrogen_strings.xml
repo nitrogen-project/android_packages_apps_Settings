@@ -24,4 +24,8 @@
     <!-- OTA -->
     <string name="nosupdate_settings_title">Обновления Nitrogen OS</string>
     <string name="nosupdate_settings_summary">Поиск обновлений</string>
+
+    <!-- Charging vibration -->
+    <string name="charging_sounds_nos_title">Звук при подкл. зарядки</string>
+    <string name="charging_vibro_title">Вибрация при подкл. зарядки</string>
 </resources>
