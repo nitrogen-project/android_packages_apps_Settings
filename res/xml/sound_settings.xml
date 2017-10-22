@@ -149,6 +149,11 @@
           android:title="@string/emergency_tone_title"
           android:summary="%s" />
 
+        <!-- Screenshot sounds -->
+        <SwitchPreference
+          android:key="screenshot_sounds"
+          android:title="@string/screenshot_sound_title" />
+
         <com.android.settingslib.RestrictedPreference
           android:key="cell_broadcast_settings"
           android:title="@string/cell_broadcast_settings"
