@@ -20,4 +20,8 @@
     <string name="changelog_title">Список изменений</string>
     <string name="changelog_summary">С момента последнего обновления</string>
     <string name="changelog_error">Не удается загрузить список изменений</string>
+
+    <!-- Charging vibration -->
+    <string name="charging_sounds_nos_title">Звук при подкл. зарядки</string>
+    <string name="charging_vibro_title">Вибрация при подкл. зарядки</string>
 </resources>
