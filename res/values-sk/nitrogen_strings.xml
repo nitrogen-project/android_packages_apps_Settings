@@ -59,7 +59,8 @@
 
     <string name="link_volume_option_title">Spojiť hlasitosť zvonenia a upozornení</string>
 
-   <!-- App Ops Categories -->
+    <!-- App Ops Settings -->
+    <!-- App Ops Categories -->
     <string name="app_ops_cat_location">Poloha</string>
     <string name="app_ops_cat_personal">Osobné údaje</string>
     <string name="app_ops_cat_messaging">SMS/MMS</string>
@@ -128,14 +129,23 @@
     <string name="app_ops_turn_on_screen">vypnúť obrazovku</string>
     <string name="app_ops_get_accounts">prístup k účtom</string>
     <string name="app_ops_run_in_background">bežať na pozadí</string>
-    <string name="app_ops_boot_completed">autoštart</string>
     <string name="app_ops_read_phone_numbers">čítať tel. číslo</string>
     <string name="app_ops_request_install_packages">inštalovať aplikácie</string>
     <string name="app_ops_picture_in_picture">obraz v obraze</string>
     <string name="app_ops_app_start_foreground">spustiť na popredí</string>
     <string name="app_ops_answer_phone_calls">prijať hovory</string>
+    <string name="app_ops_boot_completed">autoštart</string>
 
     <!-- Vendor version -->
     <string name="vendor_version">Verzia Vendor</string>
     <string name="vendor_version_default">Neznáma</string>
+
+    <!-- Charging vibration -->
+    <string name="charging_vibro_title">Vibrovanie nabíjania</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Zvuk pri snímke obrazovky</string>
+
+    <string name="decryption_settings_summary" product="default">Telefón nie je zašifrovaný</string>
+    <string name="decryption_settings_summary" product="tablet">Zariadenie nie je zašifrované</string>
 </resources>

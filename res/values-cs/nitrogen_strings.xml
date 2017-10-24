@@ -128,14 +128,23 @@
     <string name="app_ops_turn_on_screen">vypnout obrazovku</string>
     <string name="app_ops_get_accounts">přístup k účtům</string>
     <string name="app_ops_run_in_background">běžet na pozadí</string>
-    <string name="app_ops_boot_completed">autostart</string>
     <string name="app_ops_read_phone_numbers">číst tel. číslo</string>
     <string name="app_ops_request_install_packages">inštalovat aplikace</string>
     <string name="app_ops_picture_in_picture">obraz v obraze</string>
     <string name="app_ops_app_start_foreground">spustit na popředí</string>
     <string name="app_ops_answer_phone_calls">přijmout hovory</string>
+    <string name="app_ops_boot_completed">autostart</string>
 
     <!-- Vendor version -->
     <string name="vendor_version">Verze Vendor</string>
     <string name="vendor_version_default">Neznámá</string>
+
+    <!-- Charging vibration -->
+    <string name="charging_vibro_title">Vibrace při nabíjení</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Zvuk při snímku obrazovky</string>
+
+    <string name="decryption_settings_summary" product="default">Telefon není zašifrován</string>
+    <string name="decryption_settings_summary" product="tablet">Zařízení není zašifrované</string>
 </resources>
