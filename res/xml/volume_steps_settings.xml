@@ -57,4 +57,10 @@
                 android:entries="@array/volume_steps_entries"
                 android:entryValues="@array/volume_steps_entries" />
 
+        <ListPreference
+                android:key="volume_steps_bluetooth_sco"
+                android:title="@string/volume_steps_bluetooth_sco_title"
+                android:entries="@array/volume_steps_entries"
+                android:entryValues="@array/volume_steps_entries" />
+
 </PreferenceScreen>
