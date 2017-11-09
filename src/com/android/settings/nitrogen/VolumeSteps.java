@@ -55,6 +55,7 @@ public class VolumeSteps extends SettingsPreferenceFragment implements
         volume_map.put("volume_steps_ring", new Integer(AudioManager.STREAM_RING));
         volume_map.put("volume_steps_system", new Integer(AudioManager.STREAM_SYSTEM));
         volume_map.put("volume_steps_voice_call", new Integer(AudioManager.STREAM_VOICE_CALL));
+        volume_map.put("volume_steps_bluetooth_sco", new Integer(AudioManager.STREAM_BLUETOOTH_SCO));
     }
 
     // entries to remove on non-telephony devices
@@ -63,6 +64,7 @@ public class VolumeSteps extends SettingsPreferenceFragment implements
         telephony_set.add("volume_steps_dtmf");
         telephony_set.add("volume_steps_ring");
         telephony_set.add("volume_steps_voice_call");
+        telephony_set.add("volume_steps_bluetooth_sco");
     }
 
     // set of available pref keys after device configuration filter

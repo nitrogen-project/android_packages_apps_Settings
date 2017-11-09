@@ -154,6 +154,7 @@
     <string name="volume_steps_ring_title">Volume steps: Ringer</string>
     <string name="volume_steps_system_title">Volume steps: System</string>
     <string name="volume_steps_voice_call_title">Volume steps: Voice Call</string>
+    <string name="volume_steps_bluetooth_sco_title">Volume steps: Bluetooth call</string>
     <string name="volume_steps_reset">Reset</string>
     <string name="volume_steps_60" translatable="false">60</string>
     <string name="volume_steps_45" translatable="false">45</string>
