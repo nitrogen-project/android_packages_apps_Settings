@@ -32,17 +32,17 @@
     <string name="nosupdate_settings_title">Aktualizacje Nitrogen OS</string>
     <string name="nosupdate_settings_summary">Znajdź nowe aktualizacje</string>
 
-    <string name="dashboard_conditions_title">Warunki ustawień</string>
-    <string name="summary_dashboard_conditions_enabled">Warunki ustawień są włączone</string>
-    <string name="summary_dashboard_conditions_disabled">Warunki ustawień są wyłączone</string>
+    <string name="dashboard_conditions_title">Warunki w panelu ustawień</string>
+    <string name="summary_dashboard_conditions_enabled">Włączone</string>
+    <string name="summary_dashboard_conditions_disabled">Wyłączone</string>
 
-    <string name="dashboard_suggestions_title">Sugestie dotyczące ustawień</string>
-    <string name="summary_dashboard_suggestions_enabled">Sugestie ustawień są włączone</string>
-    <string name="summary_dashboard_suggestions_disabled">Sugestie ustawień są wyłączone</string>
+    <string name="dashboard_suggestions_title">Sugestie w panelu ustawień</string>
+    <string name="summary_dashboard_suggestions_enabled">Włączone</string>
+    <string name="summary_dashboard_suggestions_disabled">Wyłączone</string>
 
     <!-- Scramble PIN Layout on Lockscreen -->
-    <string name="unlock_scramble_pin_layout_title">Pomieszany układ</string>
-    <string name="unlock_scramble_pin_layout_summary">Pomieszany układ PIN podczas odblokowywania urządzenia</string>
+    <string name="unlock_scramble_pin_layout_title">Pomieszany układ PIN</string>
+    <string name="unlock_scramble_pin_layout_summary">Pomieszane cyfry podczas odblokowywania urządzenia</string>
 
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Szybkie odblokowywanie</string>
@@ -59,14 +59,12 @@
 
     <!-- App Ops Settings -->
     <!-- App Ops Categories -->
-	<string name="app_ops_cat_location">Lokalizacja</string>
-	<string name="app_ops_cat_personal">Osobiste</string>
-	<string name="app_ops_cat_messaging">Wiadomości</string>
-	<string name="app_ops_cat_media">Multimedia</string>
-	<string name="app_ops_cat_device">Urządzenie</string>
-	<string name="app_ops_cat_bootup">Rozruch</string>
-
-
+    <string name="app_ops_cat_location">Lokalizacja</string>
+    <string name="app_ops_cat_personal">Osobiste</string>
+    <string name="app_ops_cat_messaging">Wiadomości</string>
+    <string name="app_ops_cat_media">Multimedia</string>
+    <string name="app_ops_cat_device">Urządzenie</string>
+    <string name="app_ops_cat_bootup">Rozruch</string>
 
     <!-- [CHAR LIMIT=NONE] App ops labels -->
     <string name="app_ops_access_camera">dostęp do aparatu</string>
@@ -138,7 +136,7 @@
     <string name="app_ops_boot_completed">dostęp do autostartu</string>
 
     <!-- Vendor version -->
-    <string name="vendor_version">Wersja dostawcy</string>
+    <string name="vendor_version">Wersja Vendor</string>
     <string name="vendor_version_default">Nieznana</string>
 
     <!-- Charging vibration -->
@@ -149,26 +147,30 @@
 
     <!-- Volume Steps -->
     <string name="volume_steps_title">Kroki głośności</string>
-    <string name="volume_steps_alarm_title">Kroki głośności: Alarm</string>
-    <string name="volume_steps_dtmf_title">Kroki głośności: Wybieranie tonowe</string>
-    <string name="volume_steps_music_title">Kroki głośności: Multimedia</string>
-    <string name="volume_steps_notification_title">Kroki głośności: Powiadomienia</string>
-    <string name="volume_steps_ring_title">Kroki głośności: Dzwonek</string>
-    <string name="volume_steps_system_title">Kroki głośności: System</string>
-    <string name="volume_steps_voice_call_title">Kroki głośności: Połączenie głosowe</string>
-    <string name="volume_steps_bluetooth_sco_title">Kroki głośności: Połączenie bluetooth</string>
-    <string name="volume_steps_reset">Resetuj</string>
-    <string name="volume_steps_60" translatable="false">60</string>
-    <string name="volume_steps_45" translatable="false">45</string>
-    <string name="volume_steps_30" translatable="false">30</string>
-    <string name="volume_steps_15" translatable="false">15</string>
-    <string name="volume_steps_7" translatable="false">7</string>
-    <string name="volume_steps_5" translatable="false">5</string>
+    <string name="volume_steps_alarm_title">Alarm</string>
+    <string name="volume_steps_dtmf_title">Wybieranie numeru</string>
+    <string name="volume_steps_music_title">Multimedia</string>
+    <string name="volume_steps_notification_title">Powiadomienia</string>
+    <string name="volume_steps_ring_title">Dzwonek</string>
+    <string name="volume_steps_system_title">System</string>
+    <string name="volume_steps_voice_call_title">Połączenie głosowe</string>
+    <string name="volume_steps_bluetooth_sco_title">Połączenie Bluetooth</string>
+    <string name="volume_steps_reset">Zresetuj</string>
 
-    <string name="link_volume_option_title">Połącz dzwonek i głośność powiadomień</string>
+    <string name="link_volume_option_title">Połącz głośność dzwonka i powiadomień</string>
 
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Zwiększenie głośności dzwonka</string>
     <string name="increasing_ring_min_volume_title">Początkowa głośność</string>
     <string name="increasing_ring_ramp_up_time_title">Czas zwiększenia głośności</string>
+	
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Obracanie ekranu</string>
+    <string name="display_rotation_disabled">Wyłączone</string>
+    <string name="display_rotation_unit">stopni</string>
+    <string name="display_rotation_category_title">Tryby obracania</string>
+    <string name="display_rotation_0_title">0 stopni</string>
+    <string name="display_rotation_90_title">90 stopni</string>
+    <string name="display_rotation_180_title">180 stopni</string>
+    <string name="display_rotation_270_title">270 stopni</string>
 </resources>
