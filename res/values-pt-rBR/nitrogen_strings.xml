@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Pure Nexus Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <!-- Nitrogen Settings -->
+  <string name="nitrogen_settings_title">Personalização</string>
+  <string name="nitrogen_settings_summary">Configurações adicionais</string>
+  
+  <!-- Development Settings -->
+  <!-- Dev Options Enabled by Default -->
+  <string name="show_dev_already_enabled">Não é necessário, Opções de desenvolvedor são ativas por padrão.</string>
+  
+  <!-- Phone info shortcut -->
+  <string name="device_info_title">Informação do telefone</string>
+  
+  <!-- Changelog -->
+  <string name="changelog_title">Lista de mudanças</string>
+  <string name="changelog_summary">Desde a última atualização</string>
+  <string name="changelog_error">Não é possível carregar lista de mudanças</string>
+  
+  <!-- OTA -->
+  <string name="nosupdate_settings_title">Atualizações Nitrogen OS</string>
+  <string name="nosupdate_settings_summary">Encontrar novas atualizações</string>
+  
+  <string name="dashboard_conditions_title">Condições do painel</string>
+  <string name="summary_dashboard_conditions_enabled">As condições do painel estão ativadas</string>
+  <string name="summary_dashboard_conditions_disabled">As condições do painel estão desativadas</string>
+  
+  <string name="dashboard_suggestions_title">Sugestões do painel</string>
+  <string name="summary_dashboard_suggestions_enabled">As sugestões do painel estão ativadas</string>
+  <string name="summary_dashboard_suggestions_disabled">As sugestões do painel estão desativadas</string>
+  
+  <!-- Scramble PIN Layout on Lockscreen -->
+  <string name="unlock_scramble_pin_layout_title">Misturar disposição</string>
+  <string name="unlock_scramble_pin_layout_summary">Misturar disposição do PIN ao bloquear o aparelho</string>
+  
+  <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">Desbloqueio rápido</string>
+  <string name="unlock_quick_unlock_control_summary">Desbloquear automaticamente quando a PIN/senha correta é inserida</string>
+  
+  <!-- Custom light color -->
+  <string name="light_customization">Notificação de luz led</string>
+  <string name="custom_light_title">Cor da luz</string>
+  <string name="custom_light_on_time_title">Tempo de ativação da luz durante o pulso led (ms)</string>
+  <string name="custom_light_off_time_title">Tempo de desligamento da luz durante o pulso led (ms)\"</string>
+  <string name="app_notifications_info_desc">Toque em um dos canais acima para configurar suas cores de luz e outras opções</string>
+  <string name="value_equals_default">def</string>
+  <string name="show_light_on_zen_title">Piscar durante modo Não perturbe</string>
+  
+  <!-- App Ops Settings -->
+  <!-- App Ops Categories -->
+  <string name="app_ops_cat_location">Localização</string>
+  <string name="app_ops_cat_personal">Pessoal</string>
+  <string name="app_ops_cat_messaging">Mensagem</string>
+  <string name="app_ops_cat_media">Mídia</string>
+  <string name="app_ops_cat_device">Dispositivo</string>
+  <string name="app_ops_cat_bootup">Inicializar</string>
+  
+  <!-- [CHAR LIMIT=NONE] App ops labels -->
+  <string name="app_ops_access_camera">câmera</string>
+  <string name="app_ops_access_location">localização</string>
+  <string name="app_ops_access_notifications">notificações</string>
+  <string name="app_ops_activate_vpn">VPN</string>
+  <string name="app_ops_auto_start">auto iniciar</string>
+  <string name="app_ops_delete_call_log">excluir registro de chamadas</string>
+  <string name="app_ops_delete_contacts">excluir contatos</string>
+  <string name="app_ops_delete_mms">excluir MMS</string>
+  <string name="app_ops_delete_sms">apagar SMS</string>
+  <string name="app_ops_draw_on_top">desenhar por cima</string>
+  <string name="app_ops_get_usage_stats">obter dados de uso</string>
+  <string name="app_ops_keep_device_awake">manter acordado</string>
+  <string name="app_ops_make_phone_call">fazer chamada</string>
+  <string name="app_ops_modify_calendar">atualizar agenda</string>
+  <string name="app_ops_modify_call_log">atualizar registro de chamadas</string>
+  <string name="app_ops_modify_clipboard">modificar área de transferência</string>
+  <string name="app_ops_modify_contacts">atualizar contatos</string>
+  <string name="app_ops_modify_settings">atualizar configurações</string>
+  <string name="app_ops_mute_unmute_microphone">colocar/retirar microfone do mudo</string>
+  <string name="app_ops_play_audio">reproduzir áudio</string>
+  <string name="app_ops_post_notification">publicar notificação</string>
+  <string name="app_ops_project_media">projetar mídia</string>
+  <string name="app_ops_read_calendar">ler agenda</string>
+  <string name="app_ops_read_call_log">ler registro de chamadas</string>
+  <string name="app_ops_read_clipboard">ler área de transferência</string>
+  <string name="app_ops_read_contacts">ler contatos</string>
+  <string name="app_ops_read_mms">ler MMS</string>
+  <string name="app_ops_read_sms">ler SMS</string>
+  <string name="app_ops_receive_sms">receber SMS</string>
+  <string name="app_ops_record_audio">gravar áudio</string>
+  <string name="app_ops_send_mms">enviar MMS</string>
+  <string name="app_ops_send_sms">enviar SMS</string>
+  <string name="app_ops_toast_window">mensagens flutuantes</string>
+  <string name="app_ops_use_alarm_volume">volume do alarme</string>
+  <string name="app_ops_use_audio_focus">foco do áudio</string>
+  <string name="app_ops_use_bluetooth_volume">volume do Bluetooth</string>
+  <string name="app_ops_use_master_volume">volume principal</string>
+  <string name="app_ops_use_media_buttons">botões de mídia</string>
+  <string name="app_ops_use_media_volume">volume de mídia</string>
+  <string name="app_ops_use_notification_volume">volume de notificação</string>
+  <string name="app_ops_use_ring_volume">volume do toque</string>
+  <string name="app_ops_use_vibrate">resposta tátil</string>
+  <string name="app_ops_use_voice_volume">volume da chamada de voz</string>
+  <string name="app_ops_write_mms">escrever MMS</string>
+  <string name="app_ops_write_sms">escrever SMSe</string>
+  <string name="app_ops_use_fingerprint">impressão digital</string>
+  <string name="app_ops_add_voicemail">correio de voz</string>
+  <string name="app_ops_read_phone_state">acessar estado do telefone</string>
+  <string name="app_ops_scan_wifi">Escanerar Redes WiFi</string>
+  <string name="app_ops_change_wallpaper">alterar papel de parede</string>
+  <string name="app_ops_assist_structure">estrutura de assistência</string>
+  <string name="app_ops_assist_screenshot">captura de tela</string>
+  <string name="app_ops_use_body_sensors">sensores de corpo</string>
+  <string name="app_ops_read_cell_broadcasts">transmissões celulares</string>
+  <string name="app_ops_mock_location">simular localização</string>
+  <string name="app_ops_read_external_storage">ler arm. ext.</string>
+  <string name="app_ops_write_external_storage">escrever arm. ext.</string>
+  <string name="app_ops_turn_on_screen">ligar tela</string>
+  <string name="app_ops_get_accounts">contas do aparelho</string>
+  <string name="app_ops_run_in_background">rodar em segundo plano</string>
+  <string name="app_ops_accessibility_volume">volume de acessibilidade</string>
+  <string name="app_ops_read_phone_numbers">ler núm. do telephone</string>
+  <string name="app_ops_request_install_packages">instalar pacotes</string>
+  <string name="app_ops_picture_in_picture">pip</string>
+  <string name="app_ops_app_start_foreground">iniciar prim. plano</string>
+  <string name="app_ops_answer_phone_calls">atender chamadas</string>
+  <string name="app_ops_boot_completed">auto iniciar</string>
+  
+  <!-- Vendor version -->
+  <string name="vendor_version">Versão do Vendor</string>
+  <string name="vendor_version_default">Desconhecido</string>
+  
+  <!-- Charging vibration -->
+  <string name="charging_vibro_title">Vibração de carregamento</string>
+  
+  <!-- Screenshot sound -->
+  <string name="screenshot_sound_title">Som de captura de tela</string>
+  
+  <!-- Volume Steps -->
+  <string name="volume_steps_title">Etapas do volume</string>
+  <string name="volume_steps_alarm_title">Etapas do volume: Alarme</string>
+  <string name="volume_steps_dtmf_title">Etapas do volume: DTMF</string>
+  <string name="volume_steps_music_title">Etapas do volume: Música</string>
+  <string name="volume_steps_notification_title">Etapas do volume: Notificação</string>
+  <string name="volume_steps_ring_title">Etapas do volume: Toque</string>
+  <string name="volume_steps_system_title">Etapas do volume: Sistema</string>
+  <string name="volume_steps_voice_call_title">Etapas do volume: Chamada de Voz</string>
+  <string name="volume_steps_bluetooth_sco_title">Etapas do volume: Chamada Bluetooth</string>
+  <string name="volume_steps_reset">Redefinir</string>
+  <string name="volume_steps_60" translatable="false">60</string>
+  <string name="volume_steps_45" translatable="false">45</string>
+  <string name="volume_steps_30" translatable="false">30</string>
+  <string name="volume_steps_15" translatable="false">15</string>
+  <string name="volume_steps_7" translatable="false">7</string>
+  <string name="volume_steps_5" translatable="false">5</string>
+  
+  <string name="link_volume_option_title">Unir volumes de ligação e notificação</string>
+  
+  <!-- Increasing ring tone volume -->
+  <string name="increasing_ring_volume_option_title">Volume de toque crescente</string>
+  <string name="increasing_ring_min_volume_title">Volume inicial</string>
+  <string name="increasing_ring_ramp_up_time_title">Tempo de acréscimo</string>
+  
+  <!-- Display : Rotation -->
+  <string name="display_rotation_title">Rotação</string>
+  <string name="display_rotation_disabled">Desativado</string>
+  <string name="display_rotation_unit">graus</string>
+  <string name="display_rotation_category_title">Modos de rotação</string>
+  <string name="display_rotation_0_title">0 grau</string>
+  <string name="display_rotation_90_title">90 graus</string>
+  <string name="display_rotation_180_title">180 graus</string>
+  <string name="display_rotation_270_title">270 graus</string>
+</resources>
