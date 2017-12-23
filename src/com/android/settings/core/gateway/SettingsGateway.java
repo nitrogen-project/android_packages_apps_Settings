@@ -132,6 +132,7 @@ import com.android.settings.wifi.WifiInfo;
 import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
+import com.nitrogen.settings.fragments.ButtonSettings;
 import com.nitrogen.settings.fragments.HeadsUpSettings;
 import com.nitrogen.settings.NitrogenSettings;
 import com.nitrogen.settings.fragments.FlingSettings;
@@ -265,7 +266,8 @@ public class SettingsGateway {
             NavbarSettings.class.getName(),
             FlingSettings.class.getName(),
             SmartbarSettings.class.getName(),
-            PulseSettings.class.getName()
+            PulseSettings.class.getName(),
+            ButtonSettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
