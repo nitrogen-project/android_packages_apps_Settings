@@ -92,6 +92,6 @@ public class AmbientDisplayNotificationsPreferenceController extends
 
         return new InlineSwitchPayload(Settings.Secure.DOZE_ENABLED,
                 ResultPayload.SettingsSource.SECURE, ON /* onValue */, intent, isAvailable(),
-                ON /* defaultValue */);
+                OFF /* defaultValue */);
     }
 }

@@ -94,6 +94,6 @@ public class DoubleTapScreenPreferenceController extends GesturePreferenceContro
                 mContext.getString(R.string.display_settings));
 
         return new InlineSwitchPayload(SECURE_KEY, ResultPayload.SettingsSource.SECURE,
-                ON /* onValue */, intent, isAvailable(), ON /* defaultValue */);
+                ON /* onValue */, intent, isAvailable(), OFF /* defaultValue */);
     }
 }
