@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Pure Nexus Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Nitrogen Settings -->
+    <string name="nitrogen_settings_title">Personalizare</string>
+    <string name="nitrogen_settings_summary">Setări adiţionale</string>
+
+    <!-- Development Settings -->
+    <!-- Dev Options Enabled by Default -->
+    <string name="show_dev_already_enabled">Nu este necesar, setările de dezvoltare sunt activate în mod implicit.</string>
+
+    <!-- Phone info shortcut -->
+    <string name="device_info_title">Informaţii telefon</string>
+
+    <!-- Changelog -->
+    <string name="changelog_title">Jurnal modificări</string>
+    <string name="changelog_summary">De la ultima actualizare</string>
+    <string name="changelog_error">Imposibil de încărcat jurnalul cu modificări</string>
+
+    <!-- OTA -->
+    <string name="nosupdate_settings_title">Actualizări Nitrogen OS</string>
+    <string name="nosupdate_settings_summary">Căutaţi actualizăti noi</string>
+
+    <string name="dashboard_conditions_title">Condiții tablou de bord</string>
+    <string name="summary_dashboard_conditions_enabled">Condiții tablou de bord activate</string>
+    <string name="summary_dashboard_conditions_disabled">Condiții tablou de bord dezactivate</string>
+
+    <string name="dashboard_suggestions_title">Sugestii tablou de bord</string>
+    <string name="summary_dashboard_suggestions_enabled">Sugestii tablou de bord activate</string>
+    <string name="summary_dashboard_suggestions_disabled">Sugestii tablou de bord dezactivate</string>
+
+    <!-- Scramble PIN Layout on Lockscreen -->
+    <string name="unlock_scramble_pin_layout_title">Amestecare aspect</string>
+    <string name="unlock_scramble_pin_layout_summary">Modificați aspectul codului PIN atunci când deblocați dispozitivul</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Deblocare rapidă</string>
+    <string name="unlock_quick_unlock_control_summary">Deblocare automată când este introdus PIN-ul/parola corectă</string>
+
+    <!-- Custom light color -->
+    <string name="light_customization">Lumină de notificare</string>
+    <string name="custom_light_title">Culoare lumină</string>
+    <string name="custom_light_on_time_title">Durată puls lumină pornită (ms)</string>
+    <string name="custom_light_off_time_title">Durată puls lumină oprită (ms)</string>
+    <string name="app_notifications_info_desc">Atingeți unul dintre canalele de mai sus pentru a configura culorile luminii și alte opțiuni</string>
+    <string name="show_light_on_zen_title">Clipire în timpul "Nu deranja"</string>
+
+    <!-- App Ops Settings -->
+    <!-- App Ops Categories -->
+    <string name="app_ops_cat_location">Locaţie</string>
+    <string name="app_ops_cat_personal">Personal</string>
+    <string name="app_ops_cat_messaging">Mesagerie</string>
+    <string name="app_ops_cat_media">Media</string>
+    <string name="app_ops_cat_device">Dispozitiv</string>
+    <string name="app_ops_cat_bootup">Pornire</string>
+
+    <!-- [CHAR LIMIT=NONE] App ops labels -->
+    <string name="app_ops_access_camera">cameră</string>
+    <string name="app_ops_access_location">locaţie</string>
+    <string name="app_ops_access_notifications">notificări</string>
+    <string name="app_ops_activate_vpn">VPN</string>
+    <string name="app_ops_auto_start">pornire automată</string>
+    <string name="app_ops_delete_call_log">ștergere jurnal de apeluri</string>
+    <string name="app_ops_delete_contacts">ştergere contacte</string>
+    <string name="app_ops_delete_mms">ştergere MMS</string>
+    <string name="app_ops_delete_sms">ştergere SMS</string>
+    <string name="app_ops_draw_on_top">afişare deasupra</string>
+    <string name="app_ops_get_usage_stats">obținere statistici de utilizare</string>
+    <string name="app_ops_keep_device_awake">menţinere activ</string>
+    <string name="app_ops_make_phone_call">efectuare apel</string>
+    <string name="app_ops_modify_calendar">actualizare calendar</string>
+    <string name="app_ops_modify_call_log">actualizare jurnal de apeluri</string>
+    <string name="app_ops_modify_clipboard">modificare clipboard</string>
+    <string name="app_ops_modify_contacts">actualizare contacte</string>
+    <string name="app_ops_modify_settings">actualizare setări</string>
+    <string name="app_ops_mute_unmute_microphone">oprire/pornire microfon</string>
+    <string name="app_ops_play_audio">redare audio</string>
+    <string name="app_ops_post_notification">plasare notificatire</string>
+    <string name="app_ops_project_media">proiectare media</string>
+    <string name="app_ops_read_calendar">citire calendar</string>
+    <string name="app_ops_read_call_log">citire jurnal de apeluri</string>
+    <string name="app_ops_read_clipboard">citire clipboard</string>
+    <string name="app_ops_read_contacts">citire contacte</string>
+    <string name="app_ops_read_mms">citire MMS</string>
+    <string name="app_ops_read_sms">citire SMS</string>
+    <string name="app_ops_receive_sms">recepţionare SMS</string>
+    <string name="app_ops_record_audio">înregistrare audio</string>
+    <string name="app_ops_send_mms">trimitere MMS</string>
+    <string name="app_ops_send_sms">trimitere SMS</string>
+    <string name="app_ops_toast_window">mesaj plutitor</string>
+    <string name="app_ops_use_alarm_volume">volum alarmă</string>
+    <string name="app_ops_use_audio_focus">focusare audio</string>
+    <string name="app_ops_use_bluetooth_volume">volum bluetooth</string>
+    <string name="app_ops_use_master_volume">volum principal</string>
+    <string name="app_ops_use_media_buttons">butoane media</string>
+    <string name="app_ops_use_media_volume">volum media</string>
+    <string name="app_ops_use_notification_volume">volum notificări</string>
+    <string name="app_ops_use_ring_volume">volum sonerie</string>
+    <string name="app_ops_use_vibrate">vibrare la atingere</string>
+    <string name="app_ops_use_voice_volume">volum apel vocal</string>
+    <string name="app_ops_write_mms">scriere MMS</string>
+    <string name="app_ops_write_sms">scriere SMS</string>
+    <string name="app_ops_use_fingerprint">amprentă</string>
+    <string name="app_ops_add_voicemail">mesagerie vocală</string>
+    <string name="app_ops_read_phone_state">accesare stare telefon</string>
+    <string name="app_ops_scan_wifi">scanare reţele WiFi</string>
+    <string name="app_ops_change_wallpaper">schimbare imagine de fundal</string>
+    <string name="app_ops_assist_structure">structură asistent</string>
+    <string name="app_ops_assist_screenshot">captură de ecran</string>
+    <string name="app_ops_use_body_sensors">senzori corporali</string>
+    <string name="app_ops_read_cell_broadcasts">transmisii celulare</string>
+    <string name="app_ops_mock_location">locaţie falsă</string>
+    <string name="app_ops_read_external_storage">citire stoc. ext.</string>
+    <string name="app_ops_write_external_storage">scriere stoc. ext.</string>
+    <string name="app_ops_turn_on_screen">pornire ecran</string>
+    <string name="app_ops_get_accounts">conturi dispozitiv</string>
+    <string name="app_ops_run_in_background">rulare în fundal</string>
+    <string name="app_ops_accessibility_volume">volum accessibilitate</string>
+    <string name="app_ops_read_phone_numbers">citire num. de telefon</string>
+    <string name="app_ops_request_install_packages">instalare pachete</string>
+    <string name="app_ops_picture_in_picture">pip</string>
+    <string name="app_ops_app_start_foreground">rulare în prim plan</string>
+    <string name="app_ops_answer_phone_calls">răspude la apel</string>
+    <string name="app_ops_boot_completed">pornire automată</string>
+
+    <!-- Vendor version -->
+    <string name="vendor_version">Versiune furnizor</string>
+    <string name="vendor_version_default">Necunoscut</string>
+
+    <!-- Charging vibration -->
+    <string name="charging_vibro_title">Vibrare la încărcare</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Sunet captură de ecran</string>
+
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">Trepte volum</string>
+    <string name="volume_steps_alarm_title">Trepte volum: Alarmă</string>
+    <string name="volume_steps_dtmf_title">Trepte volum: DTMF</string>
+    <string name="volume_steps_music_title">Trepte volum: Muzică</string>
+    <string name="volume_steps_notification_title">Trepte volum: Notificări</string>
+    <string name="volume_steps_ring_title">Trepte volum: Sonerie</string>
+    <string name="volume_steps_system_title">Trepte volum: Sistem</string>
+    <string name="volume_steps_voice_call_title">Trepte volum: Apel vocal</string>
+    <string name="volume_steps_bluetooth_sco_title">Trepte volums: Apel bluetooth</string>
+    <string name="volume_steps_reset">Resetare</string>
+
+    <string name="link_volume_option_title">Legare volum sonerie și notificări</string>
+
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Volum sonerie ascendent</string>
+    <string name="increasing_ring_min_volume_title">Volum de pornire</string>
+    <string name="increasing_ring_ramp_up_time_title">Timpe de creştere</string>
+
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Rotaţie</string>
+    <string name="display_rotation_disabled">Dezactivată</string>
+    <string name="display_rotation_unit">grade</string>
+    <string name="display_rotation_category_title">Moduri rotaţie</string>
+    <string name="display_rotation_0_title">0 grade</string>
+    <string name="display_rotation_90_title">90 grade</string>
+    <string name="display_rotation_180_title">180 grade</string>
+    <string name="display_rotation_270_title">270 grade</string>
+
+    <!-- Menu label for reset the battery stats -->
+    <string name="menu_stats_reset">Resetare statistici</string>
+    <!-- Reset stats confirmation dialog's message -->
+    <string name="reset_stats_msg">Statisticile istoricului bateriei vor fi resetate</string>
+
+    <string name="battery_image">Imagine baterie</string>
+    <string name="battery_image_description">Afișare imagine baterie în bara de stare</string>
+</resources>
