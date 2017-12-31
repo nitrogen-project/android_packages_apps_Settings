@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Pure Nexus Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Nitrogen Settings -->
+    <string name="nitrogen_settings_title">Nitrogen 设置</string>
+    <string name="nitrogen_settings_summary">附加设置</string>
+
+    <!-- Development Settings -->
+    <!-- Dev Options Enabled by Default -->
+    <string name="show_dev_already_enabled">不需要，开发者选项已默认启用。</string>
+
+    <!-- Phone info shortcut -->
+    <string name="device_info_title">手机信息</string>
+
+    <!-- Changelog -->
+    <string name="changelog_title">更新日志</string>
+    <string name="changelog_summary">自上次更新以来</string>
+    <string name="changelog_error">无法加载更新日志</string>
+
+    <!-- OTA -->
+    <string name="nosupdate_settings_title">Nitrogen OS 更新</string>
+    <string name="nosupdate_settings_summary">检查更新</string>
+
+    <string name="dashboard_conditions_title">仪表盘条件</string>
+    <string name="summary_dashboard_conditions_enabled">仪表盘条件已被启用</string>
+    <string name="summary_dashboard_conditions_disabled">仪表盘条件已被禁用</string>
+
+    <string name="dashboard_suggestions_title">仪表盘建议</string>
+    <string name="summary_dashboard_suggestions_enabled">仪表盘建议已被启用</string>
+    <string name="summary_dashboard_suggestions_disabled">仪表盘建议已被禁用</string>
+
+    <!-- Scramble PIN Layout on Lockscreen -->
+    <string name="unlock_scramble_pin_layout_title">打乱布局</string>
+    <string name="unlock_scramble_pin_layout_summary">在解锁设备时打乱PIN 码布局</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">快速解锁</string>
+    <string name="unlock_quick_unlock_control_summary">输入正确的PIN 码/密码后自动解锁设备</string>
+
+    <!-- Custom light color -->
+    <string name="light_customization">通知指示灯</string>
+    <string name="custom_light_title">指示灯颜色</string>
+    <string name="custom_light_on_time_title">指示灯保持点亮时间 (ms)</string>
+    <string name="custom_light_off_time_title">指示灯保持熄灭时间 (ms)"</string>
+    <string name="app_notifications_info_desc">点击上面的一个渠道来配置他们发光的颜色和其他选项</string>
+    <string name="value_equals_default">默认</string>
+    <string name="show_light_on_zen_title">在免打扰期间闪烁</string>
+
+    <!-- App Ops Settings -->
+    <!-- App Ops Categories -->
+    <string name="app_ops_cat_location">Location</string>
+    <string name="app_ops_cat_personal">Personal</string>
+    <string name="app_ops_cat_messaging">Messaging</string>
+    <string name="app_ops_cat_media">Media</string>
+    <string name="app_ops_cat_device">Device</string>
+    <string name="app_ops_cat_bootup">Bootup</string>
+
+    <!-- [CHAR LIMIT=NONE] App ops labels -->
+    <string name="app_ops_access_camera">camera</string>
+    <string name="app_ops_access_location">location</string>
+    <string name="app_ops_access_notifications">notifications</string>
+    <string name="app_ops_activate_vpn">VPN</string>
+    <string name="app_ops_auto_start">autostart</string>
+    <string name="app_ops_delete_call_log">delete call log</string>
+    <string name="app_ops_delete_contacts">delete contacts</string>
+    <string name="app_ops_delete_mms">delete MMS</string>
+    <string name="app_ops_delete_sms">delete SMS</string>
+    <string name="app_ops_draw_on_top">draw on top</string>
+    <string name="app_ops_get_usage_stats">get usage stats</string>
+    <string name="app_ops_keep_device_awake">keep awake</string>
+    <string name="app_ops_make_phone_call">make call</string>
+    <string name="app_ops_modify_calendar">update calendar</string>
+    <string name="app_ops_modify_call_log">update call log</string>
+    <string name="app_ops_modify_clipboard">modify clipboard</string>
+    <string name="app_ops_modify_contacts">update contacts</string>
+    <string name="app_ops_modify_settings">update settings</string>
+    <string name="app_ops_mute_unmute_microphone">mute/unmutee mic</string>
+    <string name="app_ops_play_audio">play audio</string>
+    <string name="app_ops_post_notification">post notification</string>
+    <string name="app_ops_project_media">project media</string>
+    <string name="app_ops_read_calendar">read calendar</string>
+    <string name="app_ops_read_call_log">read call log</string>
+    <string name="app_ops_read_clipboard">read clipboard</string>
+    <string name="app_ops_read_contacts">read contacts</string>
+    <string name="app_ops_read_mms">read MMS</string>
+    <string name="app_ops_read_sms">read SMS</string>
+    <string name="app_ops_receive_sms">receive SMS</string>
+    <string name="app_ops_record_audio">record audio</string>
+    <string name="app_ops_send_mms">send MMS</string>
+    <string name="app_ops_send_sms">send SMS</string>
+    <string name="app_ops_toast_window">toast messages</string>
+    <string name="app_ops_use_alarm_volume">alarm volume</string>
+    <string name="app_ops_use_audio_focus">audio focus</string>
+    <string name="app_ops_use_bluetooth_volume">Bluetooth volume</string>
+    <string name="app_ops_use_master_volume">master volume</string>
+    <string name="app_ops_use_media_buttons">media buttons</string>
+    <string name="app_ops_use_media_volume">media volume</string>
+    <string name="app_ops_use_notification_volume">notification volume</string>
+    <string name="app_ops_use_ring_volume">ringtone volume</string>
+    <string name="app_ops_use_vibrate">haptic feedback</string>
+    <string name="app_ops_use_voice_volume">voice call volume</string>
+    <string name="app_ops_write_mms">write MMS</string>
+    <string name="app_ops_write_sms">write SMSe</string>
+    <string name="app_ops_use_fingerprint">fingerprint</string>
+    <string name="app_ops_add_voicemail">voicemail</string>
+    <string name="app_ops_read_phone_state">access phone state</string>
+    <string name="app_ops_scan_wifi">Scan WiFi Networks</string>
+    <string name="app_ops_change_wallpaper">change wallpaper</string>
+    <string name="app_ops_assist_structure">assist structure</string>
+    <string name="app_ops_assist_screenshot">screenshot</string>
+    <string name="app_ops_use_body_sensors">body sensors</string>
+    <string name="app_ops_read_cell_broadcasts">cell broadcasts</string>
+    <string name="app_ops_mock_location">mock location</string>
+    <string name="app_ops_read_external_storage">read ext. stor.</string>
+    <string name="app_ops_write_external_storage">write ext. stor.</string>
+    <string name="app_ops_turn_on_screen">turn screen on</string>
+    <string name="app_ops_get_accounts">device accounts</string>
+    <string name="app_ops_run_in_background">run in background</string>
+    <string name="app_ops_accessibility_volume">accessibility volume</string>
+    <string name="app_ops_read_phone_numbers">read phone num.</string>
+    <string name="app_ops_request_install_packages">install packages</string>
+    <string name="app_ops_picture_in_picture">pip</string>
+    <string name="app_ops_app_start_foreground">start foreground</string>
+    <string name="app_ops_answer_phone_calls">answer calls</string>
+    <string name="app_ops_boot_completed">auto start</string>
+
+    <!-- Vendor version -->
+    <string name="vendor_version">Vendor 版本</string>
+    <string name="vendor_version_default">未知</string>
+
+    <!-- Charging vibration -->
+    <string name="charging_vibro_title">插/拔充电器时振动</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">截图声音</string>
+
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">音量档数</string>
+    <string name="volume_steps_alarm_title">闹钟</string>
+    <string name="volume_steps_dtmf_title">DTMF</string>
+    <string name="volume_steps_music_title">媒体</string>
+    <string name="volume_steps_notification_title">通知</string>
+    <string name="volume_steps_ring_title">铃声</string>
+    <string name="volume_steps_system_title">系统</string>
+    <string name="volume_steps_voice_call_title">语音通话</string>
+    <string name="volume_steps_bluetooth_sco_title">蓝牙通话</string>
+    <string name="volume_steps_reset">重置</string>
+    <string name="volume_steps_60" translatable="false">60</string>
+    <string name="volume_steps_45" translatable="false">45</string>
+    <string name="volume_steps_30" translatable="false">30</string>
+    <string name="volume_steps_15" translatable="false">15</string>
+    <string name="volume_steps_7" translatable="false">7</string>
+    <string name="volume_steps_5" translatable="false">5</string>
+
+    <string name="link_volume_option_title">同步铃声音量和通知音量</string>
+
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">增加铃声音量</string>
+    <string name="increasing_ring_min_volume_title">开始音量</string>
+    <string name="increasing_ring_ramp_up_time_title">加速时间</string>
+
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">旋转</string>
+    <string name="display_rotation_disabled">禁用</string>
+    <string name="display_rotation_unit">度</string>
+    <string name="display_rotation_category_title">旋转模式</string>
+    <string name="display_rotation_0_title">0 度</string>
+    <string name="display_rotation_90_title">90 度</string>
+    <string name="display_rotation_180_title">180 度</string>
+    <string name="display_rotation_270_title">270 度</string>
+
+    <!-- Menu label for reset the battery stats -->
+    <string name="menu_stats_reset">Reset stats</string>
+    <!-- Reset stats confirmation dialog's message -->
+    <string name="reset_stats_msg">Battery history stats are going to be reset</string>
+
+    <string name="battery_image">电池图标</string>
+    <string name="battery_image_description">在状态栏上显示电池图标</string>
+</resources>
