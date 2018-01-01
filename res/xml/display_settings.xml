@@ -64,6 +64,12 @@
         android:title="@string/display_rotation_title" />
 
     <Preference
+        android:key="color_manager"
+        android:title="@string/color_manager_title"
+        android:summary="@string/color_manager_summary"
+        android:fragment="com.android.settings.aoscp.display.ColorManagerFragment" />
+
+    <Preference
         android:key="color_mode"
         android:title="@string/color_mode_title"
         android:fragment="com.android.settings.display.ColorModePreferenceFragment"
@@ -116,11 +122,6 @@
         android:key="tap_to_wake"
         android:title="@string/tap_to_wake"
         android:summary="@string/tap_to_wake_summary" />
-
-    <ListPreference
-        android:key="theme"
-        android:title="@string/device_theme"
-        android:summary="@string/summary_placeholder" />
 
     <Preference
         android:key="vr_display_pref"
