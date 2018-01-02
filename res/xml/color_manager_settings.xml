@@ -32,6 +32,11 @@
         android:key="theme_dark"
         android:title="@string/theme_dark_title"
         android:summary="@string/theme_dark_title_summary" />
+  
+    <com.android.settings.widget.RadioButtonPreference
+        android:key="theme_black"
+        android:title="@string/theme_black_title"
+        android:summary="@string/theme_black_title_summary" />
 
     <ListPreference
         android:key="theme"

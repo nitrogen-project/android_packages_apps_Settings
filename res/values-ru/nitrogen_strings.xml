@@ -179,4 +179,19 @@
 
     <string name="battery_image">Иконка батареи</string>
     <string name="battery_image_description">Показывать иконку батареи в строке состояния</string>
+
+    <!-- Color Manager -->
+    <string name="color_manager_title">Управление цветом</string>
+    <string name="color_manager_summary">Изменение цвета системы и выбор тем</string>
+    <!-- Color Manager: Options -->
+    <string name="theme_auto_title">Авто</string>
+    <string name="theme_auto_title_summary">Выбор темы по установленным обоям</string>
+    <string name="theme_light_title">Светлая</string>
+    <string name="theme_light_title_summary">Белая тема системы</string>
+    <string name="theme_dark_title">Темная</string>
+    <string name="theme_dark_title_summary">Темная тема системы</string>
+    <string name="theme_black_title">Черная</string>
+    <string name="theme_black_title_summary">Черная темы системы</string>
+    <!-- Color Manager: Device accent -->
+    <string name="device_accent_title">Основной цвет</string>
 </resources>
