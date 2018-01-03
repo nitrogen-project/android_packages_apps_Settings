@@ -74,8 +74,8 @@
     <string name="app_ops_auto_start">dostęp do autostartu</string>
     <string name="app_ops_delete_call_log">usuwanie historii połączeń</string>
     <string name="app_ops_delete_contacts">usuwanie kontaktów</string>
-    <string name="app_ops_delete_mms">usuwanie MMS</string>
-    <string name="app_ops_delete_sms">usuwanie SMS</string>
+    <string name="app_ops_delete_mms">usuwanie MMS-ów</string>
+    <string name="app_ops_delete_sms">usuwanie SMS-ów</string>
     <string name="app_ops_draw_on_top">wyświetlanie nad innymi</string>
     <string name="app_ops_get_usage_stats">dostęp do statystyk wykorzystania baterii</string>
     <string name="app_ops_keep_device_awake">zapobieganie uśpieniu urządzenia</string>
@@ -165,7 +165,7 @@
     <string name="increasing_ring_ramp_up_time_title">Czas zwiększenia głośności</string>
 	
     <!-- Display : Rotation -->
-    <string name="display_rotation_title">Obracanie ekranu</string>
+    <string name="display_rotation_title">Ustawienia obracania</string>
     <string name="display_rotation_disabled">Wyłączone</string>
     <string name="display_rotation_unit">stopni</string>
     <string name="display_rotation_category_title">Tryby obracania</string>
@@ -173,4 +173,12 @@
     <string name="display_rotation_90_title">90 stopni</string>
     <string name="display_rotation_180_title">180 stopni</string>
     <string name="display_rotation_270_title">270 stopni</string>
+    
+    <!-- Menu label for reset the battery stats -->
+    <string name="menu_stats_reset">Zresetuj statystyki</string>
+    <!-- Reset stats confirmation dialog's message -->
+    <string name="reset_stats_msg">Statystyki użycia baterii zostaną zresetowane</string>
+
+    <string name="battery_image">Ikona baterii</string>
+    <string name="battery_image_description">Pokaż ikonę baterii na pasku stanu</string>
 </resources>
