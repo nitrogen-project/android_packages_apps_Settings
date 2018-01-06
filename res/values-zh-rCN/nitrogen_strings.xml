@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Pure Nexus Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Nitrogen Settings -->
+    <string name="nitrogen_settings_title">Nitrogen 设置</string>
+    <string name="nitrogen_settings_summary">附加设置</string>
+
+    <!-- Development Settings -->
+    <!-- Dev Options Enabled by Default -->
+    <string name="show_dev_already_enabled">不需要，开发者选项已默认启用。</string>
+
+    <!-- Phone info shortcut -->
+    <string name="device_info_title">手机信息</string>
+
+    <!-- Changelog -->
+    <string name="changelog_title">更新日志</string>
+    <string name="changelog_summary">自上次更新以来</string>
+    <string name="changelog_error">无法加载更新日志</string>
+
+    <!-- OTA -->
+    <string name="nosupdate_settings_title">Nitrogen OS 更新</string>
+    <string name="nosupdate_settings_summary">检查更新</string>
+
+    <string name="dashboard_conditions_title">仪表盘条件</string>
+    <string name="summary_dashboard_conditions_enabled">仪表盘条件已被启用</string>
+    <string name="summary_dashboard_conditions_disabled">仪表盘条件已被禁用</string>
+
+    <string name="dashboard_suggestions_title">仪表盘建议</string>
+    <string name="summary_dashboard_suggestions_enabled">仪表盘建议已被启用</string>
+    <string name="summary_dashboard_suggestions_disabled">仪表盘建议已被禁用</string>
+
+    <!-- Scramble PIN Layout on Lockscreen -->
+    <string name="unlock_scramble_pin_layout_title">打乱布局</string>
+    <string name="unlock_scramble_pin_layout_summary">在解锁设备时打乱PIN 码布局</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">快速解锁</string>
+    <string name="unlock_quick_unlock_control_summary">输入正确的PIN 码/密码后自动解锁设备</string>
+
+    <!-- Custom light color -->
+    <string name="light_customization">通知指示灯</string>
+    <string name="custom_light_title">指示灯颜色</string>
+    <string name="custom_light_on_time_title">指示灯保持点亮时间 (ms)</string>
+    <string name="custom_light_off_time_title">指示灯保持熄灭时间 (ms)"</string>
+    <string name="app_notifications_info_desc">点击上面的一个渠道来配置他们发光的颜色和其他选项</string>
+    <string name="value_equals_default">默认</string>
+    <string name="show_light_on_zen_title">在免打扰期间闪烁</string>
+
+    <!-- App Ops Settings -->
+    <!-- App Ops Categories -->
+    <string name="app_ops_cat_location">位置</string>
+    <string name="app_ops_cat_personal">个人</string>
+    <string name="app_ops_cat_messaging">信息</string>
+    <string name="app_ops_cat_media">媒体</string>
+    <string name="app_ops_cat_device">设备</string>
+    <string name="app_ops_cat_bootup">自启</string>
+
+    <!-- [CHAR LIMIT=NONE] App ops labels -->
+    <string name="app_ops_access_camera">相机</string>
+    <string name="app_ops_access_location">位置</string>
+    <string name="app_ops_access_notifications">通知</string>
+    <string name="app_ops_activate_vpn">VPN</string>
+    <string name="app_ops_auto_start">自动启动</string>
+    <string name="app_ops_delete_call_log">删除通话记录</string>
+    <string name="app_ops_delete_contacts">删除联系我</string>
+    <string name="app_ops_delete_mms">删除彩信</string>
+    <string name="app_ops_delete_sms">删除短信</string>
+    <string name="app_ops_draw_on_top">上层显示</string>
+    <string name="app_ops_get_usage_stats">获取使用统计信息</string>
+    <string name="app_ops_keep_device_awake">保持唤醒</string>
+    <string name="app_ops_make_phone_call">打电话</string>
+    <string name="app_ops_modify_calendar">更新日历</string>
+    <string name="app_ops_modify_call_log">更新通话记录</string>
+    <string name="app_ops_modify_clipboard">修改剪贴板</string>
+    <string name="app_ops_modify_contacts">更新联系人</string>
+    <string name="app_ops_modify_settings">更新设置</string>
+    <string name="app_ops_mute_unmute_microphone">静音/取消静音麦克风</string>
+    <string name="app_ops_play_audio">播放音频</string>
+    <string name="app_ops_post_notification">发布通知</string>
+    <string name="app_ops_project_media">项目媒体</string>
+    <string name="app_ops_read_calendar">读取日历</string>
+    <string name="app_ops_read_call_log">读取通话记录</string>
+    <string name="app_ops_read_clipboard">读取剪贴板</string>
+    <string name="app_ops_read_contacts">读取联系人</string>
+    <string name="app_ops_read_mms">读取彩信</string>
+    <string name="app_ops_read_sms">读取短信</string>
+    <string name="app_ops_receive_sms">接收短信</string>
+    <string name="app_ops_record_audio">录制音频</string>
+    <string name="app_ops_send_mms">发送彩信</string>
+    <string name="app_ops_send_sms">发送短信</string>
+    <string name="app_ops_toast_window">Toast 消息</string>
+    <string name="app_ops_use_alarm_volume">闹钟音量</string>
+    <string name="app_ops_use_audio_focus">音频重点</string>
+    <string name="app_ops_use_bluetooth_volume">蓝牙音量</string>
+    <string name="app_ops_use_master_volume">主音量</string>
+    <string name="app_ops_use_media_buttons">媒体按键</string>
+    <string name="app_ops_use_media_volume">媒体音量</string>
+    <string name="app_ops_use_notification_volume">通知音量</string>
+    <string name="app_ops_use_ring_volume">铃声音量</string>
+    <string name="app_ops_use_vibrate">触觉反馈</string>
+    <string name="app_ops_use_voice_volume">语音通话音量</string>
+    <string name="app_ops_write_mms">写彩信</string>
+    <string name="app_ops_write_sms">写短信</string>
+    <string name="app_ops_use_fingerprint">指纹</string>
+    <string name="app_ops_add_voicemail">语音邮件</string>
+    <string name="app_ops_read_phone_state">读取手机状态</string>
+    <string name="app_ops_scan_wifi">扫描WiFi网络</string>
+    <string name="app_ops_change_wallpaper">更改壁纸</string>
+    <string name="app_ops_assist_structure">辅助结构</string>
+    <string name="app_ops_assist_screenshot">屏幕截图</string>
+    <string name="app_ops_use_body_sensors">身体传感器</string>
+    <string name="app_ops_read_cell_broadcasts">小区广播</string>
+    <string name="app_ops_mock_location">模拟位置</string>
+    <string name="app_ops_read_external_storage">读取扩展存储</string>
+    <string name="app_ops_write_external_storage">写入扩展存储</string>
+    <string name="app_ops_turn_on_screen">打开屏幕</string>
+    <string name="app_ops_get_accounts">设备帐户</string>
+    <string name="app_ops_run_in_background">后台运行</string>
+    <string name="app_ops_accessibility_volume">无障碍音量</string>
+    <string name="app_ops_read_phone_numbers">读取电话号码</string>
+    <string name="app_ops_request_install_packages">安装软件</string>
+    <string name="app_ops_picture_in_picture">画中画</string>
+    <string name="app_ops_app_start_foreground">前台启动</string>
+    <string name="app_ops_answer_phone_calls">接听电话</string>
+    <string name="app_ops_boot_completed">自启</string>
+
+    <!-- Vendor version -->
+    <string name="vendor_version">Vendor 版本</string>
+    <string name="vendor_version_default">未知</string>
+
+    <!-- Charging vibration -->
+    <string name="charging_vibro_title">插/拔充电器时振动</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">截图声音</string>
+
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">音量档数</string>
+    <string name="volume_steps_alarm_title">闹钟</string>
+    <string name="volume_steps_dtmf_title">DTMF</string>
+    <string name="volume_steps_music_title">媒体</string>
+    <string name="volume_steps_notification_title">通知</string>
+    <string name="volume_steps_ring_title">铃声</string>
+    <string name="volume_steps_system_title">系统</string>
+    <string name="volume_steps_voice_call_title">语音通话</string>
+    <string name="volume_steps_bluetooth_sco_title">蓝牙通话</string>
+    <string name="volume_steps_reset">重置</string>
+    <string name="volume_steps_60" translatable="false">60</string>
+    <string name="volume_steps_45" translatable="false">45</string>
+    <string name="volume_steps_30" translatable="false">30</string>
+    <string name="volume_steps_15" translatable="false">15</string>
+    <string name="volume_steps_7" translatable="false">7</string>
+    <string name="volume_steps_5" translatable="false">5</string>
+
+    <string name="link_volume_option_title">同步铃声音量和通知音量</string>
+
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">增加铃声音量</string>
+    <string name="increasing_ring_min_volume_title">开始音量</string>
+    <string name="increasing_ring_ramp_up_time_title">加速时间</string>
+
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">旋转</string>
+    <string name="display_rotation_disabled">禁用</string>
+    <string name="display_rotation_unit">度</string>
+    <string name="display_rotation_category_title">旋转模式</string>
+    <string name="display_rotation_0_title">0 度</string>
+    <string name="display_rotation_90_title">90 度</string>
+    <string name="display_rotation_180_title">180 度</string>
+    <string name="display_rotation_270_title">270 度</string>
+
+    <!-- Menu label for reset the battery stats -->
+    <string name="menu_stats_reset">重置统计信息</string>
+    <!-- Reset stats confirmation dialog's message -->
+    <string name="reset_stats_msg">电池历史统计将被重置</string>
+
+    <string name="battery_image">电池图标</string>
+    <string name="battery_image_description">在状态栏上显示电池图标</string>
+    
+    <!-- Color Manager -->
+    <string name="color_manager_title">颜色管理</string>
+    <string name="color_manager_summary">使用各种主题模式来更改系统的颜色</string>
+    <!-- Color Manager: Options -->
+    <string name="theme_auto_title">自动</string>
+    <string name="theme_auto_title_summary">根据当前设置的壁纸自动变化系统主题色</string>
+    <string name="theme_light_title">亮色</string>
+    <string name="theme_light_title_summary">白色系统主题</string>
+    <string name="theme_dark_title">暗色</string>
+    <string name="theme_dark_title_summary">深灰色系统主题</string>
+    <string name="theme_black_title">黑色</string>
+    <string name="theme_black_title_summary">黑色系统主题</string>
+    <!-- Color Manager: Device accent -->
+    <string name="device_accent_title">设备色调</string>
+</resources>
