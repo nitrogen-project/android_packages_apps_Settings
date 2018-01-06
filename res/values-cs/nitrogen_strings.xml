@@ -162,4 +162,36 @@
     <string name="increasing_ring_volume_option_title">Zvyšující se hlasitost vyzvánění</string>
     <string name="increasing_ring_min_volume_title">Počáteční hlasitost</string>
     <string name="increasing_ring_ramp_up_time_title">Délka zvyšování</string>
+
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Otáčení obrazovky</string>
+    <string name="display_rotation_disabled">Vypnuto</string>
+    <string name="display_rotation_unit">stupňů</string>
+    <string name="display_rotation_category_title">Režimy otáčení</string>
+    <string name="display_rotation_0_title">0 stupňů</string>
+    <string name="display_rotation_90_title">90 stupňů</string>
+    <string name="display_rotation_180_title">180 stupňů</string>
+    <string name="display_rotation_270_title">270 stupňů</string>
+
+    <!-- Menu label for reset the battery stats -->
+    <string name="menu_stats_reset">Resetovat statistiky</string>
+    <string name="reset_stats_msg">Historie baterie se vymaže</string>
+
+    <string name="battery_image">Ikona baterie</string>
+    <string name="battery_image_description">Zobrazit ikonu baterie ve stavovém řádku</string>
+
+    <!-- Color Manager -->
+    <string name="color_manager_title">Správa barev</string>
+    <string name="color_manager_summary">Změňte barvu systému a vyberte témata</string>
+    <!-- Color Manager: Options -->
+    <string name="theme_auto_title">Auto</string>
+    <string name="theme_auto_title_summary">Výběr tématu z nastavené tapety</string>
+    <string name="theme_light_title">Světlá</string>
+    <string name="theme_light_title_summary">Světlá téma systému</string>
+    <string name="theme_dark_title">Tmavá</string>
+    <string name="theme_dark_title_summary">Tmavá téma systému</string>
+    <string name="theme_black_title">Černá</string>
+    <string name="theme_black_title_summary">Černá téma systému</string>
+    <!-- Color Manager: Device accent -->
+    <string name="device_accent_title">Hlavní barva</string>
 </resources>

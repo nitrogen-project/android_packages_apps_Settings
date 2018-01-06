@@ -162,4 +162,36 @@
     <string name="increasing_ring_volume_option_title">Zvyšujúca sa hlasitosť zvonenia</string>
     <string name="increasing_ring_min_volume_title">Počiatočná hlasitosť</string>
     <string name="increasing_ring_ramp_up_time_title">Dĺžka zvyšovania</string>
+
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Otáčanie obrazovky</string>
+    <string name="display_rotation_disabled">Vypnuté</string>
+    <string name="display_rotation_unit">stupňov</string>
+    <string name="display_rotation_category_title">Režimy otáčania</string>
+    <string name="display_rotation_0_title">0 stupňov</string>
+    <string name="display_rotation_90_title">90 stupňov</string>
+    <string name="display_rotation_180_title">180 stupňov</string>
+    <string name="display_rotation_270_title">270 stupňov</string>
+
+    <!-- Menu label for reset the battery stats -->
+    <string name="menu_stats_reset">Resetovať štatistiky</string>
+    <string name="reset_stats_msg">História batérie sa vymaže</string>
+
+    <string name="battery_image">Ikona batérie</string>
+    <string name="battery_image_description">Zobraziť ikonu batérie v stavovom riadku</string>
+
+    <!-- Color Manager -->
+    <string name="color_manager_title">Správa farieb</string>
+    <string name="color_manager_summary">Zmeňte farbu systému a vyberte témy</string>
+    <!-- Color Manager: Options -->
+    <string name="theme_auto_title">Auto</string>
+    <string name="theme_auto_title_summary">Výber témy z nastavenej tapety</string>
+    <string name="theme_light_title">Svetlá</string>
+    <string name="theme_light_title_summary">Svetlá téma systému</string>
+    <string name="theme_dark_title">Tmavá</string>
+    <string name="theme_dark_title_summary">Tmavá téma systému</string>
+    <string name="theme_black_title">Čierna</string>
+    <string name="theme_black_title_summary">Čierna téma systému</string>
+    <!-- Color Manager: Device accent -->
+    <string name="device_accent_title">Hlavná farba</string>
 </resources>
