@@ -29,6 +29,5 @@
         android:layout_height="wrap_content"
         android:inputType="textCapSentences"
         android:maxLength="50"
-        android:textColor="?android:attr/android:textColorAlertDialogListItem"
         android:singleLine="true" />
 </LinearLayout>
