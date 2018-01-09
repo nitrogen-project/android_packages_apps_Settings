@@ -173,4 +173,29 @@
     <string name="display_rotation_90_title">90 stopni</string>
     <string name="display_rotation_180_title">180 stopni</string>
     <string name="display_rotation_270_title">270 stopni</string>
+    
+    <!-- Menu label for reset the battery stats -->
+    <string name="menu_stats_reset">Zresetuj statystyki</string>
+
+    <!-- Reset stats confirmation dialog's message -->
+    <string name="reset_stats_msg">Statystyki baterii zostaną zresetowane</string>
+    <string name="battery_image">Ikona baterii</string>
+    <string name="battery_image_description">Pokaż ikonę baterii na pasku stanu</string>
+
+    <!-- Color Manager -->
+    <string name="color_manager_title">Menedżer kolorów</string>
+    <string name="color_manager_summary">Użyj różnych styli kompozycji, aby zmienić kolor systemu</string>
+
+    <!-- Color Manager: Options -->
+    <string name="theme_auto_title">Automatycznie</string>
+    <string name="theme_auto_title_summary">Motyw systemu oparty na tapecie</string>
+    <string name="theme_light_title">Jasny</string>
+    <string name="theme_light_title_summary">Motyw systemu w kolorze białym</string>
+    <string name="theme_dark_title">Ciemny</string>
+    <string name="theme_dark_title_summary">Motyw systemu w kolorze ciemnoszarym</string>
+    <string name="theme_black_title">Czarny</string>
+    <string name="theme_black_title_summary">Motyw systemu w kolorze czarnym</string>
+
+    <!-- Color Manager: Device accent -->
+    <string name="device_accent_title">Akcent urządzenia</string>
 </resources>
