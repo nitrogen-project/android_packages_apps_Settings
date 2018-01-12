@@ -3819,7 +3819,7 @@
     <string name="autofill_keywords" msgid="7485591824120812710">"automatické, dopĺňanie, automatické dopĺňanie"</string>
     <string name="autofill_confirmation_message" msgid="2784869528908005194">"&lt;b&gt;Skontrolujte, či ide o dôveryhodnú aplikáciu&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Automatické dopĺňanie Google&gt;%1$s&lt;/xliff:g&gt; určuje na základe obsahu obrazovky, čo je možné automaticky vyplniť."</string>
     <string name="device_theme" msgid="4571803018917608588">"Motív zariadenia"</string>
-    <string name="default_theme" msgid="7085644992078579076">"Predvolený"</string>
+    <string name="default_theme" msgid="7085644992078579076">"Predvolená"</string>
     <string name="storage_manager_indicator" msgid="1516810749625915020">"Správca úložiska: <xliff:g id="STATUS">^1</xliff:g>"</string>
     <string name="storage_manager_indicator_off" msgid="7488057587180724388">"Vypnutý"</string>
     <string name="storage_manager_indicator_on" msgid="8625551710194584733">"Zapnutý"</string>

@@ -182,16 +182,16 @@
 
     <!-- Color Manager -->
     <string name="color_manager_title">Správa barev</string>
-    <string name="color_manager_summary">Změňte barvu systému a vyberte témata</string>
+    <string name="color_manager_summary">Změnit barvu systému a vybrat motiv</string>
     <!-- Color Manager: Options -->
     <string name="theme_auto_title">Auto</string>
-    <string name="theme_auto_title_summary">Výběr tématu z nastavené tapety</string>
+    <string name="theme_auto_title_summary">Motiv podle nastavené tapety</string>
     <string name="theme_light_title">Světlá</string>
-    <string name="theme_light_title_summary">Světlá téma systému</string>
+    <string name="theme_light_title_summary">Světlá systémová téma</string>
     <string name="theme_dark_title">Tmavá</string>
-    <string name="theme_dark_title_summary">Tmavá téma systému</string>
+    <string name="theme_dark_title_summary">Tmavá systémová téma</string>
     <string name="theme_black_title">Černá</string>
-    <string name="theme_black_title_summary">Černá téma systému</string>
+    <string name="theme_black_title_summary">Černá systémová téma</string>
     <!-- Color Manager: Device accent -->
-    <string name="device_accent_title">Hlavní barva</string>
+    <string name="device_accent_title">Hlavní systémová barva</string>
 </resources>
