@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Pure Nexus Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Nitrogen Settings -->
+  <string name="nitrogen_settings_title">Testreszabás</string>
+  <string name="nitrogen_settings_summary">További beállítások</string>
+  <!-- Development Settings -->
+  <!-- Dev Options Enabled by Default -->
+  <string name="show_dev_already_enabled">Nincs rá szükség, a Fejlesztői beállítások már engedélyezve vannak.</string>
+  <!-- Phone info shortcut -->
+  <string name="device_info_title">Telefon adatai</string>
+  <!-- Changelog -->
+  <string name="changelog_title">Változások listája</string>
+  <string name="changelog_summary">A legutóbbi frissítés óta</string>
+  <string name="changelog_error">Változások listájának betöltése sikertelen</string>
+  <!-- OTA -->
+  <string name="nosupdate_settings_title">Nitrogen OS frissítések</string>
+  <string name="nosupdate_settings_summary">Frissítések keresése</string>
+  <string name="dashboard_conditions_title">Irányítópult feltételek</string>
+  <string name="summary_dashboard_conditions_enabled">Irányítópult feltételek bekapcsolva</string>
+  <string name="summary_dashboard_conditions_disabled">Irányítópult feltételek kikapcsolva</string>
+  <string name="dashboard_suggestions_title">Irányítópult javaslatok</string>
+  <string name="summary_dashboard_suggestions_enabled">Irányítópult javaslatok bekapcsolva</string>
+  <string name="summary_dashboard_suggestions_disabled">Irányítópult javaslatok kikapcsolva</string>
+  <!-- Scramble PIN Layout on Lockscreen -->
+  <string name="unlock_scramble_pin_layout_title">Véletlenszerű kiosztás</string>
+  <string name="unlock_scramble_pin_layout_summary">Számok véletlenszerű elhelyezése feloldásnál</string>
+  <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">Gyors feloldás</string>
+  <string name="unlock_quick_unlock_control_summary">Automatikus feloldás a helyes PIN/jelszó megadása után</string>
+  <!-- Custom light color -->
+  <string name="light_customization">Értesítési LED fény</string>
+  <string name="custom_light_title">Egyéni szín</string>
+  <string name="custom_light_on_time_title">Mennyi ideig legyen bekapcsolva a LED a pulzálás alatt (ms)</string>
+  <string name="custom_light_off_time_title">Mennyi ideig legyen kikapcsolva a LED a pulzálás alatt (ms)</string>
+  <string name="app_notifications_info_desc">Érintse meg a fenti lehetőségek egyikét, az értesítési fények, és egyéb beállítások megjelenítéséhez</string>
+  <string name="value_equals_default">alap</string>
+  <string name="show_light_on_zen_title">Villogás Ne zavarj módban</string>
+  <!-- App Ops Settings -->
+  <!-- App Ops Categories -->
+  <string name="app_ops_cat_location">Tartózkodási hely</string>
+  <string name="app_ops_cat_personal">Személyes</string>
+  <string name="app_ops_cat_messaging">Üzenetváltás</string>
+  <string name="app_ops_cat_media">Média</string>
+  <string name="app_ops_cat_device">Eszköz</string>
+  <string name="app_ops_cat_bootup">Rendszerindítás</string>
+  <!-- [CHAR LIMIT=NONE] App ops labels -->
+  <string name="app_ops_access_camera">kamera</string>
+  <string name="app_ops_access_location">tartózkodási hely</string>
+  <string name="app_ops_access_notifications">értesítések</string>
+  <string name="app_ops_activate_vpn">VPN</string>
+  <string name="app_ops_auto_start">automatikus indítás</string>
+  <string name="app_ops_delete_call_log">hívásnapló törlése</string>
+  <string name="app_ops_delete_contacts">kapcsolatok törlése</string>
+  <string name="app_ops_delete_mms">MMS törlése</string>
+  <string name="app_ops_delete_sms">SMS törlése</string>
+  <string name="app_ops_draw_on_top">megjelenítés felül</string>
+  <string name="app_ops_get_usage_stats">használati statisztikák lekérése</string>
+  <string name="app_ops_keep_device_awake">ébren tartás</string>
+  <string name="app_ops_make_phone_call">hívásindítás</string>
+  <string name="app_ops_modify_calendar">naptár frissítése</string>
+  <string name="app_ops_modify_call_log">híváslista frissítése</string>
+  <string name="app_ops_modify_clipboard">vágólap módosítása</string>
+  <string name="app_ops_modify_contacts">kapcsolatok módosítása</string>
+  <string name="app_ops_modify_settings">beállítások frissítése</string>
+  <string name="app_ops_mute_unmute_microphone">mikrofon némítása</string>
+  <string name="app_ops_play_audio">hang lejátszása</string>
+  <string name="app_ops_post_notification">értesítés küldése</string>
+  <string name="app_ops_project_media">média vetítése</string>
+  <string name="app_ops_read_calendar">naptár olvasása</string>
+  <string name="app_ops_read_call_log">hívásnapló olvasása</string>
+  <string name="app_ops_read_clipboard">vágólap olvasása</string>
+  <string name="app_ops_read_contacts">kapcsolatok olvasása</string>
+  <string name="app_ops_read_mms">MMS olvasása</string>
+  <string name="app_ops_read_sms">SMS olvasása</string>
+  <string name="app_ops_receive_sms">SMS fogadása</string>
+  <string name="app_ops_record_audio">hang rögzítése</string>
+  <string name="app_ops_send_mms">MMS küldése</string>
+  <string name="app_ops_send_sms">SMS küldése</string>
+  <string name="app_ops_toast_window">buborékszövegek</string>
+  <string name="app_ops_use_alarm_volume">riasztás hangereje</string>
+  <string name="app_ops_use_audio_focus">audiofókusz</string>
+  <string name="app_ops_use_bluetooth_volume">Bluetooth hangerő</string>
+  <string name="app_ops_use_master_volume">fő hangerő</string>
+  <string name="app_ops_use_media_buttons">média gombok</string>
+  <string name="app_ops_use_media_volume">média hangereje</string>
+  <string name="app_ops_use_notification_volume">értesítés hangereje</string>
+  <string name="app_ops_use_ring_volume">csengőhang hangereje</string>
+  <string name="app_ops_use_vibrate">rezgő visszajelzés</string>
+  <string name="app_ops_use_voice_volume">hanghívás hangereje</string>
+  <string name="app_ops_write_mms">MMS írása</string>
+  <string name="app_ops_write_sms">SMS írása</string>
+  <string name="app_ops_use_fingerprint">ujjlenyomat</string>
+  <string name="app_ops_add_voicemail">hangposta</string>
+  <string name="app_ops_read_phone_state">telefonállapot olvasása</string>
+  <string name="app_ops_scan_wifi">WiFi hálózatok keresése</string>
+  <string name="app_ops_change_wallpaper">háttérkép megváltoztatása</string>
+  <string name="app_ops_assist_structure">struktúra asszisztens</string>
+  <string name="app_ops_assist_screenshot">képernyőkép</string>
+  <string name="app_ops_use_body_sensors">testérzékelők</string>
+  <string name="app_ops_read_cell_broadcasts">cellán belüli adások</string>
+  <string name="app_ops_mock_location">álhely</string>
+  <string name="app_ops_read_external_storage">külső adattároló olvasása</string>
+  <string name="app_ops_write_external_storage">külső adattároló írása</string>
+  <string name="app_ops_turn_on_screen">képernyő bekapcsolása</string>
+  <string name="app_ops_get_accounts">eszköz-fiókok</string>
+  <string name="app_ops_run_in_background">futtatás a háttérben</string>
+  <string name="app_ops_accessibility_volume">kisegítés hangereje</string>
+  <string name="app_ops_read_phone_numbers">telefonszámok olvasása</string>
+  <string name="app_ops_request_install_packages">csomagok telepítése</string>
+  <string name="app_ops_picture_in_picture">kép a képben</string>
+  <string name="app_ops_app_start_foreground">előtérben indítás</string>
+  <string name="app_ops_answer_phone_calls">hívás fogadása</string>
+  <string name="app_ops_boot_completed">automatikus indítás</string>
+  <!-- Vendor version -->
+  <string name="vendor_version">Vendor verzió</string>
+  <string name="vendor_version_default">Ismeretlen</string>
+  <!-- Charging vibration -->
+  <string name="charging_vibro_title">Rezgés töltéskor</string>
+  <!-- Screenshot sound -->
+  <string name="screenshot_sound_title">Képernyőkép hangja</string>
+  <!-- Volume Steps -->
+  <string name="volume_steps_title">Hangerő léptéke</string>
+  <string name="volume_steps_alarm_title">Riasztás hangerő léptéke</string>
+  <string name="volume_steps_dtmf_title">DTMF hangerő léptéke</string>
+  <string name="volume_steps_music_title">Zenei hangerő léptéke</string>
+  <string name="volume_steps_notification_title">Értesítési hangerő léptéke</string>
+  <string name="volume_steps_ring_title">Csengetési hangerő léptéke</string>
+  <string name="volume_steps_system_title">Rendszer hangerő léptéke</string>
+  <string name="volume_steps_voice_call_title">Hívási hangerő léptéke</string>
+  <string name="volume_steps_bluetooth_sco_title">Vezeték nélküli hangerő léptéke</string>
+  <string name="volume_steps_reset">Alaphelyzet</string>
+  <string name="link_volume_option_title">Csengetési és értesítési hangerő összevonása</string>
+  <!-- Increasing ring tone volume -->
+  <string name="increasing_ring_volume_option_title">Emelkedő csengetési hangerő</string>
+  <string name="increasing_ring_min_volume_title">Kezdő hangerő</string>
+  <string name="increasing_ring_ramp_up_time_title">Felfutási idő</string>
+  <!-- Display : Rotation -->
+  <string name="display_rotation_title">Elforgatás</string>
+  <string name="display_rotation_disabled">Letiltva</string>
+  <string name="display_rotation_unit">fokok</string>
+  <string name="display_rotation_category_title">Forgatási módok</string>
+  <string name="display_rotation_0_title">0 fok</string>
+  <string name="display_rotation_90_title">90 fok</string>
+  <string name="display_rotation_180_title">180 fok</string>
+  <string name="display_rotation_270_title">270 fok</string>
+  <!-- Menu label for reset the battery stats -->
+  <string name="menu_stats_reset">Statisztika törlése</string>
+  <!-- Reset stats confirmation dialog's message -->
+  <string name="reset_stats_msg">Az akkumulátor statiksztikái törlődni fognak</string>
+  <string name="battery_image">Akkumulátorhasználat</string>
+  <string name="battery_image_description">Akkumulátor állapotának megjelenítése az értesítési sávon</string>
+  <!-- Color Manager -->
+  <string name="color_manager_title">Színkezelő</string>
+  <string name="color_manager_summary">A rendszer színeinek módosítása témák által</string>
+  <!-- Color Manager: Options -->
+  <string name="theme_auto_title">Automatikus</string>
+  <string name="theme_auto_title_summary">Rendszer színeinek kiválasztása háttérkép alapján</string>
+  <string name="theme_light_title">Világos</string>
+  <string name="theme_light_title_summary">Témázza a rendszert fehérre</string>
+  <string name="theme_dark_title">Sötét</string>
+  <string name="theme_dark_title_summary">Témázza a rendszert sötét szürkére</string>
+  <string name="theme_black_title">Fekete</string>
+  <string name="theme_black_title_summary">Témázza a rendszert feketére</string>
+  <!-- Color Manager: Device accent -->
+  <string name="device_accent_title">Az eszköz \'accent\' színe</string>
+</resources>
