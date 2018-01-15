@@ -44,4 +44,7 @@
 
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Сохраненные наушники</string>
+
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Связать громкость звонка и уведомлений</string>
 </resources>
