@@ -139,6 +139,7 @@ import com.nitrogen.settings.fragments.FlingSettings;
 import com.nitrogen.settings.fragments.NavbarSettings;
 import com.nitrogen.settings.fragments.PulseSettings;
 import com.nitrogen.settings.fragments.SmartbarSettings;
+import com.android.settings.aoscp.display.ColorManagerFragment;
 
 public class SettingsGateway {
 
@@ -267,7 +268,8 @@ public class SettingsGateway {
             FlingSettings.class.getName(),
             SmartbarSettings.class.getName(),
             PulseSettings.class.getName(),
-            ButtonSettings.class.getName()
+            ButtonSettings.class.getName(),
+            ColorManagerFragment.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {

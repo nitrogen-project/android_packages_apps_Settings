@@ -226,4 +226,7 @@
     <string name="security_settings_fingerprint_sensor_location_front">передней панели</string>
     <string name="security_settings_fingerprint_sensor_location_left">левой грани</string>
     <string name="security_settings_fingerprint_sensor_location_right">правой грани</string>
+
+    <string name="theme_applied_toast">Тема применена</string>
+    <string name="applying_theme_toast">Применение темы, подождите...</string>
 </resources>

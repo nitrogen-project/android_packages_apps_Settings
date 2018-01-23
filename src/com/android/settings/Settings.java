@@ -184,6 +184,7 @@ public class Settings extends SettingsActivity {
     public static class LegacySupportActivity extends SettingsActivity{ /* empty */ }
     public static class HeadsUpSettingsActivity extends SettingsActivity { /* empty */ }
     public static class ButtonSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class ColorSettingsActivity extends SettingsActivity { /* empty */ }
 
     // Top level categories for new IA
     public static class NetworkDashboardActivity extends SettingsActivity {}
