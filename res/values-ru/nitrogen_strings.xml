@@ -211,4 +211,10 @@
     <string name="sub_activate_failed">Ошибка при активации.</string>
     <string name="sub_deactivate_success">Деактивация выполнена.</string>
     <string name="sub_deactivate_failed">Ошибка при деактивации.</string>
+
+    <string name="force_ambient_for_media_pref_title">Информация о треке</string>
+    <string name="force_ambient_for_media_off">Отключено</string>
+    <string name="force_ambient_for_media_on">Включено</string>
+    <string name="force_ambient_for_media_on_forced">Принудительно включено</string>
+    <string name="force_ambient_for_media_on_forced_clean">Принудительно включено в миним. виде</string>
 </resources>
