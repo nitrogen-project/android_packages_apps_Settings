@@ -219,7 +219,7 @@
     <string name="force_ambient_for_media_on">Abilitato</string>
     <string name="force_ambient_for_media_on_forced">Normale (forzata)</string>
     <string name="force_ambient_for_media_on_forced_clean">Minimale (forzata)</string>
-    <string name="ambient_ticker_footer">Questa funzionalità da la possibilità di visualizzare l'attuale canzone sulla schermata di blocco con o senza Ambient Display abilitato.\n\nPuoi scegliere tra due layout, normale e minimale. Mentre questa funzionalità sfrutta l'Ambient Display, essa non dipende da quest'ultimo. Può essere attivata senza avere Ambient Display abilitato utilizzando l'opzione (forzata).\n\nLa visualizzazione Normale include l'orologio della schermata di blocco, la data e il quadrante.\n\nLa visualizzazione Minimale include solo il quadrante al centro dello schermo.</string>
+    <string name="ambient_ticker_footer">Questa funzionalità da la possibilità di visualizzare l\'attuale canzone sulla schermata di blocco con o senza Ambient Display abilitato.\n\nPuoi scegliere tra due disposizioni, normale e minimale. Mentre questa funzionalità sfrutta l\'Ambient Display, essa non dipende da quest\'ultimo. Può essere attivata senza avere Ambient Display abilitato utilizzando l\'opzione (forzata).\n\nLa visualizzazione Normale include l\'orologio della schermata di blocco, la data e il quadrante.\n\nLa visualizzazione Minimale include solo il quadrante al centro dello schermo.</string>
 
     <!-- Format string for fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Individuare il sensore di impronte digitali sulla <xliff:g id="sensor_location">%1$s</xliff:g> del telefono cellulare.</string>
