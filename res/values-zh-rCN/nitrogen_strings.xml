@@ -25,7 +25,7 @@
 
     <!-- Changelog -->
     <string name="changelog_title">更新日志</string>
-    <string name="changelog_summary">自上次更新以来</string>
+    <string name="changelog_summary">最近更新</string>
     <string name="changelog_error">无法加载更新日志</string>
 
     <!-- OTA -->
@@ -193,7 +193,7 @@
     <string name="color_manager_summary">使用各种主题模式来更改系统的颜色</string>
     <!-- Color Manager: Options -->
     <string name="theme_auto_title">自动</string>
-    <string name="theme_auto_title_summary">根据当前设置的壁纸自动变化系统主题色</string>
+    <string name="theme_auto_title_summary">根据当前所设置的壁纸自动改变系统主题色</string>
     <string name="theme_light_title">亮色</string>
     <string name="theme_light_title_summary">白色系统主题</string>
     <string name="theme_dark_title">暗色</string>
@@ -201,5 +201,38 @@
     <string name="theme_black_title">黑色</string>
     <string name="theme_black_title_summary">黑色系统主题</string>
     <!-- Color Manager: Device accent -->
-    <string name="device_accent_title">设备色调</string>
+    <string name="device_accent_title">强调色</string>
+    
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g>已<xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_enabled">启用</string>
+    <string name="sim_disabled">禁用</string>
+    <string name="sim_missing">缺少或有问题</string>
+    <string name="sim_enabler_need_disable_sim">SIM 卡将被禁用。你确定要继续吗？</string>
+    <string name="sim_enabler_will_disable_sim_title">注意</string>
+    <string name="sim_enabler_need_switch_data_service">这张 SIM 卡将被禁用且 SIM 卡<xliff:g id="slotid">%1$s</xliff:g>将被用于数据服务。你确定你要继续吗？</string>
+    <string name="sim_enabler_airplane_on">飞行模式打开时无法执行此操作。</string>
+    <string name="sim_enabler_in_call">在通话过程中无法此执行操作。</string>
+    <string name="sim_enabler_both_inactive">不能禁用全部 SIM 卡</string>
+    <string name="sim_enabler_enabling">正在启用\u2026</string>
+    <string name="sim_enabler_disabling">正在禁用\u2026</string>
+    <string name="sub_activate_success">SIM 卡已启用。</string>
+    <string name="sub_activate_failed">启用失败。</string>
+    <string name="sub_deactivate_success">SIM 卡已禁用。</string>
+    <string name="sub_deactivate_failed">禁用失败。</string>
+
+    <string name="force_ambient_for_media_pref_title">环境音乐 Ticker</string>
+    <string name="force_ambient_for_media_off">禁用</string>
+    <string name="force_ambient_for_media_on">启用</string>
+    <string name="force_ambient_for_media_on_forced">强制启用</string>
+    <string name="force_ambient_for_media_on_forced_clean">强制启用且最小化</string>
+    <string name="ambient_ticker_footer">环境音乐 Ticker 允许在启用或者不启用环境显示的情况下在锁屏上显示当前的音乐曲目信息。\n您可以从两种布局中选择，普通或最小。虽然此功能利用了环境显示，但不依赖于它。</string>
+
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">你可以在你的手机的<xliff:g id="sensor_location">%1$s</xliff:g>找到指纹传感器。</string>
+
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">背面</string>
+    <string name="security_settings_fingerprint_sensor_location_front">前面</string>
+    <string name="security_settings_fingerprint_sensor_location_left">左侧</string>
+    <string name="security_settings_fingerprint_sensor_location_right">右侧</string>
 </resources>
