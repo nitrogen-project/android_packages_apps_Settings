@@ -229,4 +229,8 @@
     <string name="security_settings_fingerprint_sensor_location_front">davanti</string>
     <string name="security_settings_fingerprint_sensor_location_left">lato sinistro</string>
     <string name="security_settings_fingerprint_sensor_location_right">lato destro</string>
+
+    <string name="theme_applied_toast">Applicazione tema.</string>
+    <string name="applying_theme_toast">Tema applicato, attendere prego...</string>
+
 </resources>
