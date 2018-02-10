@@ -2098,6 +2098,7 @@
 
         <activity android:name="ActivityPicker"
                 android:label="@string/activity_picker_label"
+                android:theme="@*android:style/Theme.DeviceDefault.Light.Dialog.Alert"
                 android:finishOnCloseSystemDialogs="true">
             <intent-filter android:priority="1">
                 <action android:name="android.intent.action.PICK_ACTIVITY" />
@@ -2812,6 +2813,7 @@
         </activity>
 
         <activity android:name=".sim.SimPreferenceDialog"
+            android:theme="@*android:style/Theme.DeviceDefault.Settings.Dialog.NoActionBar"
             android:excludeFromRecents="true">
         </activity>
 
@@ -2840,6 +2842,7 @@
         </activity>
 
         <activity android:name=".sim.SimDialogActivity"
+                android:theme="@*android:style/Theme.DeviceDefault.Settings.Dialog.NoActionBar"
                 android:label="@string/sim_settings_title"
                 android:excludeFromRecents="true">
             <intent-filter>
@@ -3395,6 +3398,7 @@
 
         <!-- System action picker -->
         <activity android:name="com.nitrogen.settings.preferences.ActionPickerDialogActivity"
+                android:theme="@style/Theme.SmartBar.Dialog"
                 android:label="@string/choose_action_title"
                 android:excludeFromRecents="true">
             <intent-filter>
@@ -3404,6 +3408,7 @@
 
         <!-- Icon pack picker -->
         <activity android:name="com.nitrogen.settings.preferences.IconPickerActivity"
+                android:theme="@style/Theme.SmartBar.Dialog"
                 android:label="@string/icon_pack_picker_dialog_title"
                 android:excludeFromRecents="true">
             <intent-filter>
@@ -3413,6 +3418,7 @@
 
         <!-- Icon picker proxy for gallery -->
         <activity android:name="com.nitrogen.settings.preferences.IconPickerGallery"
+            android:theme="@style/Theme.SmartBar.Dialog"
             android:label="@string/icon_pack_picker_dialog_title"
             android:excludeFromRecents="true">
             <intent-filter>
