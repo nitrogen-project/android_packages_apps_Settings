@@ -185,9 +185,6 @@
     <!-- Reset stats confirmation dialog's message -->
     <string name="reset_stats_msg">Battery history stats are going to be reset</string>
 
-    <string name="battery_image">Battery image</string>
-    <string name="battery_image_description">Show battery image in status bar</string>
-
     <!-- Color Manager -->
     <string name="color_manager_title">Color manager</string>
     <string name="color_manager_summary">Change system colors with various theme modes</string>

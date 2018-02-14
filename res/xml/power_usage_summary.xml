@@ -53,17 +53,6 @@
             android:fragment="com.android.settings.fuelgauge.BatterySaverSettings"
             android:key="battery_saver_summary"
             android:title="@string/battery_saver"/>
-
-        <SwitchPreference
-            android:key="battery_percentage"
-            android:title="@string/battery_percentage"
-            android:summary="@string/battery_percentage_description"/>
-
-        <SwitchPreference
-            android:key="battery_image"
-            android:title="@string/battery_image"
-            android:summary="@string/battery_image_description"/>
-
     </PreferenceCategory>
 
     <PreferenceCategory
