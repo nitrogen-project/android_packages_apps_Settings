@@ -310,6 +310,10 @@ public class PowerUsageSummary extends PowerUsageBase implements
         controllers.add(mBatteryHeaderPreferenceController);
         controllers.add(new BatterySaverController(context, getLifecycle()));
         controllers.add(new BatteryPercentagePreferenceController(context));
+        controllers.add(new AmbientDisplayPreferenceController(
+                context,
+                new AmbientDisplayConfiguration(context),
+                KEY_AMBIENT_DISPLAY));
         return controllers;
     }
 

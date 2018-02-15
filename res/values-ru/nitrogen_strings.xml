@@ -226,4 +226,5 @@
 
     <string name="theme_applied_toast">Тема применена</string>
     <string name="applying_theme_toast">Применение темы, подождите...</string>
+
 </resources>
