@@ -42,7 +42,7 @@
              android:summary="@string/nosupdate_settings_summary">
              <intent android:action="android.intent.action.MAIN"
                  android:targetPackage="com.nitrogen.ota"
-                 android:targetClass="com.nitrogen.ota.activities.MainActivity" />
+                 android:targetClass="com.nitrogen.ota.MainActivity" />
          </Preference>
 
         <!-- Device status - launches activity -->
