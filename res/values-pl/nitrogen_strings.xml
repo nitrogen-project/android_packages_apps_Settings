@@ -195,7 +195,7 @@
     <string name="theme_black_title">Czarny</string>
     <string name="theme_black_title_summary">Czarny motyw systemu</string>
     <!-- Color Manager: Device accent -->
-    <string name="device_accent_title">Device accent</string>
+    <string name="device_accent_title">Akcent urządzenia</string>
 
     <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> jest <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
     <string name="sim_enabled">Włączona</string>
@@ -229,4 +229,8 @@
     <string name="security_settings_fingerprint_sensor_location_front">przód</string>
     <string name="security_settings_fingerprint_sensor_location_left">lewa strona</string>
     <string name="security_settings_fingerprint_sensor_location_right">prawa strona</string>
+	
+	<string name="theme_applied_toast">Motyw zastosowany.</string>
+    <string name="applying_theme_toast">Stosowanie motywu, proszę czekać...</string>
+</resources>
 </resources>
