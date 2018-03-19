@@ -182,6 +182,6 @@ public class ColorManagerFragment extends DashboardFragment
                   mContext.startActivity(intent);
                   Toast.makeText(mContext, R.string.theme_applied_toast, Toast.LENGTH_SHORT).show();
               }
-        }, 2000);
+        }, 3000);
     }
 }
