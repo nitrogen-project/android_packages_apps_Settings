@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Pure Nexus Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Nitrogen Settings -->
+    <string name="nitrogen_settings_title">Kişiselleştirme</string>
+    <string name="nitrogen_settings_summary">Gelişmiş ayarlar</string>
+
+    <!-- Development Settings -->
+    <!-- Dev Options Enabled by Default -->
+    <string name="show_dev_already_enabled">Gerek yok, Geliştirici seçenekleri varsayılan olarak etkindir.</string>
+
+    <!-- Phone info shortcut -->
+    <string name="device_info_title">Telefon bilgisi</string>
+
+    <!-- Changelog -->
+    <string name="changelog_title">Değişiklikler</string>
+    <string name="changelog_summary">Son güncellemeden itibaren</string>
+    <string name="changelog_error">Değişiklikler yüklenemedi</string>
+
+    <!-- OTA -->
+    <string name="nosupdate_settings_title">Nitrogen OS güncellemeleri</string>
+    <string name="nosupdate_settings_summary">Yeni güncellemeleri bul</string>
+
+    <string name="dashboard_conditions_title">Ayarlar menüsü durumları</string>
+    <string name="summary_dashboard_conditions_enabled">Ayarlar menüsü durumları etkin</string>
+    <string name="summary_dashboard_conditions_disabled">Ayarlar menüsü durumları devre dışı</string>
+
+    <string name="dashboard_suggestions_title">Ayarlar menüsü önerileri</string>
+    <string name="summary_dashboard_suggestions_enabled">Ayarlar menüsü önerileri etkin</string>
+    <string name="summary_dashboard_suggestions_disabled">Ayarlar menüsü önerileri devre dışı</string>
+
+    <!-- Scramble PIN Layout on Lockscreen -->
+    <string name="unlock_scramble_pin_layout_title">Karıştırılmış düzen</string>
+    <string name="unlock_scramble_pin_layout_summary">Cihaz kilidini açarken PIN düzenini karıştır</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Hızlı kilit açma</string>
+    <string name="unlock_quick_unlock_control_summary">Doğru PIN/şifre girildiğinde otomatik olarak kilidi açar</string>
+
+    <!-- Custom light color -->
+    <string name="light_customization">Led ışık bildirimi</string>
+    <string name="custom_light_title">Işık rengi</string>
+    <string name="custom_light_on_time_title">Led\'in yanma sırasında ışığın açık kalma zamanı (ms)</string>
+    <string name="custom_light_off_time_title">Led\'in yanma sırasında ışığın kapalı kalma zamanı (ms)</string>
+    <string name="app_notifications_info_desc">Işık renklerini ve diğer seçenekleri yapılandırmak için yukarıdaki kanallardan birine dokunun</string>
+    <string name="value_equals_default">varsayılan</string>
+    <string name="show_light_on_zen_title">Rahatsız Etmeyin sırasında yanıp sön</string>
+
+    <!-- App Ops Settings -->
+    <!-- App Ops Categories -->
+    <string name="app_ops_cat_location">Konum</string>
+    <string name="app_ops_cat_personal">Kişisel</string>
+    <string name="app_ops_cat_messaging">Mesajlaşma</string>
+    <string name="app_ops_cat_media">Medya</string>
+    <string name="app_ops_cat_device">Cihaz</string>
+    <string name="app_ops_cat_bootup">Bootup</string>
+
+    <!-- [CHAR LIMIT=NONE] App ops labels -->
+    <string name="app_ops_access_camera">kamera</string>
+    <string name="app_ops_access_location">konum</string>
+    <string name="app_ops_access_notifications">bildirimler</string>
+    <string name="app_ops_activate_vpn">VPN</string>
+    <string name="app_ops_auto_start">otomatik başlatma</string>
+    <string name="app_ops_delete_call_log">arama kayıtlarını sil</string>
+    <string name="app_ops_delete_contacts">kişileri sil</string>
+    <string name="app_ops_delete_mms">MMS sil</string>
+    <string name="app_ops_delete_sms">SMS sil</string>
+    <string name="app_ops_draw_on_top">üzerinde göster</string>
+    <string name="app_ops_get_usage_stats">kullanım istatistiklerini al</string>
+    <string name="app_ops_keep_device_awake">uyanık tut</string>
+    <string name="app_ops_make_phone_call">arama yap</string>
+    <string name="app_ops_modify_calendar">takvimi güncelle</string>
+    <string name="app_ops_modify_call_log">arama kaydını güncelle</string>
+    <string name="app_ops_modify_clipboard">panoyu değiştir</string>
+    <string name="app_ops_modify_contacts">kişileri güncelle</string>
+    <string name="app_ops_modify_settings">ayarları güncelle</string>
+    <string name="app_ops_mute_unmute_microphone">mikrofonu aç/kapat</string>
+    <string name="app_ops_play_audio">ses oynat</string>
+    <string name="app_ops_post_notification">bildirim gönderme</string>
+    <string name="app_ops_project_media">proje medyası</string>
+    <string name="app_ops_read_calendar">takvimi oku</string>
+    <string name="app_ops_read_call_log">arama günlüğünü oku</string>
+    <string name="app_ops_read_clipboard">panoyu oku</string>
+    <string name="app_ops_read_contacts">kişileri oku</string>
+    <string name="app_ops_read_mms">MMS oku</string>
+    <string name="app_ops_read_sms">SMS oku</string>
+    <string name="app_ops_receive_sms">SMS al</string>
+    <string name="app_ops_record_audio">ses kaydet</string>
+    <string name="app_ops_send_mms">MMS gönder</string>
+    <string name="app_ops_send_sms">SMS gönder</string>
+    <string name="app_ops_toast_window">bildirim mesajı</string>
+    <string name="app_ops_use_alarm_volume">alarm sesi</string>
+    <string name="app_ops_use_audio_focus">ses odaklama</string>
+    <string name="app_ops_use_bluetooth_volume">Bluetooth sesi</string>
+    <string name="app_ops_use_master_volume">ana ses</string>
+    <string name="app_ops_use_media_buttons">medya tuşları</string>
+    <string name="app_ops_use_media_volume">medya sesi</string>
+    <string name="app_ops_use_notification_volume">bildirim sesi</string>
+    <string name="app_ops_use_ring_volume">zil sesi</string>
+    <string name="app_ops_use_vibrate">dokunsal geribildirim</string>
+    <string name="app_ops_use_voice_volume">sesli arama sesi</string>
+    <string name="app_ops_write_mms">MMS yaz</string>
+    <string name="app_ops_write_sms">SMS yaz</string>
+    <string name="app_ops_use_fingerprint">parmak izi</string>
+    <string name="app_ops_add_voicemail">sesli mesaj</string>
+    <string name="app_ops_read_phone_state">telefon durumuna eriş</string>
+    <string name="app_ops_scan_wifi">Kablosuz ağları tara</string>
+    <string name="app_ops_change_wallpaper">duvar kağıdını değiştir</string>
+    <string name="app_ops_assist_structure">yardımcı yapı</string>
+    <string name="app_ops_assist_screenshot">ekran görüntüsü</string>
+    <string name="app_ops_use_body_sensors">vücut sensörü</string>
+    <string name="app_ops_read_cell_broadcasts">hücre yayınları</string>
+    <string name="app_ops_mock_location">sahte konum</string>
+    <string name="app_ops_read_external_storage">harici belleği oku</string>
+    <string name="app_ops_write_external_storage">harici belleğe yaz</string>
+    <string name="app_ops_turn_on_screen">ekranı aç</string>
+    <string name="app_ops_get_accounts">cihaz hesapları</string>
+    <string name="app_ops_run_in_background">arka planda çalıştır</string>
+    <string name="app_ops_accessibility_volume">erişilebilirlik sesi</string>
+    <string name="app_ops_read_phone_numbers">telefon numarasını oku</string>
+    <string name="app_ops_request_install_packages">paketleri yükle</string>
+    <string name="app_ops_picture_in_picture">rir</string>
+    <string name="app_ops_app_start_foreground">ön plana başlat</string>
+    <string name="app_ops_answer_phone_calls">aramalara cevap ver</string>
+    <string name="app_ops_boot_completed">otomatik başlatma</string>
+
+    <!-- Vendor version -->
+    <string name="vendor_version">Satıcı sürümü</string>
+    <string name="vendor_version_default">Bilinmiyor</string>
+
+    <!-- Charging vibration -->
+    <string name="charging_vibro_title">Şarj titreşimi</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Ekran görüntüsü alma sesi</string>
+
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">Ses seviyeleri</string>
+    <string name="volume_steps_alarm_title">Ses seviyesi: Alarm</string>
+    <string name="volume_steps_dtmf_title">Ses seviyesi: DTMF</string>
+    <string name="volume_steps_music_title">Ses seviyesi: Müzik</string>
+    <string name="volume_steps_notification_title">Ses seviyesi: Bildirimler</string>
+    <string name="volume_steps_ring_title">Ses seviyesi: Zil sesi</string>
+    <string name="volume_steps_system_title">Ses seviyesi: Sistem</string>
+    <string name="volume_steps_voice_call_title">Ses seviyesi: Sesli arama</string>
+    <string name="volume_steps_bluetooth_sco_title">Ses seviyesi: Bluetooth arama</string>
+    <string name="volume_steps_reset">Sıfırla</string>
+    <string name="volume_steps_60" translatable="false">60</string>
+    <string name="volume_steps_45" translatable="false">45</string>
+    <string name="volume_steps_30" translatable="false">30</string>
+    <string name="volume_steps_15" translatable="false">15</string>
+    <string name="volume_steps_7" translatable="false">7</string>
+    <string name="volume_steps_5" translatable="false">5</string>
+
+    <string name="link_volume_option_title">Zil ve bildirim seslerini bağla</string>
+
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Artan zil sesi</string>
+    <string name="increasing_ring_min_volume_title">Başlangıç sesi</string>
+    <string name="increasing_ring_ramp_up_time_title">Artırma süresi</string>
+
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Döndürme</string>
+    <string name="display_rotation_disabled">Devre dışı</string>
+    <string name="display_rotation_unit">derece</string>
+    <string name="display_rotation_category_title">Döndürme modları</string>
+    <string name="display_rotation_0_title">0 derece</string>
+    <string name="display_rotation_90_title">90 derece</string>
+    <string name="display_rotation_180_title">180 derece</string>
+    <string name="display_rotation_270_title">270 derece</string>
+
+    <!-- Menu label for reset the battery stats -->
+    <string name="menu_stats_reset">İstatistikleri sıfırla</string>
+    <!-- Reset stats confirmation dialog's message -->
+    <string name="reset_stats_msg">Pil geçmişi istatistikleri sıfırlanacak</string>
+
+    <!-- Color Manager -->
+    <string name="color_manager_title">Renk yöneticisi</string>
+    <string name="color_manager_summary">Çeşitli tema modlarıyla sistem renklerini değiştir</string>
+    <!-- Color Manager: Options -->
+    <string name="theme_auto_title">Otomatik</string>
+    <string name="theme_auto_title_summary">Themes the system based on chosen wallpaper</string>
+    <string name="theme_light_title">Açık</string>
+    <string name="theme_light_title_summary">Sistem teması beyaz</string>
+    <string name="theme_dark_title">Koyu</string>
+    <string name="theme_dark_title_summary">Sistem teması koyu gri</string>
+    <string name="theme_black_title">Siyah</string>
+    <string name="theme_black_title_summary">Sistem teması siyah</string>
+    <!-- Color Manager: Device accent -->
+    <string name="device_accent_title">Cihaz vurgu rengi</string>
+
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_enabled">etkin</string>
+    <string name="sim_disabled">devre dışı</string>
+    <string name="sim_missing">eksik veya hatalı</string>
+    <string name="sim_enabler_need_disable_sim">SIM kart devre dışı bırakılacaktır. Devam etmek istiyor musun?</string>
+    <string name="sim_enabler_will_disable_sim_title">Dikkat</string>
+    <string name="sim_enabler_need_switch_data_service">Bu SIM devre dışı bırakılacak ve SIM <xliff:g id="slotid">%1$s</xliff:g> veri hizmetleri için kullanılacak. Devam etmek istediğinizden emin misiniz?</string>
+    <string name="sim_enabler_airplane_on">Uçak modu açıkken işlem yapılamıyor.</string>
+    <string name="sim_enabler_in_call">Arama sırasında işlem yapılamıyor.</string>
+    <string name="sim_enabler_both_inactive">Tüm SIM kartları devre dışı bırakılamıyor</string>
+    <string name="sim_enabler_enabling">Etkinleştiriliyor\u2026</string>
+    <string name="sim_enabler_disabling">Devre dışı bırakılıyor\u2026</string>
+    <string name="sub_activate_success">SIM etkinleştirildi.</string>
+    <string name="sub_activate_failed">Etkinleştirme başarısız.</string>
+    <string name="sub_deactivate_success">SIM devre dışı bırakıldı.</string>
+    <string name="sub_deactivate_failed">Devre dışı bırakma başarısız.</string>
+
+    <string name="force_ambient_for_media_pref_title">Ortam Ekranı Müzik Şeridi</string>
+    <string name="force_ambient_for_media_off">Devre dışı</string>
+    <string name="force_ambient_for_media_on">Etkin</string>
+    <string name="force_ambient_for_media_on_forced">Etkin ve zorlanmış</string>
+    <string name="force_ambient_for_media_on_forced_clean">Etkin ve zorlanmış minimal</string>
+    <string name="ambient_ticker_footer">Bu özellik, Ortam ekranının etkinleştirilmiş veya aktif olmaması durumunda mevcut müzik parçası bilgilerini kilit ekranında gösterme yeteneğine izin verir.\n\nNormal ve minimal iki düzen arasından seçim yapabilirsiniz. Bu özellik, ortam görüntüsünden yararlanırken, buna bağlı değildir. (Zorla) seçeneklerini kullanarak ortam ekranı etkinleştirilmeden tetiklenebilir.\n\nNormal görünüm, kilit ekranı saati, tarihi ve müzik bilgilerini içerir.\n\nMinimal görünüm, ekranın ortasında sadece müzik bilgisini içerir.</string>
+
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Telefonunuzun <xliff:g id="sensor_location">%1$s</xliff:g> tarafında ki parmak izi sensörünü bulun.</string>
+
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">arka</string>
+    <string name="security_settings_fingerprint_sensor_location_front">ön</string>
+    <string name="security_settings_fingerprint_sensor_location_left">sol</string>
+	<string name="security_settings_fingerprint_sensor_location_right">sağ</string>
+
+    <string name="theme_applied_toast">Tema uygulandı.</string>
+    <string name="applying_theme_toast">Tema uygulanıyor, lütfen bekleyin...</string>
+</resources>
