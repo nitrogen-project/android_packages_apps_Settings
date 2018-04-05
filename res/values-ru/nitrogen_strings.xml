@@ -47,4 +47,7 @@
     <!-- OTA -->
     <string name="nosupdate_settings_title">Обновления Nitrogen OS</string>
     <string name="nosupdate_settings_summary">Поиск обновлений</string>
+
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Сохраненные наушники</string>
 </resources>
