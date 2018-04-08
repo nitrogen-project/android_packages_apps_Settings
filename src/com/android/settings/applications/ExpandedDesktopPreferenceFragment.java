@@ -284,7 +284,7 @@ public class ExpandedDesktopPreferenceFragment extends SettingsPreferenceFragmen
 
     @Override
     public void onLoadEntriesCompleted() {
-
+        rebuild();
     }
 
     private void handleAppEntries(List<ApplicationsState.AppEntry> entries) {
