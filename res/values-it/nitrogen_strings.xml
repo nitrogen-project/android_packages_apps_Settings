@@ -233,4 +233,17 @@
     <string name="theme_applied_toast">Applicazione tema.</string>
     <string name="applying_theme_toast">Tema applicato, attendere prego...</string>
 
+    <!-- Expanded desktop -->
+    <string name="power_menu_expanded_desktop">Schermo esteso</string>
+    <string name="expanded_hide_nothing">Non nascondere nulla</string>
+    <string name="expanded_hide_status">Nascondi la barra di stato</string>
+    <string name="expanded_hide_navigation">Nascondi la barra di navigazione</string>
+    <string name="expanded_hide_both">Nascondi entrambi</string>
+    <string name="expanded_nothing_to_show">Per aggiungere una configurazione personalizzata di schermo esteso per ogni app, disattiva \"Attivo per tutti\"</string>
+    <string name="expanded_desktop_state">Stato schermo esteso</string>
+    <string name="expanded_enabled_for_all">Attivo per tutti</string>
+    <string name="expanded_user_configurable">Configurabile dall\'utente</string>
+    <string name="expanded_desktop_style">Stile schermo esteso</string>
+    <string name="expanded_desktop_style_description">Scegli lo stile predefinito dello schermo esteso</string>
+    <string name="expanded_desktop_title">Impostazioni schermo esteso</string>
 </resources>
