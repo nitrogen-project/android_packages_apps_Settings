@@ -3336,6 +3336,18 @@
                 android:value="com.nitrogen.settings.fragments.ButtonSettings" />
         </activity>
 
+        <!-- Expanded desktop settings activity. -->
+        <activity android:name="Settings$ExpandedDesktopSettingsActivity"
+                android:label="@string/power_menu_expanded_desktop"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.applications.ExpandedDesktopPreferenceFragment" />
+        </activity>
+
         <!-- Color settings activity. -->
         <activity android:name="Settings$ColorSettingsActivity"
                 android:label="@string/color_manager_title"
