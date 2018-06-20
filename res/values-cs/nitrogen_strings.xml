@@ -30,7 +30,7 @@
 
     <!-- OTA -->
     <string name="nosupdate_settings_title">Aktualizace Nitrogen OS</string>
-    <string name="nosupdate_settings_summary">Skontrolovat aktualizace</string>
+    <string name="nosupdate_settings_summary">Zkontrolovat aktualizace</string>
 
     <string name="dashboard_conditions_title">Oznámení v hlavním menu</string>
     <string name="summary_dashboard_conditions_enabled">Oznámení v hlavním menu jsou povolené</string>
@@ -177,21 +177,67 @@
     <string name="menu_stats_reset">Resetovat statistiky</string>
     <string name="reset_stats_msg">Historie baterie se vymaže</string>
 
-    <string name="battery_image">Ikona baterie</string>
-    <string name="battery_image_description">Zobrazit ikonu baterie ve stavovém řádku</string>
-
     <!-- Color Manager -->
     <string name="color_manager_title">Správa barev</string>
     <string name="color_manager_summary">Změnit barvu systému a vybrat motiv</string>
     <!-- Color Manager: Options -->
     <string name="theme_auto_title">Auto</string>
     <string name="theme_auto_title_summary">Motiv podle nastavené tapety</string>
-    <string name="theme_light_title">Světlá</string>
-    <string name="theme_light_title_summary">Světlá systémová téma</string>
-    <string name="theme_dark_title">Tmavá</string>
-    <string name="theme_dark_title_summary">Tmavá systémová téma</string>
-    <string name="theme_black_title">Černá</string>
-    <string name="theme_black_title_summary">Černá systémová téma</string>
+    <string name="theme_light_title">Světlé</string>
+    <string name="theme_light_title_summary">Světlé systémové téma</string>
+    <string name="theme_dark_title">Tmavé</string>
+    <string name="theme_dark_title_summary">Tmavé systémové téma</string>
+    <string name="theme_black_title">Černé</string>
+    <string name="theme_black_title_summary">Černé systémové téma</string>
     <!-- Color Manager: Device accent -->
     <string name="device_accent_title">Hlavní systémová barva</string>
+
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_enabled">zapnutá</string>
+    <string name="sim_disabled">vypnutá</string>
+    <string name="sim_missing">chybějící nebo vadná</string>
+    <string name="sim_enabler_need_enable_sim">Opravdu aktivovat SIM kartu?</string>
+    <string name="sim_enabler_need_disable_sim">Opravdu deaktivovat SIM kartu?</string>
+    <string name="sim_enabler_will_disable_sim_title">Pozor!</string>
+    <string name="sim_enabler_airplane_on">CHYBA. Je aktivován režim letadlo!</string>
+    <string name="sim_enabler_in_call">CHYBA. Probíhá hovor!</string>
+    <string name="sim_enabler_both_inactive">Chyba, nemůžete vypnout všechny karty SIM</string>
+    <string name="sim_enabler_enabling">Aktivace...</string>
+    <string name="sim_enabler_disabling">Deaktivace...</string>
+    <string name="sub_activate_success">Aktivace dokončena.</string>
+    <string name="sub_activate_failed">Chyba při aktivaci.</string>
+    <string name="sub_deactivate_success">Deaktivace dokončena.</string>
+    <string name="sub_deactivate_failed">Chyba při deaktivaci.</string>
+
+    <string name="force_ambient_for_media_pref_title">Informace o skladbě</string>
+    <string name="force_ambient_for_media_off">Vypnuto</string>
+    <string name="force_ambient_for_media_on">Zapnuto</string>
+    <string name="force_ambient_for_media_on_forced">Vynuceně zapnuté</string>
+    <string name="force_ambient_for_media_on_forced_clean">Vynuceně zapnuté v min. režimu</string>
+    <string name="ambient_ticker_footer">Informace o skladbě se zobrazují na obrazovce uzamčení s nebo bez zapnuté funkce Ambientní zobrazení.\nVyberte normální nebo minimální režim. Ačkoli tato funkce používá Ambientní zobrazení, nezávisí na něm.</string>
+
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Čtečka otisků prstů je umístěna: <xliff:g id="sensor_location">%1$s </xliff:g> вашего телефона.</string>
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">vzadu</string>
+    <string name="security_settings_fingerprint_sensor_location_front">vpředu</string>
+    <string name="security_settings_fingerprint_sensor_location_left">levá hrana</string>
+    <string name="security_settings_fingerprint_sensor_location_right">pravá hrana</string>
+
+    <string name="theme_applied_toast">Téma bola aplikovaná</string>
+    <string name="applying_theme_toast">Aplikovanie témy, prosím čkajate...</string>
+
+    <!-- Expanded desktop -->
+    <string name="power_menu_expanded_desktop">Rozšířená plocha</string>
+    <string name="expanded_hide_nothing">Nic neskrývat</string>
+    <string name="expanded_hide_status">Skrýt stavový řádek</string>
+    <string name="expanded_hide_navigation">Skrýt navigační panel</string>
+    <string name="expanded_hide_both">Skrýt obojí</string>
+    <string name="expanded_nothing_to_show">Chcete-li nakonfigurovat pokročilé nastavení obrazovky pro jednotlivé aplikace, nastavte přepínač "Povolené pro všechny" na stav Zakázáno.</string>
+    <string name="expanded_enabled_for_all">Povoleno pro všechny</string>
+    <string name="expanded_desktop_style">Styl rozšířené obrazovky</string>
+    <string name="expanded_desktop_style_description">Vybrat výchozí styl rozšířené obrazovky</string>
+    <string name="expanded_desktop_title">Nastavení rozšířené obrazovky</string>
+    <string name="expanded_user_configurable">Uživatelsky konfigurovatelné</string>
+    <string name="expanded_desktop_state">Rozšířený stav</string>
 </resources>

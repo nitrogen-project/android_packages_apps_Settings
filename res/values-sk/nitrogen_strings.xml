@@ -177,9 +177,6 @@
     <string name="menu_stats_reset">Resetovať štatistiky</string>
     <string name="reset_stats_msg">História batérie sa vymaže</string>
 
-    <string name="battery_image">Ikona batérie</string>
-    <string name="battery_image_description">Zobraziť ikonu batérie v stavovom riadku</string>
-
     <!-- Color Manager -->
     <string name="color_manager_title">Správa farieb</string>
     <string name="color_manager_summary">Zmeniť farbu systému a vybrať tému</string>
@@ -194,4 +191,53 @@
     <string name="theme_black_title_summary">Čierna systémová téma</string>
     <!-- Color Manager: Device accent -->
     <string name="device_accent_title">Hlavná systémová farba</string>
+
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_enabled">zapnutá</string>
+    <string name="sim_disabled">vypnutá</string>
+    <string name="sim_missing">chýbajúca alebo vadná</string>
+    <string name="sim_enabler_need_enable_sim">Naozaj aktivovať SIM kartu?</string>
+    <string name="sim_enabler_need_disable_sim">Naozaj deaktivovať SIM kartu?</string>
+    <string name="sim_enabler_will_disable_sim_title">Pozor!</string>
+    <string name="sim_enabler_airplane_on">CHYBA. Je aktivovaný režim lietadlo!</string>
+    <string name="sim_enabler_in_call">CHYBA. Prebieha hovor!</string>
+    <string name="sim_enabler_both_inactive">Chyba, nemôžete vypnúť všetky karty SIM</string>
+    <string name="sim_enabler_enabling">Aktivácia...</string>
+    <string name="sim_enabler_disabling">Deaktivácia...</string>
+    <string name="sub_activate_success">Aktivácia dokončená.</string>
+    <string name="sub_activate_failed">Chyba pri aktivácii.</string>
+    <string name="sub_deactivate_success">Deaktivácia dokončená.</string>
+    <string name="sub_deactivate_failed">Chyba pri deaktivácii.</string>
+
+    <string name="force_ambient_for_media_pref_title">Informácie o skladbe</string>
+    <string name="force_ambient_for_media_off">Vypnuté</string>
+    <string name="force_ambient_for_media_on">Zapnuté</string>
+    <string name="force_ambient_for_media_on_forced">Vynútene zapnuté</string>
+    <string name="force_ambient_for_media_on_forced_clean">Vynútene zapnuté v min. režime</string>
+    <string name="ambient_ticker_footer">Informácie o skladbe sa zobrazujú na obrazovke uzamknutia s alebo bez zapnutej funkcie Ambientneho zobrazenia.\nVyberte normálny alebo minimálny režim. Hoci táto funkcia používa Ambientne zobrazenie, nezávisí na ňom.</string>
+
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Čítačka odtlačkov prstov je umiestnená: <xliff:g id="sensor_location">%1$s </xliff:g> вашего телефона.</string>
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">vzadu</string>
+    <string name="security_settings_fingerprint_sensor_location_front">vpredu</string>
+    <string name="security_settings_fingerprint_sensor_location_left">ľavá hrana</string>
+    <string name="security_settings_fingerprint_sensor_location_right">pravá hrana</string>
+
+    <string name="theme_applied_toast">Téma bola aplikovaná</string>
+    <string name="applying_theme_toast">Aplikovanie témy, prosím čkajate...</string>
+
+    <!-- Expanded desktop -->
+    <string name="power_menu_expanded_desktop">Rozšírená plocha</string>
+    <string name="expanded_hide_nothing">Nič neskrývať</string>
+    <string name="expanded_hide_status">Skryť stavový riadok</string>
+    <string name="expanded_hide_navigation">Skryť navigačný panel</string>
+    <string name="expanded_hide_both">Skryť oboje</string>
+    <string name="expanded_nothing_to_show">Ak chcete nakonfigurovať pokročilé nastavenia obrazovky pre jednotlivé aplikácie, nastavte prepínač "Povolené pre všetky" na stav Zakázaný.</string>
+    <string name="expanded_enabled_for_all">Povolené pre všetky</string>
+    <string name="expanded_desktop_style">Štýl rozšírenej obrazovky</string>
+    <string name="expanded_desktop_style_description">Vybrať predvolený štýl rozšírenej obrazovky</string>
+    <string name="expanded_desktop_title">Nastavenia rozšírenej obrazovky</string>
+    <string name="expanded_user_configurable">Užívateľsky konfigurovateľné</string>
+    <string name="expanded_desktop_state">Rozšírený stav</string>
 </resources>
