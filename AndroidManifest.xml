@@ -3277,8 +3277,8 @@
         <!-- NitrogenSettings -->
         <activity android:name=".Settings$NitrogenSettingsActivity"
             android:label="@string/nitrogen_settings_title"
-            android:icon="@drawable/ic_settings_nitrogen"
-            android:taskAffinity="">
+            android:icon="@drawable/ic_homepage_nitrogen"
+            android:taskAffinity="com.android.settings">
             <intent-filter android:priority="1">
                 <action android:name="com.nitrogen.settings.NitrogenSettings" />
                 <category android:name="android.intent.category.DEFAULT" />
