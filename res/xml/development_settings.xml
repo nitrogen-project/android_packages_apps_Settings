@@ -97,17 +97,6 @@
             android:title="@string/color_temperature"
             android:summary="@string/color_temperature_desc" />
 
-        <SwitchPreference
-            android:key="ota_disable_automatic_update"
-            android:title="@string/ota_disable_automatic_update"
-            android:summary="@string/ota_disable_automatic_update_summary" />
-
-        <Preference
-            android:key="demo_mode"
-            android:title="@string/demo_mode">
-            <intent android:action="com.android.settings.action.DEMO_MODE" />
-        </Preference>
-
         <ListPreference
             android:key="dark_ui_mode"
             android:title="@string/dark_ui_mode"
@@ -115,10 +104,6 @@
             android:entries="@array/dark_ui_mode_entries"
             android:entryValues="@array/dark_ui_mode_values" />
 
-        <Preference
-            android:key="quick_settings_tiles"
-            android:title="@string/quick_settings_developer_tiles"
-            android:fragment="com.android.settings.development.qstile.DevelopmentTileConfigFragment" />
     </PreferenceCategory>
 
     <PreferenceCategory
