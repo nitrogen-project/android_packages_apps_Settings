@@ -30,15 +30,6 @@
             android:summary="@string/summary_placeholder"
             android:fragment="com.android.settings.applications.ProcessStatsSummary" />
 
-        <com.android.settings.BugreportPreference
-            android:key="bugreport"
-            android:title="@*android:string/bugreport_title"
-            android:dialogTitle="@*android:string/bugreport_title" />
-
-        <Preference
-            android:key="system_server_heap_dump"
-            android:title="@string/capture_system_heap_dump_title" />
-
         <Preference
             android:key="local_backup_password"
             android:title="@string/local_backup_password_title"
@@ -103,23 +94,6 @@
             android:title="@string/color_temperature"
             android:summary="@string/color_temperature_desc" />
 
-        <SwitchPreference
-            android:key="ota_disable_automatic_update"
-            android:title="@string/ota_disable_automatic_update"
-            android:summary="@string/ota_disable_automatic_update_summary" />
-
-        <Preference
-            android:key="demo_mode"
-            android:title="@string/demo_mode">
-            <intent android:action="com.android.settings.action.DEMO_MODE" />
-        </Preference>
-
-        <Preference
-            android:key="quick_settings_tiles"
-            android:title="@string/quick_settings_developer_tiles"
-            android:fragment="com.android.settings.development.qstile.DevelopmentTileConfigFragment"
-            settings:searchable="false" />
-
     <!-- Configure trust agent behavior -->
     <SwitchPreference
         android:key="security_setting_trust_agents_extend_unlock"
@@ -149,16 +123,6 @@
             android:key="enable_terminal"
             android:title="@string/enable_terminal_title"
             android:summary="@string/enable_terminal_summary" />
-
-        <SwitchPreference
-            android:key="bugreport_in_power"
-            android:title="@string/bugreport_in_power"
-            android:summary="@string/bugreport_in_power_summary" />
-
-        <SwitchPreference
-            android:key="automatic_system_server_heap_dumps"
-            android:title="@string/automatic_system_heap_dump_title"
-            android:summary="@string/automatic_system_heap_dump_summary" />
 
         <Preference android:key="mock_location_app"
                     android:title="@string/mock_location_app" />
