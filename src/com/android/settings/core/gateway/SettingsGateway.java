@@ -160,6 +160,7 @@ import com.android.settings.wifi.savedaccesspoints.SavedAccessPointsWifiSettings
 import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSettings2;
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
+import com.nitrogen.settings.fragments.ButtonSettings;
 import com.nitrogen.settings.fragments.HeadsUpSettings;
 import com.nitrogen.settings.NitrogenSettings;
 
@@ -312,7 +313,8 @@ public class SettingsGateway {
             InteractAcrossProfilesDetails.class.getName(),
             MediaControlsSettings.class.getName(),
             NitrogenSettings.class.getName(),
-            HeadsUpSettings.class.getName()
+            HeadsUpSettings.class.getName(),
+            ButtonSettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -354,5 +356,6 @@ public class SettingsGateway {
             UserBackupSettingsActivity.class.getName(),
             Settings.NitrogenSettingsActivity.class.getName(),
             Settings.HeadsUpSettingsActivity.class.getName(),
+            Settings.ButtonSettingsActivity.class.getName(),
     };
             }
