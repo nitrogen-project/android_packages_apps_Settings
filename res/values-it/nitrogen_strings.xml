@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Pure Nexus Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Nitrogen Settings -->
+    <string name="nitrogen_settings_title">Personalizzazione</string>
+    <string name="nitrogen_settings_summary">Impostazioni aggiuntive</string>
+
+    <!-- Scramble PIN Layout on Lockscreen -->
+    <string name="unlock_scramble_pin_layout_title">Disposizione casuale</string>
+    <string name="unlock_scramble_pin_layout_summary">Disposizione PIN Disposizione quando si sblocca il dispositivo</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Sblocco veloce</string>
+    <string name="unlock_quick_unlock_control_summary">Sblocca automaticamente quando vengono inseriti il PIN o la password corretti</string>
+
+    <!-- Custom light color -->
+    <string name="custom_light_title">Colore della luce</string>
+    <string name="custom_light_on_time_title">Durata impulso del led acceso(ms)</string>
+    <string name="custom_light_off_time_title">Durata impulso del led spento (ms)</string>
+    <string name="value_equals_default">Predefinito</string>
+    <string name="show_light_on_zen_title">Lampeggia durante Non Disturbare</string>
+    
+    <!-- Charging vibration -->
+    <string name="charging_vibro_title">Vibrazione di ricarica</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Suono Screenshot</string>
+</resources>
