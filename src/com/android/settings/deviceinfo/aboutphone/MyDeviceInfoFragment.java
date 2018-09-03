@@ -115,6 +115,7 @@ public class MyDeviceInfoFragment extends DashboardFragment
             lifecycle.addObserver(deviceNamePreferenceController);
         }
         controllers.add(deviceNamePreferenceController);
+        controllers.add(new OTAPreferenceController(context));
         controllers.add(new SimStatusPreferenceController(context, fragment));
         controllers.add(new DeviceModelPreferenceController(context, fragment));
         controllers.add(new ImeiInfoPreferenceController(context, fragment));

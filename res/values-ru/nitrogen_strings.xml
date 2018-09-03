@@ -52,4 +52,8 @@
 
     <string name="app_package_name_title">Приложение</string>
     <string name="app_version_title">Версия</string>
+
+    <!-- OTA -->
+    <string name="nosupdate_settings_title">Обновления Nitrogen OS</string>
+    <string name="nosupdate_settings_summary">Поиск обновлений</string>
 </resources>

@@ -52,4 +52,8 @@
 
     <string name="app_package_name_title">Package</string>
     <string name="app_version_title">Version</string>
+
+    <!-- OTA -->
+    <string name="nosupdate_settings_title">Nitrogen OS updates</string>
+    <string name="nosupdate_settings_summary">Find new updates</string>
 </resources>

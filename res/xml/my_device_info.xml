@@ -35,38 +35,48 @@
         android:summary="@string/changelog_summary"
         android:fragment="com.android.settings.nitrogen.Changelog" />
 
+    <!-- OTA -->
+    <Preference android:key="nos_updates"
+        android:order="2"
+        android:title="@string/nosupdate_settings_title"
+        android:summary="@string/nosupdate_settings_summary">
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="com.nitrogen.ota"
+            android:targetClass="com.nitrogen.ota.MainActivity" />
+    </Preference>
+
     <!-- Device name -->
     <com.android.settings.widget.ValidatedEditTextPreference
         android:key="device_name"
-        android:order="2"
+        android:order="3"
         android:title="@string/my_device_info_device_name_preference_title"
         android:summary="@string/summary_placeholder"/>
 
     <!-- Account name -->
     <Preference
         android:key="branded_account"
-        android:order="3"
+        android:order="4"
         android:title="@string/my_device_info_account_preference_title"
         android:summary="@string/summary_placeholder"/>
 
     <!-- Phone number -->
     <Preference
         android:key="phone_number"
-        android:order="4"
+        android:order="5"
         android:title="@string/status_number"
         android:summary="@string/summary_placeholder"
         android:selectable="false"/>
 
     <Preference
         android:key="emergency_info"
-        android:order="5"
+        android:order="6"
         android:title="@string/emergency_info_title"
         android:summary="@string/summary_placeholder"/>
 
     <!-- SIM status -->
     <Preference
         android:key="sim_status"
-        android:order="6"
+        android:order="7"
         android:title="@string/sim_status_title"
         settings:keywords="@string/keywords_sim_status"
         android:summary="@string/summary_placeholder"
