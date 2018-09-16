@@ -104,7 +104,6 @@ import com.nitrogen.settings.fragments.NosGestureSettings;
 import com.nitrogen.settings.fragments.HeadsUpSettings;
 import com.nitrogen.settings.fragments.LockScreenSettings;
 import com.nitrogen.settings.fragments.MiscSettings;
-import com.nitrogen.settings.fragments.NavbarSettings;
 import com.nitrogen.settings.fragments.NotificationSettings;
 import com.nitrogen.settings.fragments.OmniGestureSettings;
 import com.nitrogen.settings.fragments.PowerMenuSettings;
@@ -214,7 +213,6 @@ public class SearchIndexableResourcesImpl implements SearchIndexableResources {
         addIndex(HeadsUpSettings.class);
         addIndex(LockScreenSettings.class);
         addIndex(MiscSettings.class);
-        addIndex(NavbarSettings.class);
         addIndex(NotificationSettings.class);
         addIndex(OmniGestureSettings.class);
         addIndex(PowerMenuSettings.class);
