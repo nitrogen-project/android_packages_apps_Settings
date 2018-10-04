@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Pure Nexus Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Nitrogen Settings -->
+    <string name="nitrogen_settings_title">NitrogenOS ayarları</string>
+    <string name="nitrogen_settings_summary">Gelişmiş ayarlar</string>
+
+    <!-- Scramble PIN Layout on Lockscreen -->
+    <string name="unlock_scramble_pin_layout_title">Düzeni karıştır</string>
+    <string name="unlock_scramble_pin_layout_summary">Cihaz kilidini açarken PIN düzenini karıştır</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Hızlı kilit açma</string>
+    <string name="unlock_quick_unlock_control_summary">Doğru PIN/şifre girildiğinde otomatik olarak kilidi açar</string>
+
+    <!-- Custom light color -->
+    <string name="custom_light_title">Işık rengi</string>
+    <string name="custom_light_on_time_title">Led\'in yanma sırasında ışığın açık kalma zamanı (ms)</string>
+    <string name="custom_light_off_time_title">Led\'in yanma sırasında ışığın kapalı kalma zamanı (ms)</string>
+    <string name="value_equals_default">varsayılan</string>
+    <string name="show_light_on_zen_title">Rahatsız Etmeyin sırasında yanıp sön</string>
+
+    <!-- Charging vibration -->
+    <string name="charging_vibro_title">Şarj titreşimi</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Ekran görüntüsü alma sesi</string>
+
+    <!-- Changelog -->
+    <string name="changelog_title">Değişiklikler</string>
+    <string name="changelog_summary">Son güncellemeden itibaren</string>
+    <string name="changelog_error">Değişiklikler yüklenemedi</string>
+
+    <string name="dashboard_conditions_title">Ayarlar menüsü durumları</string>
+    <string name="summary_dashboard_conditions_enabled">Ayarlar menüsü durumları etkin</string>
+    <string name="summary_dashboard_conditions_disabled">Ayarlar menüsü durumları devre dışı</string>
+
+    <string name="dashboard_suggestions_title">Ayarlar menüsü önerileri</string>
+    <string name="summary_dashboard_suggestions_enabled">Ayarlar menüsü önerileri etkin</string>
+    <string name="summary_dashboard_suggestions_disabled">Ayarlar menüsü önerileri devre dışı</string>
+
+    <string name="app_package_name_title">Paket</string>
+    <string name="app_version_title">Sürüm</string>
+
+    <!-- OTA -->
+    <string name="nosupdate_settings_title">Nitrogen OS güncellemeleri</string>
+    <string name="nosupdate_settings_summary">Yeni güncellemeleri bul</string>
+
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">İstatistikleri sıfırla</string>
+    <string name="battery_stats_message">Pil geçmişi istatistikleri sıfırlanacak</string>
+    <string name="ok_string">Tamam</string>
+
+    <!-- App Ops Categories -->
+    <string name="app_ops_settings">App ops</string>
+    <string name="app_ops_cat_location">Konum</string>
+    <string name="app_ops_cat_personal">Özel</string>
+    <string name="app_ops_cat_messaging">Mesajlaşma</string>
+    <string name="app_ops_cat_media">Medya</string>
+    <string name="app_ops_cat_device">Cihaz</string>
+    <string name="app_ops_cat_bootup">Başlangıçta</string>
+     <!-- App ops labels -->
+    <string name="app_ops_access_camera">kamera</string>
+    <string name="app_ops_coarse_location">tahmini konum</string>
+    <string name="app_ops_fine_location">doğru konum</string>
+    <string name="app_ops_gps_location">GPS</string>
+    <string name="app_ops_access_notifications">bildirimler</string>
+    <string name="app_ops_activate_vpn">VPN</string>
+    <string name="app_ops_auto_start">otomatik başlatma</string>
+    <string name="app_ops_delete_call_log">arama kayıtlarını sil</string>
+    <string name="app_ops_delete_contacts">kişileri sil</string>
+    <string name="app_ops_delete_mms">MMS sil</string>
+    <string name="app_ops_delete_sms">SMS sil</string>
+    <string name="app_ops_draw_on_top">üzerinde göster</string>
+    <string name="app_ops_get_usage_stats">kullanım istatistiklerini al</string>
+    <string name="app_ops_keep_device_awake">uyanık tut</string>
+    <string name="app_ops_monitor_location">konumu izle</string>
+    <string name="app_ops_high_power_location">yüksek doğruluk konumunu izle</string>
+    <string name="app_ops_make_phone_call">arama yap</string>
+    <string name="app_ops_modify_calendar">takvimi güncelle</string>
+    <string name="app_ops_modify_call_log">arama kaydını güncelle</string>
+    <string name="app_ops_modify_clipboard">panoyu değiştir</string>
+    <string name="app_ops_modify_contacts">kişileri güncelle</string>
+    <string name="app_ops_modify_settings">ayarları güncelle</string>
+    <string name="app_ops_mute_unmute_microphone">mikrofonu aç/kapat</string>
+    <string name="app_ops_play_audio">ses oynat</string>
+    <string name="app_ops_post_notification">bildirim gönder</string>
+    <string name="app_ops_cell_scan">hücre taraması</string>
+    <string name="app_ops_project_media">proje medyası</string>
+    <string name="app_ops_read_calendar">takvimi oku</string>
+    <string name="app_ops_read_call_log">arama günlüğünü oku</string>
+    <string name="app_ops_read_clipboard">panoyu oku</string>
+    <string name="app_ops_read_contacts">kişileri oku</string>
+    <string name="app_ops_read_mms">MMS oku</string>
+    <string name="app_ops_read_sms">SMS oku</string>
+    <string name="app_ops_receive_sms">SMS al</string>
+    <string name="app_ops_record_audio">ses kaydet</string>
+    <string name="app_ops_send_mms">MMS gönder</string>
+    <string name="app_ops_send_sms">SMS gönder</string>
+    <string name="app_ops_toast_window">bildirim mesajı</string>
+    <string name="app_ops_use_alarm_volume">alarm sesi</string>
+    <string name="app_ops_use_audio_focus">ses odaklama</string>
+    <string name="app_ops_use_bluetooth_volume">Bluetooth sesi</string>
+    <string name="app_ops_use_master_volume">ana ses</string>
+    <string name="app_ops_use_media_buttons">medya tuşları</string>
+    <string name="app_ops_use_media_volume">medya sesi</string>
+    <string name="app_ops_use_notification_volume">bildirim sesi</string>
+    <string name="app_ops_use_ring_volume">zil sesi</string>
+    <string name="app_ops_use_vibrate">dokunsal geribildirim</string>
+    <string name="app_ops_use_voice_volume">sesli arama sesi</string>
+    <string name="app_ops_write_mms">MMS yaz</string>
+    <string name="app_ops_write_sms">SMS yaz</string>
+    <string name="app_ops_use_fingerprint">parmak izi</string>
+    <string name="app_ops_add_voicemail">sesli mesaj</string>
+    <string name="app_ops_read_phone_state">telefon durumuna eriş</string>
+    <string name="app_ops_scan_wifi">Kablosuz ağları tara</string>
+    <string name="app_ops_change_wallpaper">duvar kağıdını değiştir</string>
+    <string name="app_ops_assist_structure">yardımcı yapı</string>
+    <string name="app_ops_assist_screenshot">ekran görüntüsü</string>
+    <string name="app_ops_use_body_sensors">vücut sensörü</string>
+    <string name="app_ops_read_cell_broadcasts">hücre yayınları</string>
+    <string name="app_ops_mock_location">sahte konum</string>
+    <string name="app_ops_read_external_storage">harici belleği oku</string>
+    <string name="app_ops_write_external_storage">harici belleğe yaz</string>
+    <string name="app_ops_turn_on_screen">ekranı aç</string>
+    <string name="app_ops_get_accounts">cihaz hesapları</string>
+    <string name="app_ops_run_in_background">arka planda çalıştır</string>
+    <string name="app_ops_accessibility_volume">erişilebilirlik sesi</string>
+    <string name="app_ops_read_phone_numbers">telefon numarasını oku</string>
+    <string name="app_ops_request_install_packages">paketleri yükle</string>
+    <string name="app_ops_picture_in_picture">rir</string>
+    <string name="app_ops_app_start_foreground">ön planda başlat</string>
+    <string name="app_ops_answer_phone_calls">aramalara cevap ver</string>
+    <string name="app_ops_run_any_in_background">arka planda çalıştır</string>
+    <string name="app_ops_change_wifi_state">wifi durumunu değiştir</string>
+    <string name="app_ops_request_delete_packages">paketleri sil</string>
+    <string name="app_ops_bind_accessibility_service">erişilebilirliğe bağlanma</string>
+    <string name="app_ops_accept_handover">teslim etmeyi kabul et</string>
+    <string name="app_ops_manage_ipsec_tunnels">ip tünellerini yönet</string>
+    <string name="app_ops_start_foreground">ön planda başlat</string>
+    <string name="app_ops_bluetooth_scan">bluetooth taraması</string>
+    <string name="app_ops_boot_completed">otomatik başlat</string>
+
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Telefonunuzun <xliff:g id="sensor_location">%1$s</xliff:g> tarafında ki parmak izi sensörünü bulun.</string>
+
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">arka</string>
+    <string name="security_settings_fingerprint_sensor_location_front">ön</string>
+    <string name="security_settings_fingerprint_sensor_location_left">sol</string>
+    <string name="security_settings_fingerprint_sensor_location_right">sağ</string>
+
+    <!-- Expanded desktop -->
+    <string name="expanded_desktop_pref_title">Genişletilmiş masaüstü</string>
+    <string name="expanded_hide_nothing">Hiçbirini gizleme</string>
+    <string name="expanded_hide_status">Durum çubuğunu gizle</string>
+    <string name="expanded_hide_navigation">Gezinme çubuğunu gizle</string>
+    <string name="expanded_hide_both">İkisini de gizle</string>
+    <string name="expanded_nothing_to_show">Genişletilmiş duruma uygulama başına özel bir yapılandırma eklemek için "Tümü için etkin" seçeneğini kapalı konuma getirin</string>
+    <string name="expanded_desktop_state">Genişletilmiş durum</string>
+    <string name="expanded_enabled_for_all">Tümü için etkin</string>
+    <string name="expanded_user_configurable">Kullanıcı yapılandırılabilir</string>
+    <string name="expanded_desktop_style">Genişletilmiş masaüstü stili</string>
+    <string name="expanded_desktop_style_description">Varsayılan genişletilmiş masaüstü stili seçin</string>
+    <string name="expanded_desktop_title">Genişletilmiş ekran seçenekleri</string>
+</resources>
