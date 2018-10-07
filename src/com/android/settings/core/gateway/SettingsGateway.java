@@ -137,8 +137,23 @@ import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.calling.WifiCallingSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
+import com.nitrogen.settings.fragments.BatteryLightSettings;
 import com.nitrogen.settings.fragments.ButtonSettings;
+import com.nitrogen.settings.fragments.NosGestureSettings;
 import com.nitrogen.settings.fragments.HeadsUpSettings;
+import com.nitrogen.settings.fragments.LockScreenSettings;
+import com.nitrogen.settings.fragments.MiscSettings;
+import com.nitrogen.settings.fragments.NavbarSettings;
+import com.nitrogen.settings.fragments.NotificationSettings;
+import com.nitrogen.settings.fragments.OmniGestureSettings;
+import com.nitrogen.settings.fragments.PowerMenuSettings;
+import com.nitrogen.settings.fragments.QuickSettings;
+import com.nitrogen.settings.fragments.RecentsSettings;
+import com.nitrogen.settings.fragments.SmartPixels;
+import com.nitrogen.settings.fragments.StatusBarBattery;
+import com.nitrogen.settings.fragments.StatusBarSettings;
+import com.nitrogen.settings.fragments.VolumeRockerSettings;
+
 import com.nitrogen.settings.NitrogenSettings;
 
 public class SettingsGateway {
@@ -265,9 +280,23 @@ public class SettingsGateway {
             DirectoryAccessDetails.class.getName(),
             ToggleBackupSettingFragment.class.getName(),
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
-            NitrogenSettings.class.getName(),
+            BatteryLightSettings.class.getName(),
+            ButtonSettings.class.getName(),
+            NosGestureSettings.class.getName(),
             HeadsUpSettings.class.getName(),
-            ButtonSettings.class.getName()
+            LockScreenSettings.class.getName(),
+            MiscSettings.class.getName(),
+            NavbarSettings.class.getName(),
+            NitrogenSettings.class.getName(),
+            NotificationSettings.class.getName(),
+            OmniGestureSettings.class.getName(),
+            PowerMenuSettings.class.getName(),
+            QuickSettings.class.getName(),
+            RecentsSettings.class.getName(),
+            SmartPixels.class.getName(),
+            StatusBarBattery.class.getName(),
+            StatusBarSettings.class.getName(),
+            VolumeRockerSettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {

@@ -174,8 +174,21 @@ public class Settings extends SettingsActivity {
     public static class StorageDashboardActivity extends SettingsActivity {}
     public static class AccountDashboardActivity extends SettingsActivity {}
     public static class SystemDashboardActivity extends SettingsActivity {}
-    public static class NitrogenSettingsActivity extends SettingsActivity {}
-    public static class HeadsUpSettingsActivity extends SettingsActivity { /* empty */ }
     public static class ButtonSettingsActivity extends SettingsActivity { /* empty */ }
-
+    public static class BatteryLightSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class GestureSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class HeadsUpSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class LockScreenSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class MiscSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class NavbarSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class NitrogenSettingsActivity extends SettingsActivity {}
+    public static class NotificationSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class OmniGestureSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class PowerMenuSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class QuickSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class RecentsSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class SmartPixelsActivity extends SettingsActivity { /* empty */ }
+    public static class StatusBarBatteryActivity extends SettingsActivity { /* empty */ }
+    public static class StatusBarSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class VolumeRockerSettingsActivity extends SettingsActivity { /* empty */ }
 }

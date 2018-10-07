@@ -98,6 +98,23 @@ import com.android.settings.wfd.WifiDisplaySettings;
 import com.android.settings.wifi.ConfigureWifiSettings;
 import com.android.settings.wifi.WifiSettings;
 
+import com.nitrogen.settings.fragments.BatteryLightSettings;
+import com.nitrogen.settings.fragments.ButtonSettings;
+import com.nitrogen.settings.fragments.NosGestureSettings;
+import com.nitrogen.settings.fragments.HeadsUpSettings;
+import com.nitrogen.settings.fragments.LockScreenSettings;
+import com.nitrogen.settings.fragments.MiscSettings;
+import com.nitrogen.settings.fragments.NavbarSettings;
+import com.nitrogen.settings.fragments.NotificationSettings;
+import com.nitrogen.settings.fragments.OmniGestureSettings;
+import com.nitrogen.settings.fragments.PowerMenuSettings;
+import com.nitrogen.settings.fragments.QuickSettings;
+import com.nitrogen.settings.fragments.RecentsSettings;
+import com.nitrogen.settings.fragments.SmartPixels;
+import com.nitrogen.settings.fragments.StatusBarBattery;
+import com.nitrogen.settings.fragments.StatusBarSettings;
+import com.nitrogen.settings.fragments.VolumeRockerSettings;
+
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
@@ -191,6 +208,22 @@ public class SearchIndexableResourcesImpl implements SearchIndexableResources {
         addIndex(RecentLocationRequestSeeAllFragment.class);
         addIndex(PreviouslyConnectedDeviceDashboardFragment.class);
         addIndex(BluetoothDashboardFragment.class);
+        addIndex(BatteryLightSettings.class);
+        addIndex(ButtonSettings.class);
+        addIndex(NosGestureSettings.class);
+        addIndex(HeadsUpSettings.class);
+        addIndex(LockScreenSettings.class);
+        addIndex(MiscSettings.class);
+        addIndex(NavbarSettings.class);
+        addIndex(NotificationSettings.class);
+        addIndex(OmniGestureSettings.class);
+        addIndex(PowerMenuSettings.class);
+        addIndex(QuickSettings.class);
+        addIndex(RecentsSettings.class);
+        addIndex(SmartPixels.class);
+        addIndex(StatusBarBattery.class);
+        addIndex(StatusBarSettings.class);
+        addIndex(VolumeRockerSettings.class);
     }
 
     @Override
