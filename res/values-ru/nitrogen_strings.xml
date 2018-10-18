@@ -217,4 +217,8 @@
     <string name="filter_substratum_apps">Слои Substratum</string>
     <string name="menu_show_substratum">Показать слои</string>
     <string name="menu_hide_substratum">Скрыть слои</string>
+
+    <!-- Option defining the phone ringtone for slot1 on Muilti SIM device -->
+    <string name="ringtone1_title">Мелодия звонка - SIM 1</string>
+    <string name="ringtone2_title">Мелодия звонка - SIM 2</string>
 </resources>
