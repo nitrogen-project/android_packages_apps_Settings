@@ -124,7 +124,7 @@ public class ImeiInfoDialogController {
     private SubscriptionInfo getSubscriptionInfo(Context context, int slotId) {
         final List<SubscriptionInfo> subscriptionInfoList = SubscriptionManager.from(context)
                 .getActiveSubscriptionInfoList();
-        if (subscriptionInfoList == null || subscriptionInfoList.size() <= slotId) {
+        if (subscriptionInfoList == null) {
             return null;
         }
 
