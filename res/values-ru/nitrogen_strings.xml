@@ -232,4 +232,10 @@
     <string name="security_settings_fingerprint_sensor_location_front">передней панели</string>
     <string name="security_settings_fingerprint_sensor_location_left">левой грани</string>
     <string name="security_settings_fingerprint_sensor_location_right">правой грани</string>
+
+    <!-- Navbar gestures -->
+    <string name="full_gesture_mode_title">Режим жестов</string>
+    <string name="full_gesture_mode_summary">Этот режим отключает кнопку «Назад», кнопка «Назад» вызывается свайпом влево по панели навигации. Свайп вправо — «Недавние» с возможностью переключения на другое приложние.</string>
+    <string name="full_gesture_mode_dt2s_title">Двойное нажатие для сна</string>
+    <string name="full_gesture_mode_dt2s_summary">Двойное нажатие на пустую область панели навигации для перехода в режим сна.</string>
 </resources>
