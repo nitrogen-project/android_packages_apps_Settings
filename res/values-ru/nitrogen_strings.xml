@@ -201,4 +201,11 @@
     <string name="display_rotation_90_title">90 градусов</string>
     <string name="display_rotation_180_title">180 градусов</string>
     <string name="display_rotation_270_title">270 градусов</string>
+
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_value_title">Снижение яркости в Ночном режиме</string>
+    <string name="night_auto_value_disabled">Выключено</string>
+    <string name="night_auto_value_min">Минимальная</string>
+    <string name="night_bright_low">Низкая</string>
+    <string name="night_bright_midlow">Средняя</string>
 </resources>
