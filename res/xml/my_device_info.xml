@@ -41,8 +41,8 @@
         android:title="@string/nosupdate_settings_title"
         android:summary="@string/nosupdate_settings_summary">
         <intent android:action="android.intent.action.MAIN"
-            android:targetPackage="com.nitrogen.ota"
-            android:targetClass="com.nitrogen.ota.MainActivity" />
+            android:targetPackage="org.nitrogen.ota"
+            android:targetClass="org.nitrogen.ota.activities.UpdaterActivity" />
     </Preference>
 
     <!-- Device name -->

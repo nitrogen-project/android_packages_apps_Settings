@@ -38,7 +38,7 @@ public class OTAPreferenceController extends AbstractPreferenceController
 
     @Override
     public boolean isAvailable() {
-        return Utils.isPackageInstalled(mContext, "com.nitrogen.ota");
+        return Utils.isPackageInstalled(mContext, "org.nitrogen.ota");
     }
 
     @Override
