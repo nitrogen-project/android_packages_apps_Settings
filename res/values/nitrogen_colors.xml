@@ -35,4 +35,6 @@
     <color name="sim_color_picker_carrier_text_color">@android:color/black</color>
     <color name="sim_color_picker_number_text_color">@android:color/black</color>
 
+    <!-- Shortcuts -->
+    <color name="icon_accent_custom">@*android:color/accent_device_default_light</color>
 </resources>
