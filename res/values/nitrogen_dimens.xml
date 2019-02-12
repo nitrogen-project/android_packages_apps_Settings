@@ -19,4 +19,7 @@
 
     <!-- Fingerprint -->
     <dimen name="fingerprint_find_sensor_padding_top">16dp</dimen>
+
+    <!-- Suggestion cards -->
+    <color name="suggestion_card_background">#fafafa</color>
 </resources>
