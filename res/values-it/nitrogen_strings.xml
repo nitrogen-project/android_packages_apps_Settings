@@ -152,15 +152,6 @@
     <string name="app_ops_bluetooth_scan">scansione bluetooth</string>
     <string name="app_ops_boot_completed">avvio automatico</string>
 
-    <!-- Format string for fingerprint location message -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Individuare il sensore di impronte digitali sulla <xliff:g id="sensor_location">%1$s</xliff:g> del telefono cellulare.</string>
-
-    <!-- Fingerprint sensor locations -->
-    <string name="security_settings_fingerprint_sensor_location_back">indietro</string>
-    <string name="security_settings_fingerprint_sensor_location_front">davanti</string>
-    <string name="security_settings_fingerprint_sensor_location_left">lato sinistro</string>
-    <string name="security_settings_fingerprint_sensor_location_right">lato destro</string>
-
     <!-- Expanded desktop -->
     <string name="expanded_desktop_pref_title">Schermo esteso</string>
     <string name="expanded_hide_nothing">Non nascondere nulla</string>

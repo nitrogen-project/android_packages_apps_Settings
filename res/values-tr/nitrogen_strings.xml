@@ -152,15 +152,6 @@
     <string name="app_ops_bluetooth_scan">bluetooth taraması</string>
     <string name="app_ops_boot_completed">otomatik başlat</string>
 
-    <!-- Format string for fingerprint location message -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Telefonunuzun <xliff:g id="sensor_location">%1$s</xliff:g> tarafında ki parmak izi sensörünü bulun.</string>
-
-    <!-- Fingerprint sensor locations -->
-    <string name="security_settings_fingerprint_sensor_location_back">arka</string>
-    <string name="security_settings_fingerprint_sensor_location_front">ön</string>
-    <string name="security_settings_fingerprint_sensor_location_left">sol</string>
-    <string name="security_settings_fingerprint_sensor_location_right">sağ</string>
-
     <!-- Expanded desktop -->
     <string name="expanded_desktop_pref_title">Genişletilmiş masaüstü</string>
     <string name="expanded_hide_nothing">Hiçbirini gizleme</string>
