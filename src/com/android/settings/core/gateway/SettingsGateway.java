@@ -153,7 +153,6 @@ import com.nitrogen.settings.fragments.OmniGestureSettings;
 import com.nitrogen.settings.fragments.PowerMenuSettings;
 import com.nitrogen.settings.fragments.QuickSettings;
 import com.nitrogen.settings.fragments.RecentsSettings;
-import com.nitrogen.settings.fragments.SmartPixels;
 import com.nitrogen.settings.fragments.StatusBarBattery;
 import com.nitrogen.settings.fragments.StatusBarSettings;
 import com.nitrogen.settings.fragments.VolumeRockerSettings;
@@ -297,7 +296,6 @@ public class SettingsGateway {
             PowerMenuSettings.class.getName(),
             QuickSettings.class.getName(),
             RecentsSettings.class.getName(),
-            SmartPixels.class.getName(),
             StatusBarBattery.class.getName(),
             StatusBarSettings.class.getName(),
             VolumeRockerSettings.class.getName(),
