@@ -126,6 +126,14 @@
         settings:controller="com.android.settings.accessibility.TopLevelAccessibilityPreferenceController"/>
 
     <Preference
+        android:key="top_level_nitrogen_settings"
+        android:title="@string/nitrogen_settings_title"
+        android:summary="@string/nitrogen_settings_summary"
+        android:icon="@drawable/ic_homepage_nitrogen"
+        android:order="9"
+        android:fragment="com.nitrogen.settings.NitrogenSettings"/>
+
+    <Preference
         android:key="top_level_system"
         android:title="@string/header_category_system"
         android:summary="@string/system_dashboard_summary"
