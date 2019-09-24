@@ -43,4 +43,8 @@
     <string name="changelog_title">Changelog</string>
     <string name="changelog_summary">Since the last update</string>
     <string name="changelog_error">Unable to load changelog</string>
+
+    <!-- OTA -->
+    <string name="nosupdate_settings_title">Nitrogen OS updates</string>
+    <string name="nosupdate_settings_summary">Find new updates</string>
 </resources>

@@ -43,4 +43,8 @@
     <string name="changelog_title">Список изменений</string>
     <string name="changelog_summary">С момента последнего обновления</string>
     <string name="changelog_error">Не удается загрузить список изменений</string>
+
+    <!-- OTA -->
+    <string name="nosupdate_settings_title">Обновления Nitrogen OS</string>
+    <string name="nosupdate_settings_summary">Поиск обновлений</string>
 </resources>
