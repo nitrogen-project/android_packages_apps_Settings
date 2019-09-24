@@ -20,6 +20,12 @@
     android:key="system_dashboard_screen"
     android:title="@string/header_category_system">
 
+    <!-- Nitrogen Logo Header -->
+    <PreferenceScreen
+        android:key="nos_logo"
+        android:order="-280"
+        android:layout="@layout/nitrogen_logo"/>
+
     <!-- Changelog -->
     <Preference
         android:key="changelog"
