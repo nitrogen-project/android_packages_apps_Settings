@@ -42,4 +42,8 @@
     <!-- Immersive Navigation -->
     <string name="immersive_navigation_title">Immersive Navigation</string>
     <string name="immersive_navigation_summary">Hide the gesture pill and navigation bar padding</string>
+
+    <!-- Black theme for dark mode -->
+    <string name="berry_black_theme_title">Pure black</string>
+    <string name="berry_black_theme_summary">Pure black background for dark theme</string>
 </resources>

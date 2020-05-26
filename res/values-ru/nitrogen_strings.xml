@@ -42,4 +42,8 @@
     <!-- Immersive Navigation -->
     <string name="immersive_navigation_title">Полноэкранная навигация</string>
     <string name="immersive_navigation_summary">Скрыть панель навигации</string>
+
+    <!-- Black theme for dark mode -->
+    <string name="berry_black_theme_title">Черный цвет</string>
+    <string name="berry_black_theme_summary">Черный фон для темной темы</string>
 </resources>
