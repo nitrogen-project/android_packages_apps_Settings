@@ -44,4 +44,7 @@
 
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Связать громкость звонка и уведомлений</string>
+
+    <string name="berry_black_theme_title">Черный цвет</string>
+    <string name="berry_black_theme_summary">Черный фон для темной темы</string>
 </resources>
