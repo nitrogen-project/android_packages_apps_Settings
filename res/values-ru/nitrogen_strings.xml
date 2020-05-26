@@ -53,4 +53,7 @@
     <string name="face_unlock_method_title">Разрешить разблокировку лица на экране блокировки</string>
     <string name="face_unlock_method_default">При включении экрана</string>
     <string name="face_unlock_method_swipe">При пролистывании на экране блокировки</string>
+
+    <string name="berry_black_theme_title">Черный цвет</string>
+    <string name="berry_black_theme_summary">Черный фон для темной темы</string>
 </resources>
