@@ -41,4 +41,7 @@
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
     <string name="unlock_quick_unlock_control_summary">Автоматическая разблокировка устройства при вводе корректного ПИНа/пароля</string>
+
+    <string name="berry_black_theme_title">Черный цвет</string>
+    <string name="berry_black_theme_summary">Черный фон для темной темы</string>
 </resources>
