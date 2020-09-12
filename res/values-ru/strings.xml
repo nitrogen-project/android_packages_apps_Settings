@@ -2803,6 +2803,12 @@
     <string name="admin_disabled_other_options" msgid="8122039047419172139">"Другие настройки отключены администратором"</string>
     <string name="admin_more_details" msgid="6698424974827333973">"Подробнее…"</string>
     <string name="notification_log_title" msgid="2812594935014664891">"Журнал уведомлений"</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize accent color. -->
+    <string name="theme_customization_accent_color_title">Основной цвет</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
+    <string name="theme_customization_font_title">Заголовок / Основной шрифт</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
+    <string name="theme_customization_icon_shape_title">Форма иконок</string>
     <string name="notification_history_title" msgid="8821060912502593309">"История уведомлений"</string>
     <string name="notification_history_today" msgid="5828496957208237230">"Последние 24 часа"</string>
     <string name="notification_history_snooze" msgid="3980568893290512257">"Отложенные"</string>
