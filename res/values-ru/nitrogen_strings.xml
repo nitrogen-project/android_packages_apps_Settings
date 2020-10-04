@@ -52,4 +52,9 @@
     <!-- Misc gesture settings -->
     <string name="back_gesture_haptic_title">Вибрация</string>
     <string name="back_gesture_haptic_summary">Включить вибрацию для жеста назад</string>
+
+    <!-- Navbar length -->
+    <string name="navbar_length">Длина полоски</string>
+    <string name="short_label">Короткая</string>
+    <string name="long_label">Длинная</string>
 </resources>
