@@ -51,4 +51,8 @@
     <string name="dashboard_suggestions_title">Dashboard suggestions</string>
     <string name="summary_dashboard_suggestions_enabled">Dashboard suggestions are enabled</string>
     <string name="summary_dashboard_suggestions_disabled">Dashboard suggestions are disabled</string>
+
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Haptic feedback</string>
+    <string name="back_gesture_haptic_summary">Enable haptic tick effect on back gesture</string>
 </resources>

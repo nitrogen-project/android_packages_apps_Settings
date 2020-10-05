@@ -48,4 +48,8 @@
     <string name="dashboard_suggestions_title">Подсказки в главном меню</string>
     <string name="summary_dashboard_suggestions_enabled">Подсказки в главном меню включены</string>
     <string name="summary_dashboard_suggestions_disabled">Подсказки в главном меню выключены</string>
+
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Вибрация</string>
+    <string name="back_gesture_haptic_summary">Включить вибрацию для жеста назад</string>
 </resources>
