@@ -55,4 +55,8 @@
     <string name="app_notification_sound_timeout_value_5_minutes">5 минут</string>
     <string name="app_notification_sound_timeout_value_15_minutes">10 минут</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 минут</string>
+
+    <string name="keywords_touch_sensitivity">касание, чувствительность, защита экрана, защитное стекло, защитная пленка, отклик</string>
+    <string name="touch_sensitivity_summary">Повысить чувствительность экрана к касанию при использовании защитной пленки или стекла</string>
+    <string name="touch_sensitivity_title">Режим защиты экрана</string>
 </resources>
