@@ -636,4 +636,7 @@
 
     <!-- Whether to enable the app battery usage list page feature. -->
     <bool name="config_app_battery_usage_list_enabled">false</bool>
+
+    <!-- Whether to show the Preference for Touch Sensitivity -->
+    <bool name="config_show_touch_sensitivity">false</bool>
 </resources>

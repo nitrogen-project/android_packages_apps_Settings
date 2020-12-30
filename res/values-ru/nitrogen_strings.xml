@@ -67,4 +67,8 @@
     <string name="face_unlock_method_title">Разрешить разблокировку лица на экране блокировки</string>
     <string name="face_unlock_method_default">При включении экрана</string>
     <string name="face_unlock_method_swipe">При пролистывании на экране блокировки</string>
+
+    <string name="keywords_touch_sensitivity">касание, чувствительность, защита экрана, защитное стекло, защитная пленка, отклик</string>
+    <string name="touch_sensitivity_summary">Повысить чувствительность экрана к касанию при использовании защитной пленки или стекла</string>
+    <string name="touch_sensitivity_title">Режим защиты экрана</string>
 </resources>
