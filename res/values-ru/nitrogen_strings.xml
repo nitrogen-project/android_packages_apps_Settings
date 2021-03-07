@@ -62,8 +62,6 @@
     <string name="display_rotation_270_title">270 градусов</string>
 
     <!-- Face Unlock -->
-    <string name="security_settings_face_settings_footer_custom">Используйте фейсконтроль, чтобы разблокировать устройство, входить в приложения и подтверждать платежи.\n\nОбратите внимание!\nПосмотрев на телефон, вы можете случайно разблокировать его.\n\nТелефон может быть разблокирован, если кто-то поднесет его к вашему лицу.\n\nТелефон также может разблокировать человек, очень похожий на вас (например, ваш близнец).</string>
-    <string name="security_settings_face_settings_remove_dialog_details_custom">Данные, которые используются фейсконтролем для распознавания, будут удалены навсегда и нигде не сохранятся. В дальнейшем для разблокировки телефона, входа в приложения и подтверждения платежей устройство будет запрашивать PIN-код, пароль или графический ключ.</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">>Удалить использующийся снимок лица и создать новый</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Повторное сканирование лица</string>
     <string name="face_redo_confirm_btn">Повторить</string>
