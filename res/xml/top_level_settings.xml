@@ -179,7 +179,7 @@
         android:key="top_level_nitrogen_settings"
         android:title="@string/nitrogen_settings_dash_title"
         android:summary="@string/nitrogen_settings_summary"
-        android:icon="@drawable/ic_homepage_nitrogen"
+        android:icon="@drawable/ic_settings_nitrogen"
         android:order="9"
         android:fragment="com.nitrogen.settings.NitrogenSettings"/>
 
