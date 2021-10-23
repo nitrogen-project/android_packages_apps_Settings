@@ -4491,7 +4491,8 @@
         <activity android:name=".Settings$NitrogenSettingsActivity"
             android:label="@string/nitrogen_settings_dash_title"
             android:icon="@drawable/ic_homepage_nitrogen"
-            android:parentActivityName="com.android.settings">
+            android:parentActivityName="com.android.settings"
+            android:exported="true">
             <intent-filter android:priority="69">
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="com.android.settings.SHORTCUT" />
