@@ -26,8 +26,11 @@
         android:order="-270"
         android:title="@string/changelog_title"
         android:icon="@drawable/ic_system_update"
-        android:summary="@string/changelog_summary"
-        android:fragment="com.android.settings.nitrogen.Changelog" />
+        android:summary="@string/changelog_summary">
+        <intent android:action="android.intent.action.MAIN"
+             android:targetPackage="com.android.settings"
+             android:targetClass="com.android.settings.nitrogen.ChangelogActivity"/>
+    </Preference>
 
     <Preference
         android:key="language_input_settings"
