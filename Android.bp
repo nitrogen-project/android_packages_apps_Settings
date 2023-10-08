@@ -54,11 +54,17 @@ android_library {
         "SpaPrivilegedLib-defaults",
     ],
 
-    srcs: ["src/**/*.java", "src/**/*.kt"],
+    srcs: ["src/**/*.java", "src/**/*.kt",
+           "NitrogenSettings/src/**/*.java",
+    ],
+
+    aaptflags: ["--extra-packages com.nitrogen.settings"],
+
     resource_dirs: [
         "res",
         "res-export", // for external usage
         "res-product",
+        "NitrogenSettings/res",
     ],
     static_libs: [
         "androidx-constraintlayout_constraintlayout",
@@ -109,6 +115,10 @@ android_library {
         "telephony-common",
         "ims-common",
     ],
+
+    optimize: {
+        proguard_flags_files: ["proguard.flags"],
+    },
 }
 
 platform_compat_config {
